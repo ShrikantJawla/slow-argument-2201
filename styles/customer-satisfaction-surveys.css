@@ -126,6 +126,7 @@
 	margin-top: 50px;
 	/* border: 1px solid red; */
 	margin-bottom: 90px;
+	width: 100%;
 }
 .csat > h1 {
 	margin-bottom: 40px;
@@ -148,16 +149,16 @@
 .remove-guesswork {
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 	display: grid;
-	grid-template-columns: 10% 60% 20%;
+	grid-template-columns: 12% 60% 20%;
 	width: 75%;
 	margin: auto;
-	gap: 15px;
-	height: 150px;
+	gap: 30px;
+	height: 170px;
 	align-items: center;
 	margin-bottom: 80px;
 }
 .remove-guesswork .text .heading h2 {
-	font-size: 28px;
+	font-size: 26px;
 }
 .remove-guesswork .text p {
 	font-size: 17px;
@@ -194,6 +195,8 @@
 	text-align: left;
 }
 .slide-options {
+	padding: 4px 15px;
+	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 	width: 70%;
 	margin: auto;
 	gap: 15px;
@@ -307,8 +310,8 @@ a {
 	display: flex;
 	flex-direction: column;
 	gap: 20px;
-	background-color: rgb(225, 225, 224);
-	padding: 0px 60px;
+	background-color: rgb(245, 243, 243);
+	padding: 20px 60px;
 	margin-bottom: 100px;
 }
 .break-down .top {
@@ -362,11 +365,17 @@ li {
 	justify-content: space-between;
 }
 .pricing .priceDivs > div {
+	background-image: linear-gradient(
+		to bottom right,
+		rgba(0, 166, 255, 0.685),
+		rgb(255, 255, 0)
+	);
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	width: 250px;
 	text-align: center;
 	padding: 15px 25px;
 	padding-bottom: 30px;
+	border-radius: 20px;
 }
 .pricing .priceDivs > div h3 {
 	margin-bottom: 50px;
@@ -444,4 +453,99 @@ li {
 	margin: auto;
 	margin-top: 30px;
 	display: flex;
+}
+@media all and (min-width: 320px) and (max-width: 720px) {
+	.top-Improve {
+		width: 95%;
+	}
+	.template {
+		width: 100%;
+	}
+	.template .content-holder {
+		border-radius: 40px;
+		padding: 160px 10px;
+		height: 280px;
+		overflow-y: scroll;
+		width: 95%;
+		margin-top: 50px;
+	}
+	.likeTable {
+		display: flex;
+		overflow-x: scroll;
+	}
+	.how-csat-work {
+		width: 98%;
+		grid-template-columns: 90%;
+	}
+	.remove-guesswork {
+		display: flex;
+		flex-direction: column;
+		width: 99%;
+		gap: 15px;
+		height: auto;
+		padding: 20px 4px;
+	}
+	.remove-guesswork .text .heading h2 {
+		font-size: 18px;
+	}
+	.type-of-survey {
+		width: 90%;
+	}
+	.slide-options {
+		width: 90%;
+		display: flex;
+		overflow-x: scroll;
+	}
+	.image-with-options {
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: 200px;
+		padding: 10px 5px;
+	}
+	.image-with-options img {
+		height: 550px;
+		width: 100%;
+	}
+	.your-best {
+		width: 95%;
+	}
+	.turn-your-customer {
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+	}
+	.why-customer {
+		width: 95%;
+	}
+	.how-customer {
+		width: 95%;
+	}
+	.break-down {
+		padding: 0px 40px;
+	}
+	.break-down .top {
+		width: 95%;
+	}
+	.break-down .mid {
+		flex-direction: column;
+	}
+	.pricing .top {
+		width: 95%;
+	}
+	.pricing .priceDivs {
+		width: 95%;
+		flex-direction: column;
+		justify-content: center;
+	}
+	.how-to-use {
+		width: 95%;
+	}
+	.out-of-box .top {
+		width: 95%;
+	}
+	.how-to-survey-monkey h1 {
+		width: 50%;
+	}
 }
