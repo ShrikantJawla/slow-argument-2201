@@ -1,0 +1,9 @@
+To import navbar follow these steps
+
+1. Add <script
+   src="https://kit.fontawesome.com/fb700f3d70.js"
+   crossorigin="anonymous"
+   > </script> below title
+2. Link <link rel="stylesheet" href="styles/navbar.css" />
+3. Write <nav></nav> in body
+4. Add <script type="module" src="scripts/navbar.js"></script> at the end of body
