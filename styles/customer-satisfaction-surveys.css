@@ -220,6 +220,7 @@
 	grid-template-rows: 450px;
 	justify-content: space-between;
 	margin-bottom: 200px;
+	padding: 0px 80px;
 }
 .image-with-options div:nth-child(2) {
 	width: 100%;

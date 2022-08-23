@@ -31,11 +31,20 @@ for (let i = 0; i < boxes2.length; i++) {
 	});
 }
 
-function displayDiv(cls) {
+let firstp = document.querySelector(".firP");
+firstp.style.color = "green";
+firstp.style.borderBottom = "2px solid green";
+function displayDiv(cls, ptag) {
 	let divs = document.querySelectorAll(".dis");
+	let pTags = document.querySelectorAll(".ptag");
 	for (let i = 0; i < divs.length; i++) {
 		divs[i].style.display = "none";
+		pTags[i].style.color = "black";
+		pTags[i].style.borderBottom = "none";
 	}
+	let p = document.querySelector(`.${ptag}`);
+	p.style.color = "green";
+	p.style.borderBottom = "2px solid green";
 	let div = document.querySelector(`.${cls}`);
 	div.style.display = "block";
 }
