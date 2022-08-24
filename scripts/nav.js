@@ -1,5 +1,7 @@
+/** @format */
+
 function nav() {
-  return `
+	return `
     <div id="navbar">
       <div id="logo"><a href="index.js"><img
       src="https://prod.smassets.net/assets/website/2.182.0/images/logo-surveymonkey.svg"
@@ -32,7 +34,7 @@ function nav() {
     `;
 }
 function Products() {
-  return `<div class="subnav">
+	return `<div class="subnav">
   <div class="sub1">
     <div class="subm">
       <h5>Surveys</h5>
@@ -145,14 +147,14 @@ function Products() {
   </div>`;
 }
 function Solutions() {
-  return `<div class="subnav">
+	return `<div class="subnav">
   <div class="sub1">
     <div class="subm">
       <h5>Survey Types</h5>
     </div>
     <div class="subm4">
       <div>
-          <a href="#">Customer Satisfaction</a>
+          <a href="./customer-satisfaction-survey.html">Customer Satisfaction</a>
           <a href="#">Customer Loyalty</a>
           <a href="#">Event Surveys</a>
       </div>
@@ -249,7 +251,7 @@ function Solutions() {
 </div>`;
 }
 function Resources() {
-  return `<div class="subnav1">
+	return `<div class="subnav1">
   <div id="subnav1-1">
     <a href="#"
       ><div>
