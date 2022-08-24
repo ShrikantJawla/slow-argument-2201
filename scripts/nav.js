@@ -155,8 +155,8 @@ function Solutions() {
     <div class="subm4">
       <div>
           <a href="./customer-satisfaction-survey.html">Customer Satisfaction</a>
-          <a href="#">Customer Loyalty</a>
-          <a href="#">Event Surveys</a>
+          <a href="./customer-loyalty.html">Customer Loyalty</a>
+          <a href="./event-surveys.html">Event Surveys</a>
       </div>
       <div>
           <a href="#">Employee Engagement</a>
