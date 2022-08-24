@@ -34,6 +34,7 @@ for (let i = 0; i < boxes2.length; i++) {
 let firstp = document.querySelector(".firP");
 firstp.style.color = "green";
 firstp.style.borderBottom = "2px solid green";
+
 function displayDiv(cls, ptag) {
 	let divs = document.querySelectorAll(".dis");
 	let pTags = document.querySelectorAll(".ptag");
@@ -45,6 +46,7 @@ function displayDiv(cls, ptag) {
 	let p = document.querySelector(`.${ptag}`);
 	p.style.color = "green";
 	p.style.borderBottom = "2px solid green";
+
 	let div = document.querySelector(`.${cls}`);
 	div.style.display = "block";
 }

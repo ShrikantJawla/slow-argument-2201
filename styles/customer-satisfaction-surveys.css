@@ -8,10 +8,7 @@
 	text-align: center;
 	width: 54%;
 	margin: auto;
-	margin-top: 50px;
-	font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
-		"Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
-		"ＭＳ ゴシック", "MS Gothic", sans-serif;
+	margin-top: 120px;
 }
 .top-Improve .top-heading {
 	font-size: 2.4rem;
@@ -42,11 +39,11 @@
 .template .content-holder {
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	margin: auto;
-	padding: 160px 150px;
-	height: 280px;
+	padding: 160px 70px;
 	overflow-y: scroll;
 	width: 40%;
 	margin-top: 50px;
+	height: 540px;
 }
 .content-holder h2 {
 	color: green;
@@ -101,7 +98,7 @@
 }
 .done-button {
 	display: flex;
-	width: 10%;
+	width: 18%;
 	margin: auto;
 	text-decoration: none;
 	padding: 20px 25px;
