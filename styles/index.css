@@ -4,7 +4,7 @@ body {
 }
 #container0 {
   width: 100%;
-  margin: 100px auto 120px auto;
+  margin: 164px auto 184px auto;
   text-align: center;
 }
 #type {
@@ -26,21 +26,13 @@ body {
     border: 3px solid #00bf6f;
     background-color: #00bf6f;
   }
-  47% {
-    border: 3px solid #00bf6f;
-    background-color: #00bf6f;
-  }
   50% {
-    border: 3px solid #fff;
-    background-color: #fff;
-  }
-  55% {
-    border: 3px solid #fff;
+    border: 3px solid #ffff;
     background-color: #fff;
   }
   100% {
-    background-color: #00bf6f;
     border: 3px solid #00bf6f;
+    background-color: #00bf6f;
   }
 }
 #container0 > p {
@@ -65,7 +57,7 @@ body {
 }
 
 #container1 {
-  width: 70%;
+  max-width: 1110px;
   margin: 64px auto;
   display: flex;
   flex-direction: column;
@@ -409,22 +401,6 @@ body {
 }
 #somebox2 > div button:hover {
   background: transparent;
-}
-@media only screen and (min-width: 992px) {
-  #container1 {
-    width: 100%;
-    flex-direction: column;
-  }
-  #subsur {
-    width: 992px;
-  }
-  #defaultclick {
-    margin: 40px auto;
-    width: 100%;
-  }
-  #defaultclick > div {
-    width: 100%;
-  }
 }
 @media only screen and (min-width: 670px) and (max-width: 992px) {
   #container1 {
