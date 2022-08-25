@@ -1,0 +1,237 @@
+#javbar{
+    display: flex;
+    justify-content: space-between;
+    height:400px;
+    width:100%;
+    background: #43a047;
+}
+#things{
+    margin-top: 40px;
+    display: flex;
+    gap:20px;
+  
+    font-size:20px;
+}
+#things>a{
+  color:white;
+  text-decoration: none;
+    
+}
+#login>button{
+ padding:15px 30px;
+ position: relative;
+ right:40px;
+ top:10px;
+ border-radius:4px;
+ font-size: 15px;
+ font-weight: bold;
+ border:none;
+}
+#login>button:nth-child(2){
+  background: orange;
+ 
+}
+#moment{
+  width:80%;
+  height:600px;
+  position: relative;
+  bottom:300px;
+
+  margin:0px 100px;
+
+  
+  
+}
+ 
+
+#moment>img{
+  width:100%;
+  filter:brightness(0.3);
+}
+#moment>button{
+  position: relative;
+  bottom:300px;
+  left:500px;
+  padding:10px 20px;
+  border:none;
+  font-weight:bold;
+  background:white;
+  
+
+}
+#moment>p{
+  position: relative;
+  bottom:360px;
+  /* right:670px; */
+  font-size:60px;
+  font-weight: bolder;
+  text-align: center;
+  color:white;
+  
+  
+
+}
+#who{
+   position:relative;
+  bottom:300px; 
+  margin:0px 100px;
+
+}
+#jav{
+  display:flex;
+  gap:30px;
+  cursor:pointer;
+  position:relative;
+  bottom:300px;
+  font-style: italic;
+  font-weight: bolder;
+  color:grey;
+  font-size: 20px;
+  margin:0px 100px;
+
+}
+
+#jav>span:hover{
+  
+ color:#43a047
+}
+#line1{
+  height:2px;
+  background-color: grey;
+  position:relative;
+  bottom:280px;
+  margin:0px 100px;
+
+}
+#data{
+  position:relative;
+  bottom:200px;
+  margin-left:100px;
+  color:white;
+
+}
+/* #cnbc{
+  display:grid;
+  grid-template-columns:400px 200px;
+  grid-template-rows: 400px 200px;
+  margin-left:150px 0px;
+  
+  gap:20px;
+  
+  
+}
+#cnbc>div{
+  border:1px solid blue;
+} */
+
+#cnbc{
+  display: grid;
+  grid-template-columns:800px 400px;
+  grid-template-rows:500px 500px;
+  gap:40px;
+  
+  margin:100px;
+  position: relative;
+  bottom:270px;
+}
+
+#cnbc>div:nth-child(1)>img{
+  width:100%;
+  height:100%;
+  filter:brightness(0.3);
+}
+#cnbc>div:nth-child(2)>img{
+    width:100%;
+    height:100%;
+  position:relative;
+  bottom:73px;
+  
+
+}
+#cnbc>div:nth-child(2){
+  position:relative;
+  bottom:140px;
+}
+#cnbc>div:nth-child(1)>button{
+  position: relative;
+  bottom:300px;
+  left:30px;
+  padding:10px 20px;
+  background: white;
+  border:none;
+
+}
+#cnbc>div:nth-child(2)>button{
+  position: relative;
+  top:180px;
+  left:140px;
+  padding:10px 40px;
+  z-index:10;
+  background: orange;
+  border:none;
+  font-weight: bolder;
+
+}
+#cnbc>div:nth-child(1)>p{
+  position: relative;
+  bottom:300px;
+  left:20px;
+  font-size:40px;
+  color:white;
+  font-weight: bolder;
+
+}
+#cnbc>div:nth-child(2)>p{
+  position: relative;
+  top:180px;
+  font-size:40px;
+  font-weight: bolder;
+  color:white;
+  text-align: center;
+  z-index:10;
+
+}
+
+
+
+
+
+ #new{
+  display:grid;
+  grid-template-columns: repeat(3,1fr);
+  grid-template-rows:400px;
+  gap:20px;
+  position: relative;
+  bottom:400px;
+  
+  margin:100px;
+
+}
+#new>div{
+  
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  
+}
+#new>div>img{
+  width:100%;
+} 
+#new>div:nth-child(2)>img{
+  height:185px;
+}
+#new>div>button{
+  padding: 7px 5px;
+  position:relative;
+  bottom:20px;
+  left:30px;
+  background: white;
+  border:1px solid grey;
+}
+#new>div>p{
+  font-size:25px;
+  margin: 0px 20px;
+  font-weight: bolder;
+  line-height: 30px;
+}
+#hell{
+  color:red;
+}

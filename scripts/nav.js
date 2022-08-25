@@ -259,7 +259,7 @@ function Resources() {
         <p>Best practices for using surveys & survey data</p>
       </div>
     </a>
-    <a href="#"
+    <a href="./curiosity.html"
       ><div>
         <h3>Curiosity at Work</h3>
         <p>Our blog about surveys, tips for business, & more</p>
