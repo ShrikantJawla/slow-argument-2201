@@ -468,7 +468,8 @@ body {
     margin: 0;
     width: 0;
   }
-
+}
+@media only screen and (max-width: 670px) {
   #somebox2 > div > button {
     margin-bottom: 80px;
   }
