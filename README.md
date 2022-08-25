@@ -11,7 +11,7 @@ It is a leading Survey platform around the globe. It lets it's user to create so
 ###### In cunstruct week, we as a team of five members worked relentlessly for 4 days and cloned some parts of original website surveymonkey.com and this is what we build..............
 
 
-##### What parts we cloned?
+##### Which parts we cloned?
 
 - Complete Home Page consists of Navbar, content of home page and footer
 
@@ -23,6 +23,7 @@ It is a leading Survey platform around the globe. It lets it's user to create so
   2. Customer Satisfaction Page
   3. Event Surey Page
   4. Resources Page
+  5. Customer experience Page
 
 
 ##### What Stacks we used? :-
