@@ -23,7 +23,7 @@ It is a leading Survey platform around the globe. It lets it's user to create so
   2. Customer Satisfaction Page
   3. Event Surey Page
   4. Resources Page
-  5. customer experience Page
+  5. Customer experience Page
 
 
 ##### What Stacks we used? :-
