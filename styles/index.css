@@ -4,7 +4,7 @@ body {
 }
 #container0 {
   width: 100%;
-  margin: 164px auto 184px auto;
+  margin: 240px auto 200px auto;
   text-align: center;
 }
 #type {
@@ -36,14 +36,16 @@ body {
   }
 }
 #container0 > p {
-  margin: 20px auto;
+  margin: 24px auto;
   text-align: center;
   line-height: 24px;
   width: 80%;
   font-size: 18px;
 }
 #container0 > a > button {
+  margin-top: 14px;
   font-size: 15px;
+  font-weight: bold;
   height: 50px;
   padding: 0 38px;
   border: none;
@@ -57,7 +59,7 @@ body {
 }
 
 #container1 {
-  max-width: 1110px;
+  max-width: 1060px;
   margin: 64px auto;
   display: flex;
   flex-direction: column;
@@ -65,8 +67,7 @@ body {
   background: #f7f7f7;
 }
 #surhead {
-  margin: auto;
-  margin-top: 10px;
+  margin: 16px auto -6px auto;
   width: 80%;
   height: 70px;
   display: flex;
@@ -90,7 +91,8 @@ body {
   padding: 0 24px;
   border: 2px solid#fff;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: bold;
   text-align: center;
   border-radius: 4px;
   color: black;
@@ -121,7 +123,6 @@ body {
 }
 #defaultclick {
   margin: 40px -20px;
-  margin-top: 40px;
   display: flex;
   gap: 10px;
 }
