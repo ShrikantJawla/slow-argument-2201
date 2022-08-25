@@ -213,7 +213,6 @@ body {
   text-align: center;
   line-height: 30px;
   text-align: center;
-  border: 1px solid red;
 }
 #planshome {
   margin: 40px auto;
@@ -378,7 +377,6 @@ body {
   width: 80%;
   margin: auto;
   gap: 80px;
-  border: 1px solid red;
 }
 #somebox2 > div {
   display: flex;
