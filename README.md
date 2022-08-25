@@ -39,7 +39,7 @@ It is a leading Survey platform around the globe. It lets it's user to create so
 | Devarshi | <https://github.com/devarshi009> |
 | Ashish Sharma| <https://github.com/Mr-Sharma17> |
 
-#### Some general info about some techs-Stacks we used:-
+#### Some general info about techs-Stacks we used:-
 
 - [HTML] - "Hypertext" refers to links that connect web pages to one another, either within a single website or between websites.
 - [CSS] - Cascading Style Sheets (CSS) describes how elements should be rendered on screen, on paper, in speech, or on other media.
