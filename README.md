@@ -14,7 +14,9 @@ It is a leading Survey platform around the globe. It lets it's user to create so
 ##### What parts we cloned?
 
 - Complete Home Page consists of Navbar, content of home page and footer
+
 ![chrome_Vq2unB0oMn](https://user-images.githubusercontent.com/104667189/186606086-fc1f938f-6312-4ce9-b446-54401dd3b558.png)
+
 - Log-in and Sign-in pages with validation functionality
 - Other pages:- 
   1. Customer Loyalty Page
