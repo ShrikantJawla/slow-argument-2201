@@ -4,7 +4,7 @@ body {
 }
 #container0 {
   width: 100%;
-  margin: 100px auto 120px auto;
+  margin: 240px auto 200px auto;
   text-align: center;
 }
 #type {
@@ -26,32 +26,26 @@ body {
     border: 3px solid #00bf6f;
     background-color: #00bf6f;
   }
-  47% {
-    border: 3px solid #00bf6f;
-    background-color: #00bf6f;
-  }
   50% {
-    border: 3px solid #fff;
-    background-color: #fff;
-  }
-  55% {
-    border: 3px solid #fff;
+    border: 3px solid #ffff;
     background-color: #fff;
   }
   100% {
-    background-color: #00bf6f;
     border: 3px solid #00bf6f;
+    background-color: #00bf6f;
   }
 }
 #container0 > p {
-  margin: 20px auto;
+  margin: 24px auto;
   text-align: center;
   line-height: 24px;
   width: 80%;
   font-size: 18px;
 }
 #container0 > a > button {
+  margin-top: 14px;
   font-size: 15px;
+  font-weight: bold;
   height: 50px;
   padding: 0 38px;
   border: none;
@@ -65,7 +59,7 @@ body {
 }
 
 #container1 {
-  width: 70%;
+  max-width: 1060px;
   margin: 64px auto;
   display: flex;
   flex-direction: column;
@@ -73,8 +67,7 @@ body {
   background: #f7f7f7;
 }
 #surhead {
-  margin: auto;
-  margin-top: 10px;
+  margin: 16px auto -6px auto;
   width: 80%;
   height: 70px;
   display: flex;
@@ -98,7 +91,8 @@ body {
   padding: 0 24px;
   border: 2px solid#fff;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: bold;
   text-align: center;
   border-radius: 4px;
   color: black;
@@ -129,7 +123,6 @@ body {
 }
 #defaultclick {
   margin: 40px -20px;
-  margin-top: 40px;
   display: flex;
   gap: 10px;
 }
@@ -409,22 +402,6 @@ body {
 }
 #somebox2 > div button:hover {
   background: transparent;
-}
-@media only screen and (min-width: 992px) {
-  #container1 {
-    width: 100%;
-    flex-direction: column;
-  }
-  #subsur {
-    width: 992px;
-  }
-  #defaultclick {
-    margin: 40px auto;
-    width: 100%;
-  }
-  #defaultclick > div {
-    width: 100%;
-  }
 }
 @media only screen and (min-width: 670px) and (max-width: 992px) {
   #container1 {
