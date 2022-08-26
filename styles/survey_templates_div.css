@@ -125,6 +125,7 @@
 }
 /* ---------------------------------------- */
 .right_container {
+	position: relative;
 	height: 540px;
 	padding: 25px 25px;
 	overflow-y: scroll;
@@ -160,8 +161,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	top: 32%;
-	left: 37%;
+	top: 28%;
+	left: 15%;
 	text-align: center;
 }
 .cantFindResults h1 {
