@@ -20,7 +20,8 @@
 			type="image/x-icon"
 		/>
 	</head>
-	<body>
+	<body onload="loaderAnimation()">
+		<div id="wrapper"><div class="loader"></div></div>
         <nav></nav>
 		<div class="use-event-survey-container">
 			<div class="use-event-survey-text">
@@ -179,6 +180,7 @@
 				<button>Get started</button>
 			</div>
 	</body>
+	<script src="./components/page_loading_animation.js"></script>
 	<script type="module" src="./components/export&append_data.js"></script>
     <script type="module" src="scripts/navbar.js"></script>
 	<script src="./scripts/event-surveys.js"></script>

@@ -17,10 +17,12 @@
 			src="https://kit.fontawesome.com/fb700f3d70.js"
 			crossorigin="anonymous"
 		></script>
+		<link rel="stylesheet" href="./styles/page_loading_animation.css" />
 		<link rel="stylesheet" href="styles/navbar.css" />
 		<link rel="stylesheet" href="./styles/customer-loyalty.css" />
 	</head>
-	<body>
+	<body onload="loaderAnimation()">
+		<div id="wrapper"><div class="loader"></div></div>
 		<nav></nav>
 		<div class="customer-loyalty-heading">
 			<h1>Customer loyalty surveys</h1>
@@ -178,6 +180,7 @@
 			</div>
 		</div>
 	</body>
+	<script src="./components/page_loading_animation.js"></script>
 	<script type="module" src="scripts/navbar.js"></script>
 </html>
 <script src="./scripts/customer-loyalty.js"></script>
