@@ -34,6 +34,7 @@ for (let i = 0; i < boxes2.length; i++) {
 let firstp = document.querySelector(".firP");
 firstp.style.color = "green";
 firstp.style.borderBottom = "2px solid green";
+
 function displayDiv(cls, ptag) {
 	let divs = document.querySelectorAll(".dis");
 	let pTags = document.querySelectorAll(".ptag");
@@ -45,6 +46,62 @@ function displayDiv(cls, ptag) {
 	let p = document.querySelector(`.${ptag}`);
 	p.style.color = "green";
 	p.style.borderBottom = "2px solid green";
+
 	let div = document.querySelector(`.${cls}`);
 	div.style.display = "block";
 }
+
+let desktopIcon = document.querySelector(".fa-desktop");
+let tabletIcon = document.querySelector(".fa-tablet");
+let mobileIcon = document.querySelector(".fa-mobile-screen");
+
+//First add class to desktop icon by default on loading the page;
+desktopIcon.classList.add("fa-icon-background-change");
+desktopIcon.addEventListener("click", () => {
+	//First removed 'fa-icon-background-change'class from all fa-icons
+	//and then added to individual which you are clicking on.
+	tabletIcon.classList.remove("fa-icon-background-change");
+	mobileIcon.classList.remove("fa-icon-background-change");
+	desktopIcon.classList.add("fa-icon-background-change");
+	//Here changing resposive div position's right
+	let resposiveIconDiv = document.querySelector(".resposive-icons");
+	resposiveIconDiv.style.right = "10.9%";
+
+	//Here changing the class of content holder class but first remove all
+	//class from all from it
+	let contentHolder = document.querySelector(".screen");
+	contentHolder.classList.remove(
+		"content-holder",
+		"content-holder-tablet",
+		"content-holder-mobile"
+	);
+	contentHolder.classList.add("content-holder");
+});
+tabletIcon.addEventListener("click", () => {
+	mobileIcon.classList.remove("fa-icon-background-change");
+	desktopIcon.classList.remove("fa-icon-background-change");
+	tabletIcon.classList.add("fa-icon-background-change");
+	let resposiveIconDiv = document.querySelector(".resposive-icons");
+	resposiveIconDiv.style.right = "25.4%";
+	let contentHolder = document.querySelector(".screen");
+	contentHolder.classList.remove(
+		"content-holder",
+		"content-holder-tablet",
+		"content-holder-mobile"
+	);
+	contentHolder.classList.add("content-holder-tablet");
+});
+mobileIcon.addEventListener("click", () => {
+	tabletIcon.classList.remove("fa-icon-background-change");
+	desktopIcon.classList.remove("fa-icon-background-change");
+	mobileIcon.classList.add("fa-icon-background-change");
+	let resposiveIconDiv = document.querySelector(".resposive-icons");
+	resposiveIconDiv.style.right = "34.6%";
+	let contentHolder = document.querySelector(".screen");
+	contentHolder.classList.remove(
+		"content-holder",
+		"content-holder-tablet",
+		"content-holder-mobile"
+	);
+	contentHolder.classList.add("content-holder-mobile");
+});

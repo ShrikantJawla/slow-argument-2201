@@ -1,0 +1,86 @@
+/** @format */
+body {
+	padding: 0%;
+	margin: 0%;
+}
+* {
+	box-sizing: border-box;
+	font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+		"Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
+		"ＭＳ ゴシック", "MS Gothic", sans-serif;
+}
+.customer-loyalty-heading {
+	margin-top: 80px;
+	text-align: center;
+	background-color: #00bf6f;
+	padding: 100px 0px;
+}
+.customer-loyalty-heading h1 {
+	color: white;
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+.customer-loyalty-heading p {
+	color: white;
+	margin-bottom: 15px;
+}
+.customer-loyalty-heading button {
+	text-decoration: none;
+	padding: 15px 55px;
+	margin-top: 5px;
+	color: black;
+	background-color: #ffc714;
+	border-radius: 5px;
+	border: none;
+}
+.mid-text-container {
+	padding: 40px 0px;
+}
+.mid-text-container .mid-text-part {
+	width: 50%;
+	margin: auto;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	font-size: 20px;
+}
+.how-to-use-cust-container {
+	padding: 40px 0px;
+}
+.how-to-use-cust-container .how-to-text-part {
+	width: 50%;
+	margin: auto;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	font-size: 20px;
+}
+.how-to-use-cust-container .how-to-text-part a {
+	color: #007faa;
+}
+.see-how-servey-container {
+	background-color: #eceded;
+	margin-top: 80px;
+	text-align: center;
+	padding: 130px 0px;
+}
+.see-how-servey-container .see-how-text {
+	margin: auto;
+	width: 45%;
+	font-size: 22px;
+}
+.see-how-servey-container .see-how-text h1 {
+	margin-bottom: 25px;
+}
+.see-how-servey-container .see-how-text button {
+	text-decoration: none;
+	padding: 18px 55px;
+	margin-top: 5px;
+	color: black;
+	background-color: #ffc714;
+	border-radius: 5px;
+	border: none;
+	font-weight: bold;
+}

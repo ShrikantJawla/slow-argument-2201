@@ -1,3 +1,5 @@
+/** @format */
+
 function nav() {
   return `<div id="navbar">
   <div id="logo"><a href="index.html"><img id="navlogo"
@@ -30,7 +32,7 @@ function nav() {
 <div id="menu"></div>`;
 }
 function Products() {
-  return `<div class="subnav">
+	return `<div class="subnav">
   <div class="sub1">
     <div class="subm" >
       <h5>Surveys</h5>
@@ -143,16 +145,16 @@ function Products() {
   </div>`;
 }
 function Solutions() {
-  return `<div class="subnav">
+	return `<div class="subnav">
   <div class="sub1">
     <div class="subm">
       <h5>Survey Types</h5>
     </div>
     <div class="subm4">
       <div>
-          <a href="#">Customer Satisfaction</a>
-          <a href="#">Customer Loyalty</a>
-          <a href="#">Event Surveys</a>
+          <a href="./customer-satisfaction-survey.html">Customer Satisfaction</a>
+          <a href="./customer-loyalty.html">Customer Loyalty</a>
+          <a href="./event-surveys.html">Event Surveys</a>
       </div>
       <div>
           <a href="#">Employee Engagement</a>
@@ -209,7 +211,7 @@ function Solutions() {
       <div class="subm1">
           <ul>
             <li>
-              <a href="#"
+              <a href="./customer-experience-solution.html"
                 ><span></span>
                 <h3>Customer Experience</h3>
                 <p>Delight customers & increase loyalty through feedback</p>
@@ -247,7 +249,7 @@ function Solutions() {
 </div>`;
 }
 function Resources() {
-  return `<div class="subnav1">
+	return `<div class="subnav1">
   <div id="subnav1-1">
     <a href="#"
       ><div>
@@ -255,7 +257,7 @@ function Resources() {
         <p>Best practices for using surveys & survey data</p>
       </div>
     </a>
-    <a href="#"
+    <a href="./curiosity.html"
       ><div>
         <h3>Curiosity at Work</h3>
         <p>Our blog about surveys, tips for business, & more</p>
