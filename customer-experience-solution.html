@@ -7,6 +7,7 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<title>Customer experince solution</title>
+		<link rel="stylesheet" href="./styles/page_loading_animation.css" />
 		<link rel="stylesheet" href="./styles/customer-experience-solution.css" />
 		<link rel="stylesheet" href="./styles/navbar.css" />
 		<script
@@ -19,7 +20,8 @@
 			type="image/x-icon"
 		/>
 	</head>
-	<body>
+	<body onload="loaderAnimation()">
+		<div id="wrapper"><div class="loader"></div></div>
 		<nav></nav>
 		<div class="customer-exp-top-container">
 			<div class="text-div">
@@ -331,7 +333,9 @@
 				<button>Start for free</button>
 			</div>
 		</div>
-		<script type="module" src="scripts/navbar.js"></script>
-		<script src="./scripts/customer-experience-solution.js"></script>
 	</body>
 </html>
+<script src="./components/page_loading_animation.js"></script>
+<script type="module" src="./scripts/inputForm.js"></script>
+<script type="module" src="scripts/navbar.js"></script>
+<script src="./scripts/customer-experience-solution.js"></script>
