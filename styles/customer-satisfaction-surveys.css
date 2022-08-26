@@ -1,5 +1,7 @@
 /** @format */
-* {
+
+ * {
+	box-sizing: border-box;
 	font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
 		"Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
 		"ＭＳ ゴシック", "MS Gothic", sans-serif;
@@ -323,8 +325,12 @@
 	text-align: center;
 	margin-bottom: 100px;
 }
-.turn-your-customer p,
+/* .turn-your-customer p,
 a {
+	font-size: 18px;
+} */
+.turn-your-customer p,
+.turn-your-customer a {
 	font-size: 18px;
 }
 .turn-your-customer a {
@@ -386,8 +392,12 @@ a {
 	gap: 190px;
 	justify-content: space-between;
 }
-.break-down .mid p,
+/* .break-down .mid p,
 li {
+	font-size: 18.5px;
+} */
+.break-down .mid p,
+.break-down .mid li {
 	font-size: 18.5px;
 }
 .pricing {
