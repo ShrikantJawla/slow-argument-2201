@@ -267,14 +267,13 @@
     width: 80%;
   }
 }
-@media only and (min-width: 658px) {
+@media only screen and (min-width: 658px) {
   #container1 {
     width: 100%;
   }
   #subcontainer2 {
     visibility: hidden;
     width: 0;
-
     padding: 0%;
     margin: 0%;
   }
