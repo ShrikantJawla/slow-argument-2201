@@ -211,11 +211,6 @@ function mainFooter() {
                     Mobile Surveys
                 </a>
             </li>
-            <li\>
-                <a href="#">
-                    How to Improve Customer Service
-                </a>
-            </li>
             <li>
                 <a href="#">
                     AB Test Significance Calculator

@@ -20,4 +20,6 @@ how to import footer:
          let footer = document.getElementById("foot-container");
          footer.innerHTML = mainFooter();
       </script>
+3. paste this link inside head tag:
+      <link rel="stylesheet" href="./styles/footer.css">
 NOTE: you can change id-names as per your choice.
