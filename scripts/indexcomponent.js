@@ -3,12 +3,11 @@ function clear() {
 }
 function defaultclick() {
   return `
-    <div id="b1box" style="
+  <div id="dbox">
+  <div id="b1box" style="
     background-image: url(https://prod.smassets.net/assets/website/2.182.0/images/Templates_L.png);
-  "
->>
-      <div id="b11">
-        <a href="#">
+  ">
+          <a href="#">
           <div class="content">
             <p>TEMPLATE LIBRARY</p>
             <p>Explore expert-written survey questions and templates.</p>
@@ -16,6 +15,8 @@ function defaultclick() {
         </a>
       </div>
     </div>
+    </div>
+    
     <div id="b2box">
       <div
         class="fbox"

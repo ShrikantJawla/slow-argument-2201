@@ -1,60 +1,52 @@
 body {
-  margin-top: 80px;
+  margin: 0%;
+  padding: 0%;
   color: #1e2124;
 }
 #container0 {
   width: 100%;
-  height: 450px;
-  margin: 100px auto 120px auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-}
-#container0 > h1 {
-  min-width: 6px;
-  height: 60px;
-  display: flex;
-  align-items: center;
+  margin: 240px auto 200px auto;
   text-align: center;
-  margin-bottom: 10px;
 }
 #type {
-  font-size: 52px;
-  height: 60px;
+  font-size: 54px;
   overflow: hidden;
   text-align: center;
-  height: 100%;
 }
 .cursor {
-  text-align: center;
-  height: 52px;
-  display: flex;
-  align-items: center;
-  width: 6px;
+  font-size: 36px;
+  height: 50px;
   margin-left: 4px;
   border-radius: 1px;
-  background: #00ce78;
-  animation: blink 0.8s infinite;
+  background-color: #00bf6f;
+  border-bottom: transparent;
+  animation: blink 0.7s infinite;
 }
 @keyframes blink {
   0% {
-    background: #00ce78;
+    border: 3px solid #00bf6f;
+    background-color: #00bf6f;
   }
   50% {
-    background: transparent;
+    border: 3px solid #ffff;
+    background-color: #fff;
   }
   100% {
-    background: #00ce78;
+    border: 3px solid #00bf6f;
+    background-color: #00bf6f;
   }
 }
 #container0 > p {
-  margin-bottom: 20px;
+  margin: 24px auto;
+  text-align: center;
+  line-height: 24px;
+  width: 80%;
   font-size: 18px;
 }
 #container0 > a > button {
+  margin-top: 14px;
   font-size: 15px;
+  font-weight: bold;
   height: 50px;
   padding: 0 38px;
   border: none;
@@ -68,8 +60,7 @@ body {
 }
 
 #container1 {
-  width: 1061px;
-  height: 648px;
+  max-width: 1060px;
   margin: 64px auto;
   display: flex;
   flex-direction: column;
@@ -77,8 +68,8 @@ body {
   background: #f7f7f7;
 }
 #surhead {
-  margin-top: 10px;
-  width: 1061px;
+  margin: 16px auto -6px auto;
+  width: 80%;
   height: 70px;
   display: flex;
   justify-content: center;
@@ -89,7 +80,7 @@ body {
 }
 #subsur {
   margin: auto;
-  width: 904px;
+  width: 80%;
   height: 40px;
   display: flex;
   justify-content: space-evenly;
@@ -101,7 +92,8 @@ body {
   padding: 0 24px;
   border: 2px solid#fff;
   cursor: pointer;
-  font-size: 15px;
+  font-size: 14px;
+  font-weight: bold;
   text-align: center;
   border-radius: 4px;
   color: black;
@@ -114,8 +106,9 @@ body {
   color: #007faa;
 }
 .clear {
+  margin: auto;
   height: 17px;
-  width: 1020px;
+  width: 80%;
   display: flex;
   align-items: center;
   gap: 8px;
@@ -130,27 +123,28 @@ body {
   background: #00bf6f;
 }
 #defaultclick {
-  margin-top: 40px;
-  width: 1109px;
-  height: 444px;
+  margin: 40px -20px;
   display: flex;
+  gap: 10px;
+}
+#dbox {
+  width: 40%;
+  height: 444px;
 }
 #b1box {
-  margin: 4px;
-  width: 462px;
-  height: 444px;
+  margin: auto;
+  height: 430px;
   background: #00ce78;
   background-size: cover;
-  transition: all 0.2s ease-out;
+  background-position: 0%;
+  background-repeat: no-repeat;
+  transition: all 0.3s ease-in-out;
   box-shadow: 0 4px 8px 0 rgb(51 62 72 / 10%);
-}
-#b11 {
-  height: 100%;
   display: flex;
   align-items: flex-end;
 }
 #b1box:hover {
-  margin: 0%;
+  transform: scale(1.05);
   box-shadow: 0 6px 8px 0 rgb(51 62 72 / 30%);
 }
 #b11 > a > div > p:last-child {
@@ -160,21 +154,22 @@ body {
   margin-top: 10px;
 }
 #b2box {
-  height: 444px;
+  width: 60%;
   display: grid;
-  grid-template-columns: repeat(2, 323px);
-  gap: 8px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 210px);
+  gap: 10px;
 }
 .fbox {
-  height: 214px;
-  margin: 4px;
+  height: 210px;
   box-sizing: border-box;
   display: flex;
-  background-size: cover;
-  background-position: 0%;
   align-items: flex-end;
   box-shadow: 0 6px 8px 0 rgb(51 62 72 / 10%);
   transition: all 0.2s ease-out;
+  background-size: cover;
+  background-position: 0%;
+  background-repeat: no-repeat;
 }
 .content {
   padding: 24px;
@@ -186,13 +181,306 @@ body {
   margin-top: 10px;
 }
 .fbox:hover {
-  margin: 0px;
+  transform: scale(1.06);
   box-shadow: 0 6px 8px 0 rgb(51 62 72 / 30%);
 }
 #somehead1 {
+  width: 80%;
+  text-align: center;
+  margin: 20px auto;
   height: 60px;
   font-size: 20px;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+#someimage1 {
+  display: flex;
+  margin: 60px auto;
+  width: 70%;
+  height: 68px;
+  justify-content: space-evenly;
+  align-items: center;
+}
+#someimage1 > div > img {
+  width: 100%;
+}
+#somehead2 {
+  width: 48%;
+  margin: 60px auto;
+  font-size: 20px;
+  gap: 20px;
+  text-align: center;
+  line-height: 30px;
+  text-align: center;
+}
+#planshome {
+  margin: 40px auto;
+  width: 70%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  text-align: center;
+  line-height: 30px;
+}
+.planbox {
+  height: 440px;
+  box-shadow: 0 12px 16px 0 rgb(51 62 72 / 10%);
+  border-radius: 10px;
+}
+.planbox:hover {
+  box-shadow: 0 12px 16px 0 rgb(51 62 72 / 30%);
+}
+.planbox:nth-child(1) .planhead,
+.planbox:nth-child(1) .planbtn > button {
+  background: #00bf6f;
+  border: #00bf6f;
+}
+.planbox:nth-child(2) .planhead,
+.planbox:nth-child(2) .planbtn > button {
+  background: #05467e;
+  border: #05467e;
+}
+.planbox:nth-child(3) .planhead,
+.planbox:nth-child(3) .planbtn > button {
+  background: #53225b;
+  border: #53225b;
+}
+.planhead {
+  height: 80px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.plandetail {
+  height: 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#plan-img > img {
+  height: 60px;
+  width: 60px;
+  border: 2px solid #00bf6f;
+  border-radius: 6px;
+  padding: 6px 5px;
+}
+.plantext1 {
+  height: 22px;
+}
+.planbtn {
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.planbtn > button {
+  padding: 12px 15px;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  font-weight: bold;
+  font-size: 14px;
+}
+.plantext2 {
+  width: 80%;
+  margin: auto;
+}
+#worldsur {
+  margin: auto;
+  background-image: url(https://prod.smassets.net/assets/cms/sm/uploads//AudienceBG-NEW.png);
+  background-repeat: no-repeat;
+
+  height: 422px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  line-height: 35px;
+}
+#worldsur > h3 {
+  color: white;
+}
+#worldsur > p {
+  width: 45%;
+  font-size: 16px;
+  color: white;
+  margin-bottom: 10px;
+}
+#worldsur > button {
+  padding: 12px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  cursor: pointer;
+}
+#somep {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-evenly;
+  text-align: center;
+}
+#somep > div {
+  width: 25%;
+  line-height: 30px;
+  margin-bottom: 20px;
+}
+#somep > div > img {
+  width: 100%;
+}
+#somep > div > p {
+  padding: 0px 15px;
+}
+#somea {
+  color: #007faa;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+#somea:hover {
+  text-decoration: underline;
+}
+#somep > div {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#somebtn2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#somebtn2 button {
+  padding: 10px 15px;
+  background-color: white;
+  border: 1px solid grey;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 40px auto;
+}
+#somebtn2 button:hover {
+  background: #f0f0f0;
+}
+#somemore {
+  width: 100%;
+  margin: 40px auto;
+  background-color: #f7f7f7;
+  display: flex;
+  flex-direction: column;
+}
+#somebox2 {
+  display: flex;
+  width: 80%;
+  margin: auto;
+  gap: 80px;
+}
+#somebox2 > div {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 30px;
+  line-height: 30px;
+  width: 40%;
+  margin: auto;
+}
+#somebox2 > div > p {
+  height: 100px;
+  font-size: 18px;
+}
+#somebox2 > div button {
+  padding: 12px 18px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 1px solid gray;
+  background-color: white;
+  font-weight: bold;
+  margin-bottom: 160px;
+}
+#somebox2 > div button:hover {
+  background: transparent;
+}
+@media only screen and (min-width: 670px) and (max-width: 992px) {
+  #container1 {
+    width: 100%;
+    flex-direction: column;
+  }
+  #subsur {
+    width: 670px;
+  }
+  #defaultclick {
+    margin: 40px auto;
+    width: 670px;
+    flex-direction: column;
+    gap: 0px;
+  }
+  #defaultclick > div {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 992px) {
+  #somehead2 {
+    width: 90%;
+    margin-bottom: 40px;
+  }
+  #planshome {
+    display: flex;
+    flex-direction: column;
+  }
+  #somep {
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+  #somep > div {
+    width: 70%;
+  }
+  #somebox2 {
+    flex-direction: column;
+    align-items: center;
+    gap: 0px;
+  }
+  #somebox2 > div {
+    width: 70%;
+    margin-bottom: 0px;
+  }
+  #container0 {
+    margin-bottom: 0;
+  }
+  #container0 > h1 {
+    width: 94%;
+    text-align: center;
+  }
+
+  #type {
+    overflow: visible;
+  }
+}
+@media only screen and (max-width: 758px) {
+  #container1 {
+    visibility: hidden;
+    height: 0px;
+    margin: 0;
+    width: 0;
+  }
+}
+@media only screen and (max-width: 670px) {
+  #somebox2 > div > button {
+    margin-bottom: 80px;
+  }
+
+  #worldsur > button {
+    width: 90%;
+  }
+  .planbtn > button {
+    width: 99%;
+  }
+  #container0 > a > button {
+    width: 90%;
+  }
 }
