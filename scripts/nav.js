@@ -32,7 +32,7 @@ function nav() {
 <div id="menu"></div>`;
 }
 function Products() {
-	return `<div class="subnav">
+  return `<div class="subnav">
   <div class="sub1">
     <div class="subm" >
       <h5>Surveys</h5>
@@ -145,7 +145,7 @@ function Products() {
   </div>`;
 }
 function Solutions() {
-	return `<div class="subnav">
+  return `<div class="subnav">
   <div class="sub1">
     <div class="subm">
       <h5>Survey Types</h5>
@@ -218,7 +218,7 @@ function Solutions() {
               </a>
             </li>
             <li>
-              <a href="#"
+              <a href="hr-solutions.html"
                 ><span></span>
                 <h3>Human Resources</h3>
                 <p>Improve your employee experience, engagement & retention</p>
@@ -249,7 +249,7 @@ function Solutions() {
 </div>`;
 }
 function Resources() {
-	return `<div class="subnav1">
+  return `<div class="subnav1">
   <div id="subnav1-1">
     <a href="#"
       ><div>
