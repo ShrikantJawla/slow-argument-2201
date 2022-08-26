@@ -1,0 +1,344 @@
+#container1 {
+  margin: auto;
+  background: #f0f0f0;
+  display: flex;
+  justify-content: center;
+}
+
+#subcontainer1 {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+}
+#subcontainer1 > h2 {
+  width: 80%;
+  font-size: 42px;
+}
+#subcontainer1 > p {
+  width: 80%;
+  font-size: 19px;
+  line-height: 28px;
+}
+.btn1 {
+  font-size: 14px;
+  height: 40px;
+  padding: 0 36px;
+  background: #f9be00;
+  border: #f9be00;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+}
+.btn1:hover {
+  border-color: #ffc714;
+  background: #ffc714;
+}
+.btn2 {
+  font-size: 14px;
+  height: 40px;
+  padding: 0 36px;
+  background: transparent;
+  border: 1px solid grey;
+  cursor: pointer;
+  font-weight: bold;
+  border-radius: 4px;
+  color: grey;
+}
+.btn2:hover {
+  border-color: grey;
+  background: #f0f0f0;
+}
+#subcontainer2 {
+  width: 40%;
+}
+#subcontainer2 > img {
+  width: 100%;
+}
+#somehead1 {
+  margin: 120px auto;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+}
+#somehead1 > h1 {
+  width: 45%;
+  line-height: 42px;
+}
+#container2 {
+  margin: 100px auto;
+  width: 85%;
+  display: flex;
+  gap: 50px;
+}
+#container2 > div {
+  margin: 40px auto;
+  width: 29%;
+  padding: 0 24px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+#container2 > div > h1 {
+  margin-top: 10px;
+  font-size: 250%;
+}
+#container2 > div > p {
+  font-size: 15px;
+  line-height: 25px;
+  height: 120px;
+}
+.somebox1 {
+  margin: 0 auto;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+  padding: 40px;
+  line-height: 36px;
+  height: 100%;
+}
+.somebox1 > h4 {
+  color: #fff;
+  font-size: 18px;
+}
+.somebox1 > p {
+  color: #fff;
+  font-size: 18px;
+}
+.somebox1 > a {
+  color: #fff;
+  text-decoration: underline;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+#container3 {
+  background: #f0f0f0;
+  margin: 80px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 160px;
+  padding: 100px 0;
+  text-align: center;
+}
+#subcontainer3 {
+  width: 80%;
+  display: flex;
+  gap: 50px;
+}
+#subcontainer3 > div {
+  margin: auto;
+  width: 19%;
+}
+#subcontainer3 > div > img {
+  width: 100%;
+}
+#container3 > h4 {
+  margin: auto;
+  width: 45%;
+  font-size: 34px;
+  line-height: 26px;
+}
+.container4 {
+  margin: 100px auto;
+  width: 90%;
+  display: flex;
+}
+.subcontainer4 {
+  width: 100%;
+}
+.sometextbox {
+  margin: auto;
+  width: 75%;
+  padding: 50px;
+  display: flex;
+  flex-direction: column;
+  gap: 35px;
+  line-height: 26px;
+}
+.sometextbox p {
+  font-size: 18px;
+}
+.someimgbox {
+  width: 75%;
+}
+.someimgbox > img {
+  width: 100%;
+}
+
+#somelist1 {
+  width: 100%;
+  margin-left: 40px;
+  list-style: none;
+}
+#somelist1 li {
+  display: flex;
+  gap: 5px;
+}
+#somelist1 li p + p {
+  margin-left: 10px;
+  width: 80%;
+}
+.dot::before {
+  content: "\2022";
+  color: green;
+  font-weight: bold;
+}
+#anchortext > a strong,
+#somea2 {
+  color: #007faa;
+}
+#anchortext > a:hover strong,
+#somea2:hover {
+  text-decoration: underline;
+}
+#reversecont4 {
+  flex-direction: row-reverse;
+}
+#container5 {
+  margin: 100px auto;
+  width: 90%;
+  display: flex;
+}
+#container5 > div {
+  margin: 20px auto;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 30px;
+}
+#container5 > div > img {
+  width: 100%;
+}
+#container7 {
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background: #902b3c;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+#container7 > h1 {
+  color: #fff;
+  margin-top: 100px;
+  font-size: 44px;
+}
+#container7 > p {
+  color: #fff;
+  width: 40%;
+  line-height: 30px;
+}
+#container7 > a {
+  margin-top: 20px;
+  margin-bottom: 100px;
+}
+#container7 > a > button {
+  height: 50px;
+}
+@media only screen and (max-width: 992px) {
+  #container1 {
+    width: 100%;
+  }
+  #subcontainer2 {
+    visibility: hidden;
+    width: 0;
+    padding: 0%;
+    margin: 0%;
+  }
+  #subcontainer1 {
+    padding: 0%;
+    width: 70%;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+  }
+  #subcontainer1 > a {
+    margin-bottom: 40px;
+  }
+  #container2 {
+    width: 80%;
+    flex-direction: column;
+  }
+  #container2 > div {
+    width: 100%;
+  }
+  .container4 {
+    flex-direction: column;
+  }
+  .container4 > div {
+    width: 100%;
+  }
+  .someimgbox {
+    width: 100%;
+    padding: 0%;
+    gap: 0;
+    margin: 0 auto;
+  }
+  #reversecont4 {
+    flex-direction: column-reverse;
+  }
+  #container5 {
+    flex-wrap: wrap;
+  }
+  #container5 > div {
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 670px) {
+  #container1 {
+    width: 100%;
+  }
+  #subcontainer2 {
+    visibility: hidden;
+    width: 0;
+    padding: 0%;
+    margin: 0%;
+  }
+  #subcontainer1 {
+    padding: 0%;
+    width: 70%;
+    align-items: center;
+    margin-top: 80px;
+    text-align: center;
+  }
+  #subcontainer1 > a {
+    margin-bottom: 40px;
+  }
+  #container2 {
+    width: 80%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  #container2 > div {
+    width: 100%;
+  }
+  .container4 {
+    flex-direction: column;
+  }
+  .container4 > div {
+    width: 100%;
+  }
+  .someimgbox {
+    width: 100%;
+    padding: 0%;
+    gap: 0;
+    margin: 0 auto;
+  }
+  #reversecont4 {
+    flex-direction: column-reverse;
+  }
+  #container5 {
+    flex-wrap: wrap;
+  }
+  #container5 > div {
+    width: 80%;
+  }
+}
