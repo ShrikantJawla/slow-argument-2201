@@ -7,3 +7,17 @@ To import navbar follow these steps
 2. Link <link rel="stylesheet" href="styles/navbar.css" />
 3. Write <nav></nav> in body
 4. Add <script type="module" src="scripts/navbar.js"></script> at the end of body
+
+
+
+
+how to import footer:
+
+1. make a div in html file with id named as "foot-container".
+2. then just copy paste this code:
+      <script type="module">
+         import mainFooter from "./components/main footer.js";
+         let footer = document.getElementById("foot-container");
+         footer.innerHTML = mainFooter();
+      </script>
+NOTE: you can change id-names as per your choice.
