@@ -69,6 +69,6 @@ how to import footer:
 #-Add these tags in body tag:
 
 1. Add this attribute to body tag:
-   onload="loader()"
+   onload="loaderAnimation()"
 
 2. Add <div id="wrapper"><div class="loader"></div></div> on top of every tag in body tag;
