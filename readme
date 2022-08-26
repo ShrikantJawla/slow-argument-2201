@@ -1,3 +1,5 @@
+<!-- @format -->
+
 To import navbar follow these steps
 
 1. Add <script
@@ -8,16 +10,28 @@ To import navbar follow these steps
 3. Write <nav></nav> in body
 4. Add <script type="module" src="scripts/navbar.js"></script> at the end of body
 
-
-
-
 how to import footer:
 
 1. make a div in html file with id named as "foot-container".
 2. then just copy paste this code:
-      <script type="module">
-         import mainFooter from "./components/main footer.js";
-         let footer = document.getElementById("foot-container");
-         footer.innerHTML = mainFooter();
-      </script>
-NOTE: you can change id-names as per your choice.
+   <script type="module">
+   import mainFooter from "./components/main footer.js";
+   let footer = document.getElementById("foot-container");
+   footer.innerHTML = mainFooter();
+   </script>
+   NOTE: you can change id-names as per your choice.
+
+###Steps to append survey_templates div:--->
+
+# Add these tags in head tag:-->
+
+1. link <link rel="stylesheet" href="./styles/survey_templates_div.css" /> in head tag.
+2. add <script
+   src="https://kit.fontawesome.com/5ccbe3257d.js"
+   crossorigin="anonymous"
+   > </script> (if already present in you head tag, skip it).
+
+# Add these tags in body tags:--->
+
+1. Add <div id="template_Container"></div> wherever you want append inside page.
+2. Add script tag <script type="module" src="./components/export&append_data.js"></script>
