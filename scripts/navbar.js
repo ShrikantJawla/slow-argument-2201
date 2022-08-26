@@ -1,4 +1,5 @@
 let navbar = document.querySelector("nav");
+let navlogo = document.getElementById("navlogo");
 let fixed = navbar.offsetTop;
 import { nav, Products, Solutions, Resources } from "./nav.js";
 navbar.innerHTML = nav();
@@ -63,5 +64,10 @@ window.onscroll = function () {
 function navonscroll() {
   if (window.pageYOffset > fixed) {
     navbar.classList.add("fixed");
-  } else navbar.classList.remove("fixed");
+    navbar.style.background = "#fff";
+    navlogo.src =
+      "https://prod.smassets.net/assets/website/2.182.0/images/logo-surveymonkey.svg";
+  } else {
+    navbar.classList.remove("fixed");
+  }
 }
