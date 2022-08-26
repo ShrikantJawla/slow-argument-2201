@@ -148,7 +148,7 @@
 #somelist1 {
   width: 100%;
   margin-left: 40px;
-  list-style: none; /* Remove default bullets */
+  list-style: none;
 }
 #somelist1 li {
   display: flex;
@@ -225,6 +225,8 @@
   #subcontainer2 {
     visibility: hidden;
     width: 0;
+    padding: 0%;
+    margin: 0%;
   }
   #subcontainer1 {
     padding: 0%;
@@ -239,10 +241,9 @@
   #container2 {
     width: 80%;
     flex-direction: column;
-    justify-content: center;
   }
   #container2 > div {
-    width: 60%;
+    width: 100%;
   }
   .container4 {
     flex-direction: column;
@@ -266,13 +267,15 @@
     width: 80%;
   }
 }
-@media only and (min-width: 658px) {
+@media only screen and (min-width: 658px) {
   #container1 {
     width: 100%;
   }
   #subcontainer2 {
     visibility: hidden;
     width: 0;
+    padding: 0%;
+    margin: 0%;
   }
   #subcontainer1 {
     padding: 0%;
@@ -290,7 +293,7 @@
     justify-content: center;
   }
   #container2 > div {
-    width: 60%;
+    width: 100%;
   }
   .container4 {
     flex-direction: column;
