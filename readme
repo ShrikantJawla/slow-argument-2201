@@ -54,3 +54,22 @@ how to import footer:
 
 1. Add <form class="input-form-container"></form> where you want to append input form;
    2 Add script file <script type="module" src="./scripts/inputForm.js"></script> next to body tag or after html tag;
+
+
+--------------------------------------xxxxxx-----------------------------------------------------
+
+###Steps to append page animation loader:--->
+
+#-Add these tags in head tag:
+
+1. Link css file top of every css links-
+<link rel="stylesheet" href="./styles/page_loading_animation.css">
+
+2. add <script src="./scripts/customer-satisfaction-surveys.js"></script> on top of every script file.
+
+#-Add these tags in body tag:
+
+1. Add this attribute to body tag: 
+onload="loader()"
+
+2. Add <div id="wrapper"><div class="loader"></div></div> on top of every tag in body tag;
