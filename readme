@@ -11,11 +11,10 @@ To import navbar follow these steps
 4. Add <script type="module" src="scripts/navbar.js"></script> at the end of body
 
 
-how to import footer:
+steps how to import footer:
 
 1. make a div in html file with id named as "foot-container".
 2. then just copy paste this code:
-fw20_0679_Day-4
       <script type="module">
          import mainFooter from "./components/main footer.js";
          let footer = document.getElementById("foot-container");
@@ -25,12 +24,6 @@ fw20_0679_Day-4
       <link rel="stylesheet" href="./styles/footer.css">
 NOTE: you can change id-names as per your choice.
 
-   <script type="module">
-   import mainFooter from "./components/main footer.js";
-   let footer = document.getElementById("foot-container");
-   footer.innerHTML = mainFooter();
-   </script>
-   NOTE: you can change id-names as per your choice.
 
 
 ###Steps to append survey_templates div:--->
