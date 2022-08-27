@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
 }
-
 .sideopt1 li {
   margin: auto;
   width: 100%;

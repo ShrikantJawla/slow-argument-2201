@@ -1,6 +1,6 @@
 let navbar = document.querySelector("nav");
-let navlogo = document.getElementById("navlogo");
 let fixed = navbar.offsetTop;
+import { sideoption, products, solutions, resources } from "./sidebar.js";
 import { nav, Products, Solutions, Resources } from "./nav.js";
 navbar.innerHTML = nav();
 let id1 = document.getElementById("Products");
@@ -67,5 +67,88 @@ function navonscroll() {
     navbar.style.background = "#fff";
   } else {
     navbar.classList.remove("fixed");
+  }
+}
+displaysidenav();
+function displaysidenav() {
+  let sidenav = document.getElementById("sidemenu");
+  sidenav.addEventListener("click", sidemenu);
+  let sidebar = document.getElementById("sidenavbar");
+  let scount = 1;
+  function sidemenu() {
+    if (scount == 0) {
+      sidebar.style.visibility = "hidden";
+      sidenav.innerHTML = `<i class="fa-solid fa-bars"></i>`;
+      scount = 1;
+    } else {
+      scount = 0;
+      sidebar.style.visibility = "visible";
+      sidenav.innerHTML = `<i class="fa-solid fa-x"></i>`;
+    }
+  }
+  sidebar.innerHTML = sideoption();
+
+  let id1 = document.getElementById("products");
+  let id3 = document.getElementById("resources");
+  let id2 = document.getElementById("solutions");
+  id1.addEventListener("click", show1);
+  id2.addEventListener("click", show2);
+  id3.addEventListener("click", show3);
+  let menu1 = document.getElementById("sidemenubar1");
+  let menu2 = document.getElementById("sidemenubar2");
+  let menu3 = document.getElementById("sidemenubar3");
+  let count1 = 1;
+  let count2 = 1;
+  let count3 = 1;
+  function show1() {
+    id1.innerHTML = "";
+    menu1.innerHTML = "";
+    menu2.innerHTML = "";
+    menu3.innerHTML = "";
+    if (count1 == 0) {
+      id1.innerHTML = `Products <i class="fa-solid fa-angle-down"></i>`;
+      count1 = 1;
+    } else {
+      count2 = count3 = 0;
+      count1 = 0;
+      show3();
+      show2();
+      id1.innerHTML = `Products <i class="fa-solid fa-angle-up"></i>`;
+      menu1.innerHTML = products();
+    }
+  }
+  function show2() {
+    id2.innerHTML = "";
+    menu1.innerHTML = "";
+    menu2.innerHTML = "";
+    menu3.innerHTML = "";
+    if (count2 == 0) {
+      id2.innerHTML = `Solutions <i class="fa-solid fa-angle-down"></i>`;
+      count2 = 1;
+    } else {
+      count2 = 0;
+      count3 = count1 = 0;
+      show1();
+      show3();
+      id2.innerHTML = `Solutions <i class="fa-solid fa-angle-up"></i>`;
+      menu2.innerHTML = solutions();
+    }
+  }
+  function show3() {
+    id3.innerHTML = "";
+    menu1.innerHTML = "";
+    menu2.innerHTML = "";
+    menu3.innerHTML = "";
+    if (count3 == 0) {
+      id3.innerHTML = `Resources <i class="fa-solid fa-angle-down"></i>`;
+      count3 = 1;
+    } else {
+      count2 = count1 = 0;
+      count3 = 0;
+      show1();
+      show2();
+      id3.innerHTML = `Resources <i class="fa-solid fa-angle-up"></i>`;
+      menu3.innerHTML = resources();
+    }
   }
 }
