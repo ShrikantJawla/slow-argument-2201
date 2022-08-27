@@ -1,0 +1,156 @@
+/** @format */
+body {
+	padding: 0%;
+	margin: 0%;
+}
+* {
+	box-sizing: border-box;
+	font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+		"Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
+		"ＭＳ ゴシック", "MS Gothic", sans-serif;
+}
+.customer-loyalty-heading {
+	width:100%;
+	margin-top: 80px;
+	text-align: center;
+	background-color: #00bf6f;
+	padding: 100px 0px;
+}
+.customer-loyalty-heading h1 {
+	color: white;
+	font-size: 40px;
+	margin-bottom: 15px;
+}
+.customer-loyalty-heading p {
+	color: white;
+	margin-bottom: 15px;
+}
+.customer-loyalty-heading button {
+	text-decoration: none;
+	padding: 15px 55px;
+	margin-top: 5px;
+	color: black;
+	background-color: #ffc714;
+	border-radius: 5px;
+	border: none;
+}
+.mid-text-container {
+	padding: 40px 0px;
+}
+.mid-text-container .mid-text-part {
+	width: 50%;
+	margin: auto;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	font-size: 20px;
+}
+.how-to-use-cust-container {
+	padding: 40px 0px;
+}
+.how-to-use-cust-container .how-to-text-part {
+	width: 50%;
+	margin: auto;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	font-size: 20px;
+}
+.how-to-use-cust-container .how-to-text-part a {
+	color: #007faa;
+}
+.see-how-servey-container {
+	background-color: #eceded;
+	margin-top: 80px;
+	text-align: center;
+	padding: 130px 0px;
+}
+.see-how-servey-container .see-how-text {
+	margin: auto;
+	width: 45%;
+	font-size: 22px;
+}
+.see-how-servey-container .see-how-text h1 {
+	margin-bottom: 25px;
+}
+.see-how-servey-container .see-how-text button {
+	text-decoration: none;
+	padding: 18px 55px;
+	margin-top: 5px;
+	color: black;
+	background-color: #ffc714;
+	border-radius: 5px;
+	border: none;
+	font-weight: bold;
+}
+
+@media only screen and (max-width: 992px){
+.customer-loyalty-heading h1 {
+	font-size: 30px;
+	margin-bottom: 15px;
+}
+.customer-loyalty-heading p {
+	margin-bottom: 15px;
+}
+.mid-text-container {
+	padding: 40px 0px;
+	width:100%;
+}
+.mid-text-container .mid-text-part {
+	width: 60%;
+	margin: auto;
+}
+.how-to-use-cust-container {
+	padding: 40px 0px;
+}
+.see-how-servey-container {
+	width: 100%;
+}
+.see-how-servey-container .see-how-text {
+	margin: auto;
+	width: 45%;
+	font-size: 22px;
+}
+}
+@media only screen and (max-width: 670px){
+.customer-loyalty-heading h1 {
+	width: 90%;
+	margin: auto;
+	font-size: 20px;
+	margin-bottom: 15px;
+}
+.customer-loyalty-heading p {
+	width: 70%;
+	margin: auto;
+}
+/* .mid-text-container {
+	padding: 40px 0px;
+} */
+.mid-text-container .mid-text-part {
+	width: 80%;
+	font-size: 17px;
+}
+.how-to-use-cust-container .how-to-text-part {
+	width: 80%;
+	font-size: 17px;
+}
+.see-how-servey-container .see-how-text {
+	width: 85%;
+}
+.see-how-servey-container .see-how-text h1 {
+	font-size: 19px;
+	margin-bottom: 25px;
+}
+.see-how-servey-container .see-how-text button {
+	text-decoration: none;
+	padding: 18px 55px;
+	margin-top: 5px;
+	color: black;
+	background-color: #ffc714;
+	border-radius: 5px;
+	border: none;
+	font-weight: bold;
+}
+}

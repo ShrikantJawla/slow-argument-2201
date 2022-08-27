@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/page_loading_animation.css">
+    <script src="./components/page_loading_animation.js"></script>
+    <script src="https://kit.fontawesome.com/fb700f3d70.js"></script>
+    <link rel="stylesheet" href="./styles/enterprise.css">
+    <link rel="stylesheet" href="./styles/plansandpricingfooter.css">
+    <title>Enterprise</title>
+    
+</head>
+<body onload="loaderAnimation()">
+
+    <div id="wrapper"><div class="loader"></div></div>
+    <div id="navbar">
+        <div class="logo">
+            <a href="index.html"><img src="data:image/jpeg;base64,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" alt="logo"/></a>
+        </div>
+        <div>
+          <ul>
+            <li>
+              Products <i class="fa-solid fa-angle-down"></i>
+            </li>
+            <li>
+              Solutions <i class="fa-solid fa-angle-down"></i>
+            </li>
+            <li>
+              Resources <i class="fa-solid fa-angle-down"></i>
+            </li>
+            <li>
+                <a href="plansandpricing.html">Plan & Pricing</a>
+            </li>
+          </ul>
+        </div>
+        <div>
+          <ul>
+            <li class="login">
+                <a href="login.html">Log in</a>
+            </li>
+            <li class="signup">
+                <a href="signup.html">Sign up</a>
+            </li>
+          </ul>
+        </div>
+    </div>
+    <h1 class="top">
+        Choose a plan that works for you
+    </h1>
+    <div id="tabs">
+        <ul>
+            <li>
+                <a href="plansandpricing.html">Team Plans</a>
+            </li>
+            <li>
+                <a href="individualplan.html">Individual Plans</a>
+            </li>
+            <li>
+                <a href="enterprise.html">Enterprise</a>
+            </li>
+        </ul>
+    </div>
+    <div id="form">
+        <div>
+            <h1>
+                Contact us today
+            </h1>
+            <p>
+                Learn more about SurveyMonkey Enterprise and schedule a demo.
+            </p>
+            <ul>
+                <li>
+                    Manage multiple users and gain visibility into all survey data collected across your organization with admin controls and dashboards.
+                </li>
+                <li>
+                    Ensure confidential data is protected with enhanced security including encryption, SSO, and features that help you remain compliant with HIPAA and GDPR.
+                </li>
+                <li>
+                    Make feedback automated and actionable by connecting to key business systems using APIs and powerful integrations, including Salesforce, Marketo, Tableau, and more.
+                </li>
+            </ul>
+        </div>
+        <div>
+            <form id="lead-form" method="POST">
+                <ul>
+                    <li>
+                        <label for="firstname">First name *</label>
+                            <div>
+                                <input type="text" id="firstname">
+                            </div>
+                    </li>    
+                    <li>
+                        <label for="lastname">Last name *</label>
+                            <div>
+                                <input type="text" id="lastname">
+                            </div>
+                    </li>    
+                    <li>
+                        <label for="email">Business email *</label>
+                            <div>
+                                <input type="email" id="email">
+                            </div>
+                    </li>    
+                    <li >
+                        <label for="jobtitle">Job title *</label>
+                            <div>
+                                <input type="text" id="jobtitle">
+                            </div>
+                    </li>    
+                    <li>
+                        <label for="company">Company *</label>
+                            <div>
+                                <input type="text" id="company">
+                            </div>
+                    </li>    
+                    <li>
+                        <label for="phone">Phone number *</label>
+                            <div>
+                                <input type="number" id="phone" maxlength="10">
+                            </div>
+                    </li>    
+                    <li>
+                            <input type="checkbox" id="tick">
+                        <label for="consent">Contact me about SurveyMonkey Business Solutions like product updates, news, information, and special promotions. I can unsubscribe <a href="/user/email-preferences/?ut_source=sem_lp&amp;ut_source2=sem&amp;ut_source3=hubspot-legal-consent" target="_blank">here</a> at any time and can visit SurveyMonkey's <a href="/mp/legal/privacy/" target="_blank">privacy notice</a> if I have any questions. We remember your preference so you do not have to submit it to us again and we will retain this preference until you opt-out.</label>
+                    </li>    
+                    <li>
+                            <button type="submit">Contact sales</button>
+                    </li>
+                </ul>
+            </form>
+        </div>
+    </div>
+    <div id="foot-container"></div>
+</body>
+</html>
+
+
+<script type="module">
+    import ppFooter from "./components/plans&pricing footer.js";
+    let footer = document.getElementById("foot-container");
+    footer.innerHTML = ppFooter();
+ </script>

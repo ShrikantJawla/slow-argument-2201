@@ -1,0 +1,145 @@
+/** @format */
+
+body {
+	padding: 0%;
+	margin: 0%;
+	color: #1e2124;
+}
+* {
+	box-sizing: border-box;
+	font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+		"Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
+		"ＭＳ ゴシック", "MS Gothic", sans-serif;
+}
+
+.use-event-survey-container {
+	margin-top: 80px;
+	text-align: center;
+	background-color: #00bf6f;
+	padding: 100px 0px;
+}
+.use-event-survey-container .use-event-survey-text button:nth-child(2) {
+	margin-right: 13px;
+}
+.use-event-survey-container .use-event-survey-text h1 {
+	width: 60%;
+	margin: auto;
+	color: white;
+	font-size: 40px;
+	margin-bottom: 24px;
+}
+.use-event-survey-container .use-event-survey-text p {
+	color: white;
+	margin-bottom: 15px;
+}
+.use-event-survey-container .use-event-survey-text button {
+	text-decoration: none;
+	padding: 18px 55px;
+	margin-top: 5px;
+	color: black;
+	background-color: #ffc714;
+	border-radius: 5px;
+	border: none;
+}
+.mid-content-container {
+	padding: 40px 0px;
+}
+.mid-content-container .mid-content-text {
+	width: 50%;
+	margin: auto;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	gap: 35px;
+	font-size: 20px;
+}
+
+.get-quick-start-container {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	gap: 20px;
+	background-color: #f4f6f6;
+}
+.get-quick-start-container .get-quick-start-heading {
+	width: 60%;
+	margin: auto;
+	padding: 60px 0px;
+}
+.get-quick-start-container .get-quick-start-heading h1 {
+	width: 93%;
+	margin: auto;
+}
+.get-quick-start-container .get-quick-start-heading p {
+	font-size: 18px;
+	text-align: center;
+}
+.see-how-servey-container {
+	background-color: #eceded;
+	margin-top: 80px;
+	text-align: center;
+	padding: 130px 0px;
+}
+.see-how-servey-container .see-how-text {
+	margin: auto;
+	width: 45%;
+	font-size: 22px;
+}
+.see-how-servey-container .see-how-text h1 {
+	margin-bottom: 25px;
+}
+.see-how-servey-container .see-how-text button {
+	text-decoration: none;
+	padding: 18px 55px;
+	margin-top: 5px;
+	color: black;
+	background-color: #ffc714;
+	border-radius: 5px;
+	border: none;
+	font-weight: bold;
+}
+@media only screen and (max-width: 992px){
+	.see-how-servey-container .see-how-text h1 {
+	font-size:28px;
+}
+.use-event-survey-container .use-event-survey-text h1 {
+	width: 60%;
+	font-size: 27px;
+}
+.use-event-survey-container .use-event-survey-text button {
+	text-decoration: none;
+	padding: 14px 37px;
+}
+}
+@media only screen and (max-width: 670px){
+.see-how-servey-container .see-how-text h1 {
+	width: 100%;
+	font-size:20px;
+}
+.use-event-survey-container .use-event-survey-text h1 {
+	width: 90%;
+	font-size: 27px;
+}
+.use-event-survey-container .use-event-survey-text button {
+	text-decoration: none;
+	padding: 14px 28px;
+}
+.mid-content-container .mid-content-text{
+	width:80%
+}
+.get-quick-start-container .get-quick-start-heading {
+	width: 100%;
+}
+.get-quick-start-container .get-quick-start-heading h1 {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	font-size:21px;
+	line-height: 1.5;
+}
+.see-how-servey-container .see-how-text {
+	margin: auto;
+	width: 90%;
+	font-size: 22px;
+}
+}
