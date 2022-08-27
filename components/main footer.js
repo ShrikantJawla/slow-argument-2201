@@ -7,37 +7,37 @@ function mainFooter() {
                     Community:
                 </a>
             </li>     
-                <li>
+                <li class="sm">
                     <a href="#">
                         Developers
                     </a>
                 </li>                    
-                <li>
+                <li class="sm">
                     <a href="https://www.facebook.com/surveymonkey/">
                         Facebook
                     </a>
                 </li>
-                <li>
+                <li class="sm">
                     <a href="https://twitter.com/SurveyMonkey">
                         Twitter
                     </a>
                 </li>
-                <li>
+                <li class="sm">
                     <a href="https://www.linkedin.com/company/surveymonkey/">
                         LinkedIn
                     </a>
                 </li>
-                <li>
+                <li class="sm">
                     <a href="#">
                         Our Blog
                     </a>
                 </li>
-                <li>
+                <li class="sm">
                     <a href="https://www.instagram.com/surveymonkey/">
                         Instagram
                     </a>
                 </li>
-                <li>
+                <li class="sm">
                     <a href="https://www.youtube.com/surveymonkey">
                         YouTube
                     </a>
@@ -49,62 +49,62 @@ function mainFooter() {
                     About Us:
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Leadership Team
                 </a>
             </li>                
-            <li>
+            <li class="sm">
                 <a href="#">
                     Board of Directors
                 </a>
             </li>              
-            <li>
+            <li class="sm">
                 <a href="#">
                     Investor Relations
                 </a>
             </li>                
-            <li>
+            <li class="sm">
                 <a href="#">
                     App Directory
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Newsroom
                 </a>
             </li>                
-            <li>
+            <li class="sm">
                 <a href="#">
                     Office Locations
                 </a>
             </li>               
-            <li>
+            <li class="sm">
                 <a href="#">
                     Imprint
                 </a>
             </li>                
-            <li>
+            <li class="sm">
                 <a href="#">
                     Careers
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Sitemap
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Help
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Log In
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Sign Up
                 </a>
@@ -116,52 +116,52 @@ function mainFooter() {
                     Policies:
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Terms of Use
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Privacy Notice
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     California Privacy Notice
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Acceptable Uses Policy
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Security Statement
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     GDPR Compliance
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Email Opt-In
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Accessibility
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Cookies Notice
                 </a>
             </li>                
-            <li>
+            <li class="sm">
                 <a href="#">
                     Cookies Preferences
                 </a>
@@ -171,62 +171,62 @@ function mainFooter() {
             <li class="labels">
                 Use Cases:
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Online Polls
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Facebook Surveys
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Survey Template
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Scheduling Polls
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Google Forms vs. SurveyMonkey
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Employee Satisfaction Surveys
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Free Survey Templates
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Mobile Surveys
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     AB Test Significance Calculator
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     NPS Calculator
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Questionnaire Templates
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Event Survey
                 </a>
@@ -234,57 +234,57 @@ function mainFooter() {
         </ul>
         <ul id="lists">
             <li class="labels"></li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Sample Size Calculator
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Writing Good Surveys
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Likert Scale
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Survey Analysis
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     360 Degree Feedback
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Education Surveys
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Survey Questions
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     NPS Calculation
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Customer Satisfaction Survey Questions
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Agree Disagree Questions
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Create a Survey
                 </a>
@@ -292,62 +292,62 @@ function mainFooter() {
         </ul>
         <ul id="lists">
             <li class="labels"> </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Online Quizzes
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Qualitative vs Quantitative Research
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Customer Survey
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Market Research Surveys
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     NPS Survey
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Survey Design Best Practices
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Margin of Error Calculator
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Questionnaire
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Demographic Questions
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Training Survey
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     Offline Survey
                 </a>
             </li>
-            <li>
+            <li class="sm">
                 <a href="#">
                     360 Review Template
                 </a>
