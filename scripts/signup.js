@@ -20,12 +20,19 @@ function saveData() {
 	let input = document.getElementById("email").value;
 	let checkboxOne = document.getElementById("terms");
 	let checkboxTwo = document.getElementById("agree");
+	isTrue = false;
 	data.forEach((ele) => {
 		if (ele.email === input) {
 			alert("User already exists!");
+			isTrue = true;
 			return;
 		}
 	});
+	if (isTrue) {
+		document.getElementById("email").value = null;
+		checkboxOne.checked = false;
+		return;
+	}
 	let emailUserData = {
 		email: input,
 		checkboxOne: checkboxOne.checked,
@@ -38,6 +45,7 @@ function saveData() {
 }
 
 function submitOnEnter(event) {
+	let button = document.getElementById("submitButton");
 	if (event.key === "Enter") {
 		event.preventDefault();
 		saveData();
