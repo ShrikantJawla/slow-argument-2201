@@ -20,8 +20,10 @@
     ></script>
     <link rel="stylesheet" href="./styles/survey_templates_div.css" />
     <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="./styles/page_loading_animation.css">
   </head>
-  <body>
+  <body onload="loaderAnimation()">
+    <div id="wrapper"><div class="loader"></div></div>
     <nav></nav>
     <div id="container0">
       <h1>
@@ -303,4 +305,5 @@
   <script type="module" src="scripts/index.js"></script>
   <script type="module" src="./components/export&append_data.js"></script>
   <script type="module" src="scripts/sidebar.js"></script>
+  <script src="./components/page_loading_animation.js"></script>
 </html>

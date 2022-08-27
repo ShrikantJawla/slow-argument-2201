@@ -19,6 +19,7 @@
 			href="./images/download-modified.png"
 			type="image/x-icon"
 		/>
+		<link rel="stylesheet" href="./styles/survey_templates_div.css" />
 		
 	</head>
 	<body onload="loaderAnimation()">
@@ -167,7 +168,6 @@
 		</div>
 		<div class="remove-guesswork">
 			<div class="icon">
-				<img src="./images/download1.png" alt="" />
 			</div>
 			<div class="text">
 				<div class="heading">
@@ -528,9 +528,8 @@
                     Out-of-the-box customer survey templates, written by experts
                 </h1>
                 <p>Explore more than 150 pre-written survey templates to help you reach your customers.</p>
-
-                <!-- Here you need to add Div created by saroj -->
             </div>
+			<div id="template_Container"></div>
         </div>
         <div class="how-to-survey-monkey">
             <h1>See how SurveyMonkey can power your curiosity</h1>
@@ -538,6 +537,7 @@
         </div>
 	</body>
 	<script src="./components/page_loading_animation.js"></script>
-	<script type="module" src="scripts/navbar.js"></script>
+	<script type="module" src="./scripts/navbar.js"></script>
 	<script src="./scripts/customer-satisfaction-surveys.js"></script>
+	<script type="module" src="./components/export&append_data.js"></script>
 </html>

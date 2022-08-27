@@ -16,8 +16,12 @@
     ></script>
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/customer-feedback.css" />
+    <link rel="stylesheet" href="./styles/page_loading_animation.css">
+    
   </head>
-  <body>
+  
+  <body onload="loaderAnimation()">
+    <div id="wrapper"><div class="loader"></div></div>
     <nav></nav>
     <div id="container1">
       <div>
@@ -181,4 +185,5 @@
   </body>
   <script type="module" src="scripts/difnav.js"></script>
   <script type="module" src="scripts/customer.js"></script>
+  <script src="./components/page_loading_animation.js"></script>
 </html>

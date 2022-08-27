@@ -17,8 +17,10 @@
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/sidebar.css">
     <link rel="stylesheet" href="styles/employee-feedback.css" />
+    <link rel="stylesheet" href="./styles/page_loading_animation.css">
   </head>
-  <body>
+  <body onload="loaderAnimation()">
+    <div id="wrapper"><div class="loader"></div></div>
     <nav></nav>
     <div id="container1">
       <div>
@@ -152,6 +154,7 @@
   <script type="module" src="scripts/difnav.js"></script>
   <script type="module" src="scripts/employee-feedback.js"></script>
   <script type="module" src="scripts/sidebar.js"></script>
+  <script src="./components/page_loading_animation.js"></script>
 </html>
 
 
