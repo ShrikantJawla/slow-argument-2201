@@ -13,7 +13,7 @@ function sideoption() {
         Resources <i class="fa-solid fa-angle-down"></i>
       </li>
       <div id="sidemenubar3"></div>
-      <li><a href="#">Plan & Pricing</a></li>
+      <li><a href="plansandpricing.html">Plan & Pricing</a></li>
     </ul>
   <div id="sideuserbutton">
   <a href="login.html"><button class="sidebtn">Login</button></a>
@@ -42,7 +42,7 @@ function products() {
             </a>
           </li>
           <li>
-            <a href="#"
+            <a href="prodEnterprise.html"
               ><span></span>
               <h3>Enterprise</h3>
               <p>
@@ -146,7 +146,7 @@ function solutions() {
       <div class="sidesubm1">
           <ul>
             <li>
-              <a href="#"
+              <a href="customer-feedback.html"
                 ><span></span>
                 <h3>Customers</h3>
                 <p>
@@ -155,7 +155,7 @@ function solutions() {
               </a>
             </li>
             <li>
-              <a href="#"
+              <a href="employee-feedback.html"
                 ><span></span>
                 <h3>Employees</h3>
                 <p>Build a stronger workforce with Employee Powered Data</p>                      </a>
@@ -178,28 +178,28 @@ function solutions() {
         <div class="sidesubm1">
             <ul>
               <li>
-                <a href="#"
+                <a href="customer-experience-solution.html"
                   ><span></span>
                   <h3>Customer Experience</h3>
                   <p>Delight customers & increase loyalty through feedback</p>
                 </a>
               </li>
               <li>
-                <a href="#"
+                <a href="hr-solution.html"
                   ><span></span>
                   <h3>Human Resources</h3>
                   <p>Improve your employee experience, engagement & retention</p>
                 </a>
               </li>
               <li>
-                <a href="#"
+                <a href="marketing-solutions.html"
                   ><span></span>
                   <h3>Marketing</h3>
                   <p>Create winning campaigns, boost ROI & drive growth</p>
                 </a>
               </li>
               <li>
-                <a href="#"
+                <a href="education-solutions.html"
                   ><span></span>
                   <h3>Education</h3>
                   <p>Elevate your student experience and become a data-driven institution</p>
@@ -270,83 +270,4 @@ function resources() {
   </div>
   </div>`;
 }
-let sidenav = document.getElementById("sidemenu");
-sidenav.addEventListener("click", sidemenu);
-let sidebar = document.getElementById("sidenavbar");
-let scount = 1;
-function sidemenu() {
-  if (scount == 0) {
-    sidebar.style.visibility = "hidden";
-    sidenav.innerHTML = `<i class="fa-solid fa-bars"></i>`;
-    scount = 1;
-  } else {
-    scount = 0;
-    sidebar.style.visibility = "visible";
-    sidenav.innerHTML = `<i class="fa-solid fa-x"></i>`;
-  }
-}
-sidebar.innerHTML = sideoption();
-
-let id1 = document.getElementById("products");
-let id3 = document.getElementById("resources");
-let id2 = document.getElementById("solutions");
-id1.addEventListener("click", show1);
-id2.addEventListener("click", show2);
-id3.addEventListener("click", show3);
-let menu1 = document.getElementById("sidemenubar1");
-let menu2 = document.getElementById("sidemenubar2");
-let menu3 = document.getElementById("sidemenubar3");
-let count1 = 1;
-let count2 = 1;
-let count3 = 1;
-function show1() {
-  id1.innerHTML = "";
-  menu1.innerHTML = "";
-  menu2.innerHTML = "";
-  menu3.innerHTML = "";
-  if (count1 == 0) {
-    id1.innerHTML = `Products <i class="fa-solid fa-angle-down"></i>`;
-    count1 = 1;
-  } else {
-    count2 = count3 = 0;
-    count1 = 0;
-    show3();
-    show2();
-    id1.innerHTML = `Products <i class="fa-solid fa-angle-up"></i>`;
-    menu1.innerHTML = products();
-  }
-}
-function show2() {
-  id2.innerHTML = "";
-  menu1.innerHTML = "";
-  menu2.innerHTML = "";
-  menu3.innerHTML = "";
-  if (count2 == 0) {
-    id2.innerHTML = `Solutions <i class="fa-solid fa-angle-down"></i>`;
-    count2 = 1;
-  } else {
-    count2 = 0;
-    count3 = count1 = 0;
-    show1();
-    show3();
-    id2.innerHTML = `Solutions <i class="fa-solid fa-angle-up"></i>`;
-    menu2.innerHTML = solutions();
-  }
-}
-function show3() {
-  id3.innerHTML = "";
-  menu1.innerHTML = "";
-  menu2.innerHTML = "";
-  menu3.innerHTML = "";
-  if (count3 == 0) {
-    id3.innerHTML = `Resources <i class="fa-solid fa-angle-down"></i>`;
-    count3 = 1;
-  } else {
-    count2 = count1 = 0;
-    count3 = 0;
-    show1();
-    show2();
-    id3.innerHTML = `Resources <i class="fa-solid fa-angle-up"></i>`;
-    menu3.innerHTML = resources();
-  }
-}
+export { sideoption, products, solutions, resources };
