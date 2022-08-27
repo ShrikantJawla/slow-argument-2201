@@ -178,7 +178,7 @@
     }
     #navbar{
         display: flex;
-        background-color: rgb(39, 165, 39);
+        background-color: #00bf6f;
         color: white;
         width: 100%;
         margin: -10px;
