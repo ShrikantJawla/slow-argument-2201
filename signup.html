@@ -38,8 +38,8 @@
 			<div class="c1">
 				<div>
 					<input
-						onkeypress="submitOnEnter(event)"
 						onclick="enableButton()"
+						onkeypress="submitOnEnter(event)"
 						type="checkbox"
 						id="terms"
 					/>
@@ -60,6 +60,7 @@
 			</div>
 
 			<button
+				onkeypress="submitOnEnter(event)"
 				onclick="saveData()"
 				class="button-disabled"
 				id="submitButton"
