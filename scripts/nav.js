@@ -1,5 +1,7 @@
+/** @format */
+
 function nav() {
-  return `
+	return `
     <div id="navbar">
       <div id="logo"><a href="index.html"><img
       src="https://prod.smassets.net/assets/website/2.182.0/images/logo-surveymonkey.svg"
@@ -32,7 +34,7 @@ function nav() {
     `;
 }
 function Products() {
-  return `<div class="subnav">
+	return `<div class="subnav">
   <div class="sub1">
     <div class="subm">
       <h5>Surveys</h5>
@@ -145,7 +147,7 @@ function Products() {
   </div>`;
 }
 function Solutions() {
-  return `<div class="subnav">
+	return `<div class="subnav">
   <div class="sub1">
     <div class="subm">
       <h5>Survey Types</h5>
@@ -249,7 +251,7 @@ function Solutions() {
 </div>`;
 }
 function Resources() {
-  return `<div class="subnav1">
+	return `<div class="subnav1">
   <div id="subnav1-1">
     <a href="#"
       ><div>
@@ -279,7 +281,7 @@ function Resources() {
 </div>`;
 }
 function difnav() {
-  return `<div id="navbar">
+	return `<div id="navbar">
     <div id="logo"><a href="index.html"><img id="navlogo"
     src="https://prod.smassets.net/assets/website/2.182.0/images/logo-surveymonkey-white.svg"
     alt=""
