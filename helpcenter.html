@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./styles/helpcenter.css">
+</head>
+<body>
+    <div id="navbar">
+    
+        
+            
+        <div id="hell">
+            <h2>Help Center</h2>
+        </div>
+    
+        <div id="mid">
+            <h1>SurveyMonkey Help Center</h1>
+            <h3>What do you need help with</h3>
+            <input type="text"  id="search" placeholder="Search">
+        </div>
+        <div id="login">
+        <button>Log in</button>
+        </div>
+    </div>
+    <h1 id="browse">Browse help topics</h1>
+    <div id="links">
+        <div>
+            <img src="data:image/png;base64,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" alt="">
+
+      <h2>Creating Surveys</h2>
+      <a href="#">How to create a survey</a>
+      <br>
+      
+      <a href="#">Question Type</a>
+      <br>
+      <a href="#">Creating Surveys from Templates</a>
+      <br>
+      <a href="#">Previewing & Testing Surveys </a>
+      <br>
+      <a href="#"><h3>View All</h3></a>
+</div>
+        <div>
+            <img src="data:image/png;base64,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" alt="">
+            <h1>Sending Surveys</h1>
+            <a href="">Ways to Send Your Survey</a>
+            <br>
+            <a href="">Sending Surveys via Email Invitation</a>
+            <br>
+            <a href="">Managing Survey Collector Options</a>
+            <br>
+            <a href="">Buying Responses with SurveyMonkey</a>
+            <br>
+            <a href="">Audience</a>
+            <br>
+            <a href=""><h3>View all</h3></a>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQvMw-Gj8UmEWxQeXzhnXW2_hgRg10Tp5NiQ&usqp=CAU" alt="">
+            <h2>Analyzing Results</h2>
+            <a href="">How to Analyze Survey Results</a>
+            <br>
+            <a href="">Viewing Individual Responses</a>
+            <br>
+            <a href="">Chart Types</a>
+            <br>
+            <a href="">Sharing Survey Results</a>
+            <br>
+            <a href=""><h3>View all</h3></a>
+        </div>
+        <div>
+   <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSvBxZiZFkufAPgTo4_4SnUw2YQBH4SUXcJRA&usqp=CAU" alt="">
+            <h2>Payment & Billing</h2>
+            <a href="">Payment Methods</a>
+            <br>
+            
+            <a href="">SurveyMonkey Plans</a>
+            <br>
+            <a href="">Billing Details,Invoices,& Payment</a>
+            <br>
+            <a href="">History</a>
+            <br>
+            <a href=""><h3>View all</h3></a>
+        </div>
+        <div>
+            <img src="data:image/png;base64,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" alt="">
+
+            <h2>Teams & Enterprise</h2>
+            <a href="">Team Seats,Roles,& Permissions</a>
+            <br>
+            <a href="">Working with Others on Surveys</a>
+            <br>
+            <a href="">Learn about Enterprise Features</a>
+            <br>
+            <a href=""><h3>View all</h3></a>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSVe61SSfZaMr4Zf-AlvIzjv_zPl2nQhgXz4A&usqp=CAU" alt="">
+            <h2>Your Account</h2>
+            <a href="">How to Sign Up or Upgrade</a>
+            <br>
+            <a href="">Logging in to Your Account</a>
+            <br>
+            <a href="">Your Email,Username,and Password</a>
+            <br>
+            <a href=""><h3>View all</h3></a>
+        </div>
+    </div>
+    <button id="help">See all help topics</button>
+
+    <div id="get">
+        <h2>Get started</h2>
+        <p>Learn how to create,preview,and send a survey.</p>
+        <button>Read the article</button>
+    </div>
+    <div id="thumbnail">
+         <p><a href="https://help.surveymonkey.com/en/?wvideo=t0sh8fy1vn"><img src="https://embed-ssl.wistia.com/deliveries/625c2655deea36c48a20236529acc674.jpg?image_play_button_size=2x&amp;image_crop_resized=960x540&amp;image_play_button=1&amp;image_play_button_color=00bf6fe0" width="400" height="225" style="width: 400px; height: 225px;"></a></p><p></p>
+    </div>
+    <div id="whats">
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGnYL7AfRNc9gnJ4EMzxPITFBfVhdyNjonmA&usqp=CAU" alt="">
+            <h1>What's new</h1>
+            <a href="">Covid-19 resources</a>
+            <br>
+            <a href="">Click Map Question Type</a>
+            <br>
+            <a href="">Symptom Tracking Survey</a>
+            <br>
+            <a href="">Multilingual Surveys</a>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQw29mm18udJqskKmhznaFoTLvDz0-GoTfDBg&usqp=CAU" alt="">
+            <h2>Top articles</h2>
+            <a href="">Resetting Your Password</a>
+            <br>
+            <a href="">sharing Surveys with Your Team</a>
+            <br>
+            <a href="">How to Pay by Invoice</a>
+            <br>
+            <a href="">Creating a Link For Your Survey</a>
+        </div>
+        <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRqfM_kcIYp04ChISap57SbKOQh4pZK_T0MdQ&usqp=CAU" alt="">
+            <h2>More resources</h2>
+            <a href="">SurveyMonkey Site Staus </a>
+            <br>
+            <a href="">Case Studies & Guides</a>
+            <br>
+            <a href="">Survey Templates</a>
+            <br>
+            <a href="">Legal & Policy Center</a>
+        </div>
+    </div>
+    <div id="more">
+    <h1>Get more help</h1>
+    <p>Find help for other products</p>
+</div>
+<div id="sites">
+    <img src="https://prod.smassets.net/assets/cms/help/uploads//logo-getfeedback-1.png" alt="">
+    <img src="https://prod.smassets.net/assets/cms/help/uploads//logo-momentive-homepage-e1638486908250.png" alt="">
+    <img src="https://prod.smassets.net/assets/cms/help/uploads//logo-wufoo.png" alt="">
+    <img src="https://prod.smassets.net/assets/cms/help/uploads//logo-smaudience-2048x454.png" alt="">
+    <img src="https://prod.smassets.net/assets/cms/help/uploads//logo-smapply-2048x454.png" alt="">
+    
+</div>
+<div id="foot">
+    <div id="select">
+        <select name="" id="">
+            <option value="">English</option>
+        </select>
+    </div>
+    <div>
+        <h3>Company</h3>
+        <a href="">SurveyMonkey</a>
+        <br>
+        <a href="">About Us</a>
+        <br>
+        <a href="">Jobs</a>
+        <br>
+        <a href="">Blog</a>
+        <br>
+    </div>
+    <div>
+        <h3>Help</h3>
+        <a href="">SurveyMonkey Help</a>
+        <br>
+        <a href="">GetFeedback  Help</a>
+        <br>
+        <a href="">Momentive Market Insights Help</a>
+        <br>
+        <a href="">SurveyMonkey Audience Help</a>
+        <br>
+        <a href="">SurveyMonkey Contribute Help</a>
+        <br>
+        <a href="">Wufoo Help</a>
+        <br>
+        <a href="">Apply Help</a>
+        <br>
+            <a href="">TechValidateapply Help</a>
+    </div>
+    <div>
+        <h3>Support</h3>
+        <a href="">Site Status</a>
+        <br>
+        <a href="">Unsubscribe</a>
+        <br>
+        <a href="">Contact Us</a>
+        <br>
+        <a href="">Email opt-In</a>
+        </div>
+    <div>
+        <h3>Policies</h3>
+        <a href="">Legal Center</a>
+        <br>
+        <a href="">Privacy Policy</a>
+        <br>
+        <a href="">Cookies Notice</a>
+        <br>
+        <a href="">California Privacy Notice</a>
+        <br>
+        <a href="">Cookies Prefrence</a>
+    </div>
+   
+</div>
+<div id="bottom">
+    <img src="https://www.bing.com/th?id=OIP.UXif4Hs_ghTkBZe88mTWtwHaDy&w=349&h=178&c=8&rs=1&qlt=90&o=6&pid=3.1&rm=2" alt="">
+    <img src="https://th.bing.com/th/id/OIP.mJA6kkQhDqdEILSFA1qL8wAAAA?w=169&h=169&c=7&r=0&o=5&pid=1.7" alt="">
+</div>
+</body>
+</html>
