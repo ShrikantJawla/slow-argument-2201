@@ -354,8 +354,8 @@ a {
   align-items: center;
   cursor: pointer;
 }
-#sidemenu > i {
-  color: grey;
+#ico {
+  color: #f0f0f0;
 }
 #sidenavbar {
   visibility: hidden;
@@ -367,6 +367,8 @@ a {
   overflow-y: scroll;
   -ms-overflow-style: none;
   scrollbar-width: none;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
 }
 #sidenavbar::-webkit-scrollbar {
   display: none;

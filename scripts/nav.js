@@ -1,7 +1,8 @@
 /** @format */
 
 function nav() {
-	return `
+  return `
+  <div id="sidenavbar"></div>
     <div id="navbar">
     <div id="sidebar">
       <div id="sidemenu"><i class="fa-solid fa-bars"></i></div>
@@ -23,12 +24,12 @@ function nav() {
           <li id="Resources">
             Resources <i class="fa-solid fa-angle-down"></i>
           </li>
-          <li><a href="#">Plan & Pricing</a></li>
+          <li><a href="plansandpricing.html">Plan & Pricing</a></li>
         </ul>
       </div>
       <div id="user">
         <ul class="opt">
-          <li><a href="#">Log in</a></li>
+          <li><a href="login.html">Log in</a></li>
           <li id="signup"><a href="signup.html">Sign up free</a></li>
         </ul>
       </div>
@@ -37,7 +38,7 @@ function nav() {
     `;
 }
 function Products() {
-	return `<div class="subnav">
+  return `<div class="subnav">
   <div class="sub1">
     <div class="subm">
       <h5>Surveys</h5>
@@ -150,7 +151,7 @@ function Products() {
   </div>`;
 }
 function Solutions() {
-	return `<div class="subnav">
+  return `<div class="subnav">
   <div class="sub1">
     <div class="subm">
       <h5>Survey Types</h5>
@@ -254,9 +255,9 @@ function Solutions() {
 </div>`;
 }
 function Resources() {
-	return `<div class="subnav1">
+  return `<div class="subnav1">
   <div id="subnav1-1">
-    <a href="#"
+    <a href="resources.html"
       ><div>
         <h3>Resources</h3>
         <p>Best practices for using surveys & survey data</p>
@@ -284,10 +285,11 @@ function Resources() {
 </div>`;
 }
 function difnav() {
-
-  return `<div id="navbar">
-  <div id="sidebar" class="classcolor">
-      <div id="sidemenu"><i class="fa-solid fa-bars"></i></div>
+  return `
+  <div id="sidenavbar"></div>
+  <div id="navbar">
+  <div id="sidebar" >
+      <div id="sidemenu"><i class="fa-solid fa-bars classcolor" ></i></div>
     </div>
     <div id="logo"><a href="index.html"><img id="navlogo"
     src="https://prod.smassets.net/assets/website/2.182.0/images/logo-surveymonkey-white.svg"
@@ -306,7 +308,7 @@ function difnav() {
         <li id="Resources" class="classcolor">
           Resources <i class="fa-solid fa-angle-down classcolor"></i>
         </li>
-        <li><a href="#" class="classcolor">Plan & Pricing</a></li>
+        <li><a href="individualplan.html" class="classcolor">Plan & Pricing</a></li>
       </ul>
     </div>
     <div id="user">
