@@ -21,7 +21,7 @@ steps how to import footer:
          footer.innerHTML = mainFooter();
       </script>
 3. paste this link inside head tag:
-      <link rel="stylesheet" href="./styles/footer.css">
+      <link rel="stylesheet" href="./styles/mainfooter.css">
 NOTE: you can change id-names as per your choice.
 
 
