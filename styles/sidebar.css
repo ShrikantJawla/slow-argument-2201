@@ -1,0 +1,163 @@
+#sidebaroptions {
+  display: flex;
+  flex-direction: column;
+}
+
+.opt1 li {
+  margin: auto;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 50px;
+  padding: 0 20px;
+}
+.opt1 li:hover {
+  background: #f0f0f0;
+}
+.sidesubnav {
+  background-color: #f0f0f0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0 30px;
+}
+.sidesubm {
+  margin: 20px 0;
+}
+.sidesubm1 {
+  margin: auto auto auto -20px;
+}
+.sidesubm1 h3 {
+  color: #007faa;
+  font-size: 14px;
+}
+.sidesubm1 > ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  line-height: 20px;
+}
+.sidesubm1 > ul p {
+  font-size: 12px;
+  margin-top: 4px;
+  color: #73747a;
+  font-weight: 400;
+}
+#sideallproducts,
+#sideallproducts i {
+  color: #007faa;
+  margin: 10px 0;
+}
+#sideallproducts {
+  font-size: 14px;
+}
+#sideallproducts:hover {
+  text-decoration: underline;
+}
+#sideallproducts > i {
+  margin-left: 5px;
+  width: 14px;
+}
+.sidesubm4 {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sidesubm4 > div {
+  display: flex;
+  flex-direction: column;
+}
+.sidesubm4 > div > a {
+  font-size: 14px;
+  line-height: 24px;
+  height: 24px;
+  color: #007faa;
+}
+.sidesubm4 > div > a:hover {
+  text-decoration: underline;
+}
+
+#sideetype > a {
+  font-weight: bold;
+  font-size: 13px;
+  margin-bottom: 20px;
+}
+#sideetype > a > i {
+  margin-left: 5px;
+  color: #007faa;
+}
+#sidesubnav1-1 > a > div > h3 {
+  margin-top: 15px;
+  margin-left: 20px;
+  color: #007faa;
+  font-size: 14px;
+}
+#sidesubnav1-1 > a > div > p {
+  margin-top: 10px;
+  margin-left: 20px;
+  color: #73747a;
+  margin-bottom: 20px;
+  font-size: 12px;
+}
+#sidesubnav1-1 > a {
+  width: 100%;
+  margin: 17px 0;
+}
+#sidesubnav1-2 > a > i {
+  color: #007faa;
+}
+#sidesubnav1-2 {
+  margin-bottom: 10px;
+}
+#sidesubnav1-2 > a {
+  margin-left: 20px;
+  color: #007faa;
+  font-size: 12px;
+  font-weight: bold;
+}
+#sidesubnav1-2 > a:hover {
+  text-decoration: underline;
+}
+#sideuserbutton {
+  margin: 20px auto;
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.sidebtn,
+.sidebtn2 {
+  height: 40px;
+  width: 100%;
+  cursor: pointer;
+  font-size: 14px;
+  border-radius: 5px;
+  border: 1px solid black;
+  background-color: transparent;
+  font-weight: bold;
+}
+.sidebtn2 {
+  border: #00bf6f;
+  background-color: #00bf6f;
+  color: #ffff;
+}
+.sidebtn2:hover {
+  background-color: #00ce78;
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  #sideuserbutton {
+    visibility: hidden;
+    width: 0;
+  }
+}
+@media only screen and (max-width: 767px) {
+  #sideuseruserbutton {
+    visibility: visible;
+  }
+}
+@media only screen and (min-width: 993px) {
+  #sidebaroptions {
+    visibility: collapse;
+  }
+}
