@@ -55,13 +55,29 @@ a{
     border: 1px solid #D0D2D3;
     margin-top: 10px;
 }
-button{
+.button-disabled{
+    width: 100%;
+    padding: 16px;
+    background-color: rgba(0, 191, 137, 0.36);
+    color: rgba(255, 255, 255, 0.834);
+    border: 0px;
+    cursor: not-allowed;
+}
+.button-enabled{
     width: 100%;
     padding: 16px;
     background-color: #00bf6f;
     color: white;
     border: 0px;
+    cursor:pointer;
 }
+/* button{
+    width: 100%;
+    padding: 16px;
+    background-color: rgba(0, 191, 137, 0.36);
+    color: rgba(255, 255, 255, 0.834);
+    border: 0px;
+} */
 .social>div div:hover,
 .social a:hover{
     box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;

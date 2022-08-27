@@ -1,5 +1,7 @@
+/** @format */
+
 function nav() {
-  return `
+	return `
     <div id="navbar">
     <div id="sidebar">
       <div id="sidemenu"><i class="fa-solid fa-bars"></i></div>
@@ -35,7 +37,7 @@ function nav() {
     `;
 }
 function Products() {
-  return `<div class="subnav">
+	return `<div class="subnav">
   <div class="sub1">
     <div class="subm">
       <h5>Surveys</h5>
@@ -148,7 +150,7 @@ function Products() {
   </div>`;
 }
 function Solutions() {
-  return `<div class="subnav">
+	return `<div class="subnav">
   <div class="sub1">
     <div class="subm">
       <h5>Survey Types</h5>
@@ -252,7 +254,7 @@ function Solutions() {
 </div>`;
 }
 function Resources() {
-  return `<div class="subnav1">
+	return `<div class="subnav1">
   <div id="subnav1-1">
     <a href="#"
       ><div>
@@ -282,6 +284,7 @@ function Resources() {
 </div>`;
 }
 function difnav() {
+
   return `<div id="navbar">
   <div id="sidebar" >
       <div id="sidemenu" class="classcolor"><i class="fa-solid fa-bars"></i></div>
