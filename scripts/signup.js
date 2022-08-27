@@ -36,3 +36,10 @@ function saveData() {
 	checkboxOne.checked = false;
 	window.location.href = "./createpassword.html";
 }
+
+function submitOnEnter(event) {
+	if (event.key === "Enter") {
+		event.preventDefault();
+		saveData();
+	}
+}
