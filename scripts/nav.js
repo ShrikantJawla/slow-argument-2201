@@ -4,6 +4,7 @@ function nav() {
 	return `
     <div id="navbar">
       <div id="logo"><a href="./index.html"><img
+      <div id="logo"><a href="index.html"><img
       src="https://prod.smassets.net/assets/website/2.182.0/images/logo-surveymonkey.svg"
       alt=""
     /></a>
