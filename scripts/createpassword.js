@@ -2,8 +2,6 @@
 
 let data = JSON.parse(localStorage.getItem("lastSavedEmail"));
 let wholeData = JSON.parse(localStorage.getItem("signUpData-CW")) || [];
-console.log(data);
-console.log(wholeData);
 function enableButton() {
 	let input1 = document.querySelector(".pass-input1").value;
 	let input2 = document.querySelector(".pass-input2").value;
@@ -31,4 +29,10 @@ function savePass() {
 	document.querySelector(".pass-input1").value = null;
 	document.querySelector(".pass-input2").value = null;
 	window.location.href = "./login.html";
+}
+function submitOnEnter(event) {
+	if (event.key === "Enter") {
+		event.preventDefault();
+		savePass();
+	}
 }

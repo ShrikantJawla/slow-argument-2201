@@ -19,15 +19,21 @@ function login() {
 	let input = document.getElementById("email").value;
 	let istrue = false;
 	wholeData.forEach((ele) => {
-        if (ele.email === input) {
-            istrue = true;
-            localStorage.setItem("lastLoginedEmail", ele.email);
-            document.getElementById("email").value = null;
-            window.location.href = "./password.html";
-        }
+		if (ele.email === input) {
+			istrue = true;
+			localStorage.setItem("lastLoginedEmail", ele.email);
+			document.getElementById("email").value = null;
+			window.location.href = "./password.html";
+		}
 	});
-    if (!istrue) {
-        alert("No such user exists!");
+	if (!istrue) {
+		alert("No such user exists!");
 		return;
+	}
+}
+function submitOnEnter(event) {
+	if (event.key === "Enter") {
+		event.preventDefault();
+		login();
 	}
 }

@@ -23,6 +23,7 @@ function finalLogin() {
 	wholeData.forEach((ele) => {
 		if (ele.email === enteredEmail && ele.password === pass) {
 			isTrue = true;
+			localStorage.setItem('isSignedIn', true);
 			document.querySelector(".pass-input").value = null;
 			window.location.href = "./index.html";
 		}
@@ -30,5 +31,11 @@ function finalLogin() {
 	if (!isTrue) {
 		alert("No Such user Exists please check Password!");
 		return;
+	}
+}
+function submitOnEnter(event) {
+	if (event.key === "Enter") {
+		event.preventDefault();
+		finalLogin();
 	}
 }
