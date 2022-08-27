@@ -6,8 +6,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./styles/page_loading_animation.css">
     <script src="./components/page_loading_animation.js"></script>
-    <link rel="stylesheet" href="./styles/login.css">
-    <title>Log In</title>
+    <link rel="stylesheet" href="./styles/signup.css">
+    <title>Sign Up</title>
     
 </head>
 <body onload="loaderAnimation()">
@@ -19,32 +19,41 @@
 <div id="form">
     <div class="signup">
         <p>
-            Don’t have an account? <a href="signup.html">Sign up</a>
+            Already have an account? <a href="login.html">Log In</a>
         </p>
     </div>
-    <h1>Log in</h1>
+    <h1>Create an account</h1>
     <label>
-        Email address <b> NEW!</b>
+        Email address
     </label>
     <div class="input-email">
         <input id="email" type="email" aria-required="true" aria-label="Email address">
     </div>
-    <p>
-        <a href="#">Forgot email?</a>
-    </p>
-    <button type="submit" disabled="">
+    <div class="c1">
+        <div>
+            <input type="checkbox" id="terms">
+        </div>
+            <label>
+                You agree to the <a href="#">Terms of Use </a>and <a href="#">Privacy Notice.</a>
+            </label>
+    </div>
+    <div class="c2">
+        <div>
+            <input type="checkbox" id="agree">
+        </div>
+            <label>
+                You agree to receive product news and special promotions via email. You can opt-out of these emails in your My Account page anytime.
+            </label>
+    </div>
+    
+    <button type="submit" disabled="" id="next">
         Next
     </button>
     <hr>
-    <div class="sso">
+    <div>
         <p>
-            Or log in with
+            Or sign up with
         </p>
-    <button>
-        <a href="#">
-            <img style="width: 10px; height: 10px;" src="https://th.bing.com/th/id/OIP.BXw4zyZ3HYSQ9c8VvfxOLAHaH9?pid=ImgDet&w=197&h=211&c=7" alt=""> SSO
-        </a>
-    </button>
     </div>
         <div class="social">
         <div>
