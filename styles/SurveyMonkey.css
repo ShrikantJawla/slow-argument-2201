@@ -1,0 +1,423 @@
+/* #navbar {
+    height: 75px;
+    width: 100%;
+    border: 2px solid goldenrod;
+} */
+#surveyM-div1 {
+    /* height: 100%; */
+    width: 100%;
+    /* border: 2px solid blueviolet; */
+    display: flex;
+    margin: auto;
+}
+#surveyM-div1>.surveyM-innerDiv1>.feedback{
+    /* border: 1px solid black; */
+    /* height: 100%; */
+    width: 80%;
+    margin-left: 40px;
+}
+#surveyM-div1>.surveyM-innerDiv1>.feedback>button{
+    margin: 15px;
+}
+#surveyM-div1>.surveyM-innerDiv1{
+    height: auto;
+    width: 50%;
+    /* border: 2px solid yellow; */
+    padding: 5% 3% 5% 3%;
+    /* margin-bottom: %; */
+}
+.surveyM-heading {
+    font-size: 40px;
+    margin: 15px;
+}
+.surveyM-paraHead {
+    font-size: 20px;
+    margin-left: 18px;
+}
+.surveyM-innerDiv1>.feedback>.surveyM-proSignUp{
+    background-color: #00bf6f;
+    border: 0px;
+    border-radius: 3px;
+    color: white;
+    font-size: large;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    padding: 2% 2% 2% 2%;
+    margin-right: 2%;
+    font-size: 15px;
+}
+.surveyM-innerDiv1>.feedback>.surveyM-signUp{
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+    color: black;
+    font-size: large;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    align-items: center;
+    padding: 2% 2% 2% 2%;
+    margin-left: 2%;
+    font-size: 15px;
+}
+#surveyM-div1>.surveyM-innerDiv2{
+    height: 470px;
+    width: 50%;
+    /* border: 2px solid yellowgreen; */
+}
+#plans {
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    /* border: 1px solid red; */
+    font-size: larger;
+}
+#plansText {
+    /* border: 1px solid yellow; */
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    font-size: larger;
+}
+#planChart {
+    display: flex;
+    padding: 1% 5% 1% 10%;
+    /* border: 1px solid violet; */
+    /* height: 400px; */
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    text-align: center;
+    align-items: center;
+    gap: 2%;
+}
+#planChart > .planChart-1{
+    /* border: 1px solid red; */
+    height: 90%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.indiAd1 {
+    width: 100%;
+    border: 1px solid #00bf6f;
+    background-color: #00bf6f;
+    font-size: 15px;
+    font-style: normal;
+    /* color: #eceded; */
+    font-size: larger;
+    font-weight: bolder;
+    padding: 10px;
+}
+.indiAd1>h3{
+    color: white;
+}
+.indiAd2{
+    padding: 20px;
+}
+.indiAd2>h3{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.indiAd3 > button {
+    width: 45%;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: #00bf6f;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
+#planChart > .planChart-2{
+    /* border: 1px solid red; */
+    height: 90%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.teamAd1 {
+    width: 100%;
+    border: 1px solid #05467e;
+    background-color: #05467e;
+    font-size: 15px;
+    font-size: larger;
+    font-style: normal;
+    font-weight: bolder;
+    padding: 10px;
+}
+.teamAd1>h3{
+    color: white;
+}
+.teamAd2{
+    padding: 20px;
+}
+.teamAd2>h3{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.teamAd3 > button {
+    width: 45%;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: #05467e;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
+#planChart > .planChart-3{
+    /* border: 1px solid red; */
+    height: 90%;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+.teamPre1 {
+    width: 100%;
+    border: 1px solid #53225b;
+    background-color: #53225b;
+    font-size: 15px;
+    font-size: larger;
+    font-weight: bolder;
+    font-style: normal;
+    padding: 10px;
+}
+.teamPre1>h3{
+    color: white;
+}
+.teamPre2{
+    padding: 20px;
+}
+.teamPre2>h3{
+    font-size: 50px;
+    font-weight: bolder;
+}
+.teamPre3 > button {
+    width: 45%;
+    align-items: center;
+    text-align: center;
+    padding: 15px;
+    background-color: #53225b;
+    border: 0px;
+    color: white;
+    font-size: 15px;
+    margin: 10px;
+}
+#solution {
+    /* border: 1px solid violet; */
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+}
+#solution-para {
+    /* border: 1px solid black; */
+    padding: 20px;
+    text-align: center;
+    align-items: center;
+    font-size: larger;
+}
+#contactUs {
+    /* border: 1px solid yellow; */
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+}
+.contactUs-1-1{
+    /* border: 1px solid black; */
+    margin: auto;
+    align-items: center;
+    margin-top: 100px;
+    width: 70%;
+    font-size: larger;
+}
+#contactUs > .contactUs-2 {
+    height: 100%;
+    /* border: 1px solid red; */
+    background-color: #f7f7f7;
+    padding-top: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 20px;
+}
+#contactUs > .contactUs-2 > #requiredInfo {
+    /* border: 1px solid red; */
+    margin: 10px;
+}
+.contactUs-2 > input{
+    border: 1px solid #b6b5b5;
+    height: 25px;
+    width: 200px;
+}
+.contactUs-2 > button{
+    width: 40%;
+    /* align-items: center;
+    text-align: center; */
+    padding: 2%;
+    background-color: #00bf6f;
+    border: 0px;
+    font-size: larger;
+    color: white;
+}
+#contactUs > .contactUs-2 > .checkBox {
+    margin: 10px;
+}
+#blank{
+    height: 10px;
+    background-color: white;
+}
+#howSMworks {
+    width: 100%;
+    /* border: 1px solid royalblue; */
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    font-size: larger;
+    background-color: #f7f7f7;
+}
+#how-SM-Works {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    /* border: 1px solid yellow; */
+}
+.how-SM-Works-1 {
+    /* border: 1px solid red; */
+    /* height: 100%; */
+    width: 100%;
+}
+.how-SM-Works-1 > img {
+    height: 80%;
+    width: 80%;
+    /* border: 1px solid blue; */
+    margin-top: 5%;
+    margin-left: 10%;
+}
+.how-SM-Works-2 {
+    /* border: 1px solid brown; */
+    align-items: center;
+    font-size: larger;
+    padding-left: 70px;
+    padding-top: 105px;
+}
+.how-SM-Works-2-heading{
+    font-weight: bolder;    
+}
+#buildSuccess {
+    /* border: 1px solid violet; */
+    /* margin: auto; */
+    text-align: center;
+    align-items: center;
+}
+#buildSuccess-para {
+    /* border: 1px solid red; */
+    padding: 10px 0px 20px 0px;
+    text-align: center;
+    align-items: center;
+    /* height: 100px; */
+}
+#buildSuccess {
+    /* border: 1px solid violet; */
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    font-size: larger;
+}
+#buildSuccess-para {
+    /* border: 1px solid red; */
+    text-align: center;
+    align-items: center;
+    padding: 20px;
+    font-size: larger;
+}
+#whyRelyOnSM > .mainSM {
+    /* display: flex; */
+    /* margin: auto; */
+    /* border: 1px solid violet; */
+    height: auto;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    padding-left: 10%;
+    margin-top: 8px;
+}
+#whyRelyOnSM > .mainSM > .whyRely-1 {
+    /* border: 1px solid red; */
+    align-items: center;
+}
+#whyRelyOnSM > .mainSM > .whyRely-1 > img {
+    height: 100%;
+    width: 100%;
+}
+#whyRelyOnSM > .mainSM > .whyRely-2 {
+    /* border: 1px solid red; */
+    text-align: center;
+    align-items: center;
+    background-color: #f7f7f7;
+    /* margin: auto; */
+    /* padding: 17% 3% 10% 3%; */
+    padding: 70px 10px;
+}
+#whyRelyOnSM > .mainSM > .whyRely-2 > h2 {
+    margin: 5px;
+}
+#whyRelyOnSM > .mainSM > .whyRely-2 > p {
+    margin: 5px;
+}
+#whyRelyOnSM > .mainSM > .whyRely-2 > button {
+    border: 1px solid rgb(54, 48, 48);
+    border-radius: 3px;
+    background-color: white;
+    font-size: medium;
+    padding: 1% 3% 1% 3%;
+    margin: 10px;
+}
+#whyRelyOnSM > .mainSM > .whyRely-3 {
+    /* border: 1px solid red; */
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    height: 100%;
+    justify-content: center;
+}
+#whyRelyOnSM > .mainSM > .whyRely-3 > .intuit {
+    /* border: 1px solid yellow; */
+    background-color: #05467e;
+    align-items: center;
+}
+#whyRelyOnSM > .mainSM > .whyRely-3 > .box {
+    /* border: 1px solid green; */
+    background-color: #f7f7f7;
+    align-items: center;
+    /* height: 100%; */
+}
+#whyRelyOnSM > .mainSM > .whyRely-3 > .johnson {
+    /* border: 1px solid olive; */
+    background-color: #eceded;
+    align-items: center;
+    /* height: 100%; */
+}
+#whyRelyOnSM > .mainSM > .whyRely-3 > .cisco {
+    /* border: 1px solid blue; */
+    background-color: #53225b;
+    align-items: center;
+    /* height: 100%; */
+}
+#com{
+    padding: 80px 0px 30px 0px;
+}
+#getStarted {
+    align-items: center;
+    text-align: center;
+    padding: 5% 5% 5% 5%;
+    /* border: 1px solid #05467e; */
+    font-size: larger;
+    background-color: #f7f7f7;
+}
+#getStarted > button {
+    background-color: #00bf6f;
+    border: 0px;
+    border-radius: 2%;
+    color: white;
+    font-size: large;
+    height: 60px;
+    width: 300px;
+    text-align: center;
+    align-items: center;
+    margin: 2% 2% 2% 2%;
+}

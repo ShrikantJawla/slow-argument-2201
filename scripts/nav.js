@@ -3,7 +3,7 @@
 function nav() {
 	return `
     <div id="navbar">
-      <div id="logo"><a href="index.js"><img
+      <div id="logo"><a href="./index.html"><img
       src="https://prod.smassets.net/assets/website/2.182.0/images/logo-surveymonkey.svg"
       alt=""
     /></a>
@@ -42,7 +42,7 @@ function Products() {
     <div class="subm1">
       <ul>
         <li>
-          <a href="#"
+          <a href="./SurveyMonkeyTakeaTour.html"
             ><span></span>
             <h3>SurveyMonkey</h3>
             <p>
