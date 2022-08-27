@@ -1,40 +1,40 @@
-/** @format */
-
 function nav() {
-  return `<div id="navbar">
-  <div id="logo"><a href="index.html"><img id="navlogo"
-  src="https://prod.smassets.net/assets/website/2.182.0/images/logo-surveymonkey.svg"
-  alt=""
-/></a>
-    
-  </div>
-  <div id="options">
-    <ul class="opt">
-      <li id="Products">
-        Products <i class="fa-solid fa-angle-down"></i>
-      </li>
-      <li id="Solutions">
-        Solutions <i class="fa-solid fa-angle-down"></i>
-      </li>
-      <li id="Resources">
-        Resources <i class="fa-solid fa-angle-down"></i>
-      </li>
-      <li><a href="#">Plan & Pricing</a></li>
-    </ul>
-  </div>
-  <div id="user">
-    <ul class="opt">
-      <li><a href="#">Log in</a></li>
-      <li id="signup"><a id="signupa" href="signup.html">Sign up free</a></li>
-    </ul>
-  </div>
-</div>
-<div id="menu"></div>`;
+  return `
+    <div id="navbar">
+      <div id="logo"><a href="index.html"><img
+      src="https://prod.smassets.net/assets/website/2.182.0/images/logo-surveymonkey.svg"
+      alt=""
+    /></a>
+        
+      </div>
+      <div id="options">
+        <ul class="opt">
+          <li id="Products">
+            Products <i class="fa-solid fa-angle-down"></i>
+          </li>
+          <li id="Solutions">
+            Solutions <i class="fa-solid fa-angle-down"></i>
+          </li>
+          <li id="Resources">
+            Resources <i class="fa-solid fa-angle-down"></i>
+          </li>
+          <li><a href="#">Plan & Pricing</a></li>
+        </ul>
+      </div>
+      <div id="user">
+        <ul class="opt">
+          <li><a href="#">Log in</a></li>
+          <li id="signup"><a href="signup.html">Sign up free</a></li>
+        </ul>
+      </div>
+    </div>
+    <div id="menu"></div>
+    `;
 }
 function Products() {
-	return `<div class="subnav">
+  return `<div class="subnav">
   <div class="sub1">
-    <div class="subm" >
+    <div class="subm">
       <h5>Surveys</h5>
     </div>
     <div class="subm1">
@@ -145,7 +145,7 @@ function Products() {
   </div>`;
 }
 function Solutions() {
-	return `<div class="subnav">
+  return `<div class="subnav">
   <div class="sub1">
     <div class="subm">
       <h5>Survey Types</h5>
@@ -179,7 +179,7 @@ function Solutions() {
     <div class="subm1">
         <ul>
           <li>
-            <a href="#"
+            <a href="customer-feedback.html"
               ><span></span>
               <h3>Customers</h3>
               <p>
@@ -188,7 +188,7 @@ function Solutions() {
             </a>
           </li>
           <li>
-            <a href="#"
+            <a href="employee-feedback.html"
               ><span></span>
               <h3>Employees</h3>
               <p>Build a stronger workforce with Employee Powered Data</p>                      </a>
@@ -218,7 +218,7 @@ function Solutions() {
               </a>
             </li>
             <li>
-              <a href="#"
+              <a href="hr-solutions.html"
                 ><span></span>
                 <h3>Human Resources</h3>
                 <p>Improve your employee experience, engagement & retention</p>
@@ -232,7 +232,7 @@ function Solutions() {
               </a>
             </li>
             <li>
-              <a href="#"
+              <a href="education-solutions.html"
                 ><span></span>
                 <h3>Education</h3>
                 <p>Elevate your student experience and become a data-driven institution</p>
@@ -249,7 +249,7 @@ function Solutions() {
 </div>`;
 }
 function Resources() {
-	return `<div class="subnav1">
+  return `<div class="subnav1">
   <div id="subnav1-1">
     <a href="#"
       ><div>

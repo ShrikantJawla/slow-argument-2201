@@ -65,8 +65,6 @@ function navonscroll() {
   if (window.pageYOffset > fixed) {
     navbar.classList.add("fixed");
     navbar.style.background = "#fff";
-    navlogo.src =
-      "https://prod.smassets.net/assets/website/2.182.0/images/logo-surveymonkey.svg";
   } else {
     navbar.classList.remove("fixed");
   }

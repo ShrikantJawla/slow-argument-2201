@@ -125,13 +125,14 @@
 }
 /* ---------------------------------------- */
 .right_container {
-	height: 540px;
+	position: relative;
+	height: 500px;
 	padding: 25px 25px;
 	overflow-y: scroll;
 	display: grid;
 	grid-template-columns: repeat(4, 1fr);
 	gap: 14px;
-	grid-template-rows: 200px;
+	grid-template-rows: auto;
 }
 .cards {
 	cursor: pointer;
@@ -160,8 +161,8 @@
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
-	top: 32%;
-	left: 37%;
+	top: 28%;
+	left: 15%;
 	text-align: center;
 }
 .cantFindResults h1 {
@@ -232,7 +233,7 @@
 		display: grid;
 		grid-template-columns: 100%;
 		gap: 120px;
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 	.left_container {
 		padding: 25px 25px;
@@ -266,7 +267,11 @@
 	}
 }
 @media (max-width: 400px) {
+	.survey_template_container {
+		/* border: 1px solid red;s */
+	}
 	.right_container {
+		/* border: 1px solid red; */
 		padding: 10px 10px;
 		grid-template-columns: 90%;
 	}
