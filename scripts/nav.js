@@ -1,6 +1,9 @@
 function nav() {
   return `
     <div id="navbar">
+    <div id="sidebar">
+      <div id="sidemenu"><i class="fa-solid fa-bars"></i></div>
+    </div>
       <div id="logo"><a href="index.html"><img
       src="https://prod.smassets.net/assets/website/2.182.0/images/logo-surveymonkey.svg"
       alt=""
@@ -278,4 +281,5 @@ function Resources() {
 </div>
 </div>`;
 }
+
 export { nav, Products, Solutions, Resources };

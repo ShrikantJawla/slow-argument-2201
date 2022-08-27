@@ -34,6 +34,7 @@ a {
   margin: auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 #logo {
   width: 180px;
@@ -43,7 +44,7 @@ a {
   cursor: pointer;
 }
 #options {
-  width: calc(100% - 380px);
+  width: 70%;
   height: 100%;
   display: flex;
 }
@@ -266,9 +267,16 @@ a {
 #subnav1-2 > a:hover {
   text-decoration: underline;
 }
+
 @media only screen and (min-width: 670px) and (max-width: 992px) {
   #options {
     visibility: hidden;
+    width: 0;
+  }
+  #sidebar {
+    visibility: visible;
+    width: 20%;
+    margin-left: 0;
   }
 }
 @media only screen and (max-width: 670px) {
@@ -280,4 +288,44 @@ a {
   #navbar {
     justify-content: center;
   }
+  #sidebar {
+    position: absolute;
+    left: 15px;
+    visibility: visible;
+    width: 20%;
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 993px) {
+  #sidebar {
+    visibility: hidden;
+    width: 0;
+  }
+}
+#sidemenu {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#sidemenu > i {
+  color: grey;
+}
+#sidenavbar {
+  visibility: hidden;
+  width: 70%;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+#sidenavbar::-webkit-scrollbar {
+  display: none;
 }
