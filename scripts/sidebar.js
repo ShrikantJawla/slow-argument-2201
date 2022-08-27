@@ -1,6 +1,6 @@
 function sideoption() {
   return `<div id="sidebaroptions">
-    <ul class="opt1">
+    <ul class="sideopt1">
       <li id="products">
         Products <i class="fa-solid fa-angle-down"></i>
       </li>

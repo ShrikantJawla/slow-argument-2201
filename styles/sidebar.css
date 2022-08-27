@@ -3,7 +3,7 @@
   flex-direction: column;
 }
 
-.opt1 li {
+.sideopt1 li {
   margin: auto;
   width: 100%;
   display: flex;
@@ -12,7 +12,7 @@
   height: 50px;
   padding: 0 20px;
 }
-.opt1 li:hover {
+.sideopt1 li:hover {
   background: #f0f0f0;
 }
 .sidesubnav {
