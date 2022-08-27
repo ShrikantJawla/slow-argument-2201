@@ -1,0 +1,122 @@
+        *{
+            color:#333e48;
+            font-size: 15px;
+            font-family: "National 2","Helvetica Neue",Helvetica,Arial,"Hiragino Sans","Hiragino Kaku Gothic Pro","游ゴシック","游ゴシック体",YuGothic,"Yu Gothic","ＭＳ ゴシック","MS Gothic",sans-serif;
+        }
+        body{
+            margin-top: 100px;
+        }
+        a{
+            text-decoration: none;
+            color: #005977;
+        }
+        #form{
+            box-shadow: 0 2px 8px 0 rgb(0 0 0 / 14%);
+            margin: auto;
+            width: calc(576px - (2 * 64px));
+            padding: 30px;
+        }
+        #form h1{
+            font-size: 30px;
+            color: #333E48;
+        }
+        .signup p{
+            display: flex;
+            justify-content:right;
+        }
+        input{
+            width: 90%;
+            padding: 20px;
+            font-size: large;
+            border: 1px solid #D0D2D3;
+        }
+        button{
+            width: 100%;
+            padding: 16px;
+            background-color: #00bf6f;
+            color: white;
+            border: 0px;
+        }
+        .sso>button:hover,
+        .social>div div:hover,
+        .social a:hover{
+            box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+        }
+        .sso>button{
+            background-color: white;
+            border: 1px solid #D0D2D3;
+        }
+        .social{
+            display: flex;
+            justify-content: space-evenly;
+            margin-top: 20px;
+        }
+        .social img{
+            display: block;
+            width: 50%;
+            height: 50%;
+            margin: auto;
+            padding-top: 15px;
+        }
+        #form b{
+            color: #00bf6f;
+        }
+        .social>div div{
+            border: 1px solid #D0D2D3;
+            width: 80%;
+            height: 60%;
+            margin: auto;
+        }
+        .social p{
+            text-align: center;
+            font-size: 12px;
+        }
+        #logo{
+            display: flex;
+            justify-content: center;
+            margin-left: -180px;
+        }
+        .signup a:hover{
+            text-decoration: underline;
+        }
+        .bottom{
+            display: flex;
+            justify-content: end;
+            margin-top: 100px;
+        }
+        .bottom a{
+            padding-right: 20px;
+        }
+        .bottom a:hover{
+            text-decoration: underline;
+        }
+        @media all and (min-width:320px) and (max-width:720px){
+            body{
+                margin: auto;
+            }
+            #form{
+                padding: 0%;
+                box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
+            }
+            .bottom{
+                display: grid;
+                margin-top: 100px;
+                margin-left: 70px;
+                grid-template-columns: repeat(1,1fr);
+            }             
+            input{
+                width: 90%;
+                padding: 10px;
+            }
+            button{
+                width: 95%;
+            }
+            #logo{
+                position: relative;
+                margin: auto;
+            }
+            .social>div div{
+                margin-left: -2px;
+            }
+        }
+    
