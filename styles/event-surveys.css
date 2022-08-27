@@ -98,3 +98,48 @@ body {
 	border: none;
 	font-weight: bold;
 }
+@media only screen and (max-width: 992px){
+	.see-how-servey-container .see-how-text h1 {
+	font-size:28px;
+}
+.use-event-survey-container .use-event-survey-text h1 {
+	width: 60%;
+	font-size: 27px;
+}
+.use-event-survey-container .use-event-survey-text button {
+	text-decoration: none;
+	padding: 14px 37px;
+}
+}
+@media only screen and (max-width: 670px){
+.see-how-servey-container .see-how-text h1 {
+	width: 100%;
+	font-size:20px;
+}
+.use-event-survey-container .use-event-survey-text h1 {
+	width: 90%;
+	font-size: 27px;
+}
+.use-event-survey-container .use-event-survey-text button {
+	text-decoration: none;
+	padding: 14px 28px;
+}
+.mid-content-container .mid-content-text{
+	width:80%
+}
+.get-quick-start-container .get-quick-start-heading {
+	width: 100%;
+}
+.get-quick-start-container .get-quick-start-heading h1 {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+	font-size:21px;
+	line-height: 1.5;
+}
+.see-how-servey-container .see-how-text {
+	margin: auto;
+	width: 90%;
+	font-size: 22px;
+}
+}

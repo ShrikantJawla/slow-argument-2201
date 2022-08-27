@@ -1,6 +1,6 @@
 /** @format */
 
- * {
+* {
 	box-sizing: border-box;
 	font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
 		"Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
@@ -507,27 +507,32 @@ li {
 	margin-top: 30px;
 	display: flex;
 }
-@media all and (min-width: 320px) and (max-width: 720px) {
-	.top-Improve {
-		width: 95%;
-	}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
 	.template {
-		width: 100%;
+		gap: 50px;
+	}
+	.resposive-icons {
+		display: none;
 	}
 	.template .content-holder {
-		border-radius: 40px;
-		padding: 160px 10px;
-		height: 280px;
-		overflow-y: scroll;
-		width: 95%;
+		padding: 60px 15px;
+		width: 45%;
 		margin-top: 50px;
+		height: 560px;
+		border-radius: 25px;
 	}
 	.likeTable {
 		display: flex;
+		width: 99%;
 		overflow-x: scroll;
+		margin-bottom: 60px;
+	}
+	.likeTable div {
+		margin-bottom: 20px;
 	}
 	.how-csat-work {
-		width: 98%;
+		width: 95%;
 		grid-template-columns: 90%;
 	}
 	.remove-guesswork {
@@ -584,6 +589,15 @@ li {
 	.break-down .mid {
 		flex-direction: column;
 	}
+	.pricing .priceDivs > div {
+		width: 70%;
+		text-align: center;
+		padding: 50px 30px;
+		border-radius: 20px;
+	}
+	.pricing .priceDivs > div h3 {
+		margin-bottom: 25px;
+	}
 	.pricing .top {
 		width: 95%;
 	}
@@ -591,6 +605,123 @@ li {
 		width: 95%;
 		flex-direction: column;
 		justify-content: center;
+		align-items: center;
+	}
+	.how-to-use {
+		width: 95%;
+	}
+	.out-of-box .top {
+		width: 95%;
+	}
+	.how-to-survey-monkey h1 {
+		width: 50%;
+	}
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	.resposive-icons {
+		display: none;
+	}
+	.template {
+		gap: 50px;
+		margin: auto;
+	}
+	.template .content-holder {
+		margin: auto;
+		padding: 60px 35px;
+		width: 90%;
+		margin-top: 50px;
+		height: 560px;
+		border-radius: 25px;
+	}
+	.content-holder h2 {
+		font-size: 33px;
+		line-height: 1;
+		/* color: #00bf6f; */
+	}
+	.rating {
+		height: 100%;
+	}
+	.likeTable {
+		display: flex;
+		width: 99%;
+		overflow-x: scroll;
+		margin-bottom: 60px;
+	}
+	.how-csat-work {
+		width: 95%;
+		grid-template-columns: 90%;
+	}
+	.remove-guesswork {
+		display: flex;
+		flex-direction: column;
+		width: 99%;
+		gap: 15px;
+		height: auto;
+		padding: 20px 4px;
+	}
+	.remove-guesswork .text .heading h2 {
+		font-size: 18px;
+	}
+	.type-of-survey {
+		width: 90%;
+	}
+	.slide-options {
+		width: 90%;
+		display: flex;
+		overflow-x: scroll;
+	}
+	.image-with-options {
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: 200px;
+		padding: 10px 5px;
+	}
+	.image-with-options img {
+		height: 550px;
+		width: 100%;
+	}
+	.your-best {
+		width: 95%;
+	}
+	.turn-your-customer {
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+	}
+	.why-customer {
+		width: 95%;
+	}
+	.how-customer {
+		width: 95%;
+	}
+	.break-down {
+		padding: 0px 40px;
+	}
+	.break-down .top {
+		width: 95%;
+	}
+	.break-down .mid {
+		flex-direction: column;
+	}
+	.pricing .priceDivs > div {
+		width: 70%;
+		text-align: center;
+		padding: 50px 30px;
+		border-radius: 20px;
+	}
+	.pricing .priceDivs > div h3 {
+		margin-bottom: 25px;
+	}
+	.pricing .top {
+		width: 95%;
+	}
+	.pricing .priceDivs {
+		width: 95%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
 	}
 	.how-to-use {
 		width: 95%;
