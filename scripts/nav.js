@@ -283,8 +283,8 @@ function Resources() {
 }
 function difnav() {
   return `<div id="navbar">
-  <div id="sidebar" class="classcolor">
-      <div id="sidemenu"><i class="fa-solid fa-bars"></i></div>
+  <div id="sidebar" >
+      <div id="sidemenu" class="classcolor"><i class="fa-solid fa-bars"></i></div>
     </div>
     <div id="logo"><a href="index.html"><img id="navlogo"
     src="https://prod.smassets.net/assets/website/2.182.0/images/logo-surveymonkey-white.svg"
