@@ -28,7 +28,7 @@
         <button>COMPANY NEWS</button>
         <p>Introduction Momentive:an agile experience management company</p>
     </div>
-    <div id="who">
+     <div id="who">
         <h1>Who do you want to talk to?</h1>
     </div>
         <div id="jav">
@@ -42,7 +42,7 @@
         <div id="line1"></div>
         
         <h2 id="data">Data in Action</h2>
-        <div id="cnbc">
+         <div id="cnbc">
         <div>
              <img src="https://prod.smassets.net/assets/cms/sm/uploads//s-business-1.jpg" alt="">
             <button>CNBC</button>
@@ -76,9 +76,9 @@
         
         </div>
        
-    </div> 
+    </div>  
     <!-- ---------------------------------------------------------------------------------------------------- -->
-    <div id='line2'></div>
+     <div id='line2'></div>
     <h2 id="prod">Product News</h2>
     <div id="work">
         <div>
@@ -114,9 +114,9 @@
         
         </div>
        
-    </div> 
-    <!-- ------------------------------------------------------------------------------------------------------------------------------------ -->
-    <div id="line3"></div> 
+    </div>  
+     <!-- ------------------------------------------------------------------------------------------------------------------------------------  -->
+     <div id="line3"></div> 
     <h2 id="sci">Survey Science</h2>
     <div id="surv">
         <div>
@@ -191,7 +191,7 @@
         </div>
        
     </div> 
-    <div id="line5"></div>
+     <div id="line5"></div>
     <h2 id="working">Working</h2>
     <div id="nasa">
         <div>
@@ -228,12 +228,17 @@
         
         </div>
        
-    </div> 
+    </div>  
     <div id="surveys">
         <p>Ready to send your own surveys?</p>
         <button>Get started</button>
     </div>
-</div>
-
+</div> 
+<div id="foot-container"></div>  
 </body>
 </html>
+<script type="module">
+    import mainFooter from "./components/main footer.js";
+   let footer = document.getElementById("foot-container");
+   footer.innerHTML = mainFooter();
+</script>

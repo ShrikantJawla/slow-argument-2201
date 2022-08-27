@@ -19,7 +19,7 @@
 }
 #login>button{
  padding:15px 30px;
- position: relative;
+ position: absolute;
  right:40px;
  top:10px;
  border-radius:4px;
@@ -34,8 +34,8 @@
 #moment{
   width:80%;
   height:600px;
-  position: relative;
-  bottom:300px;
+  position:absolute;
+   top:100px;  
 
   margin:0px 100px;
 
@@ -49,8 +49,8 @@
   filter:brightness(0.3);
 }
 #moment>button{
-  position: relative;
-  bottom:300px;
+  position:absolute;
+   top:100px;
   left:500px;
   padding:10px 20px;
   border:none;
@@ -60,8 +60,8 @@
 
 }
 #moment>p{
-  position: relative;
-  bottom:360px;
+  position:absolute;
+   top:100px;
   /* right:670px; */
   font-size:60px;
   font-weight: bolder;
@@ -73,7 +73,7 @@
 }
 #who{
    position:relative;
-  bottom:300px; 
+  top:300px; 
   margin:0px 100px;
 
 }
@@ -82,32 +82,34 @@
   gap:30px;
   cursor:pointer;
   position:relative;
-  bottom:300px;
+  top:300px;
   font-style: italic;
   font-weight: bolder;
   color:grey;
   font-size: 20px;
   margin:0px 100px;
+  border-bottom:#43a047
 
 }
 
 #jav>span:hover{
   
- color:#43a047
+ color:#43a047;
+ border-bottom:#43a047
 }
 #line1{
   height:2px;
   background-color: grey;
   position:relative;
-  bottom:280px;
+  top:320px;
   margin:0px 100px;
 
 }
 #data{
   position:relative;
-  bottom:200px;
+  top:340px;
   margin-left:100px;
-  color:white;
+  color:gray;
 
 }
 /* #cnbc{
@@ -126,13 +128,13 @@
 
 #cnbc{
   display: grid;
-  grid-template-columns:800px 400px;
+  grid-template-columns:800px 470px;
   grid-template-rows:500px 500px;
   gap:40px;
   
   margin:100px;
   position: relative;
-  bottom:270px;
+  top:270px;
 }
 
 #cnbc>div:nth-child(1)>img{
@@ -150,7 +152,7 @@
 }
 #cnbc>div:nth-child(2){
   position:relative;
-  bottom:140px;
+ bottom:90px;
 }
 #cnbc>div:nth-child(1)>button{
   position: relative;
@@ -201,8 +203,8 @@
   grid-template-columns: repeat(3,1fr);
   grid-template-rows:400px;
   gap:20px;
-  position: relative;
-  bottom:850px;
+  position: absolute;
+ top:1370px;
   
   margin:100px;
 
@@ -236,14 +238,14 @@
   height:2px;
     background-color: grey;
     position:relative;
-    bottom:850px;
+    top:100px;
     margin:0px 100px;
 }
 #prod{
   position:relative;
-    bottom:850px;
-    left:100px;
-    color:grey;
+    top:140px;
+    margin-left:100px; 
+    color:gray;
 
 }
 
@@ -251,17 +253,18 @@
 /* ---------------------------------------------------------------------- */
 #work{
   display: grid;
-  grid-template-columns:400px 800px;
+  grid-template-columns:470px 800px;
   grid-template-rows:400px;
   gap:40px;
   
   margin: 0px 100px;
   position: relative;
-  bottom:850px;
+  top:150px;
   
 }
 #work>div:nth-child(1){
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
 
 }
 #work>div:nth-child(2)>img{
@@ -330,7 +333,7 @@
   grid-template-rows:500px;
   gap:20px;
   position: relative;
-  bottom:850px;
+  top:100px;
   
   margin:100px;
 
@@ -364,26 +367,26 @@
   height:2px;
     background-color: grey;
     position:relative;
-    bottom:850px;
+    top:100px;
     margin:0px 100px;
 }
 #sci{
   position:relative;
-  bottom:850px;
-  left:100px;
-  color:grey;
+  top:130px;
+  margin-left:100px;
+  color:gray;
 
 }
 /* ------------------------------------------------------ */
 #surv{
   display: grid;
-  grid-template-columns:800px 400px;
+  grid-template-columns:800px 470px;
   grid-template-rows:500px;
   gap:40px;
   
   margin: 0px 100px;
   position: relative;
-  bottom:850px;
+ top:150px;
 }
 #surv>div{
 
@@ -397,7 +400,8 @@
 #surv>div:nth-child(2)>img{
   position:relative;
   bottom:257px;
-  height:40%;
+  height:50%;
+  width:100%;
 
   
 
@@ -454,7 +458,7 @@
   grid-template-rows:400px;
   gap:20px;
   position: relative;
-  bottom:900px;
+  top:80px;
   
   margin:  100px;
 
@@ -489,14 +493,14 @@
   height:2px;
     background-color: grey;
     position:relative;
-    bottom:850px;
+   top:100px;
     margin:0px 100px;
 }
 #life{
   position:relative;
-    bottom:850px;
-    left:100px;
-    color:grey;
+  top:130px;
+    margin-left:100px;
+    color:gray;
 
 }
 #monk{
@@ -507,7 +511,7 @@
   
   margin: 0px 100px;
   position: relative;
-  bottom:850px;
+ top:150px;
   
 }
 #monk>div:nth-child(1){
@@ -580,7 +584,7 @@
   grid-template-rows:450px;
   gap:20px;
   position: relative;
-  bottom:900px;
+  top:80px;
   
   margin:100px;
 
@@ -615,14 +619,14 @@
   height:2px;
     background-color: grey;
     position:relative;
-    bottom:850px;
+    top:100px;
     margin:0px 100px;
 }
 #working{
   position:relative;
-    bottom:850px;
-    left:100px;
-    color:grey;
+  top:130px;
+   margin-left:100px;
+    color:gray;
 
 }
 #nasa{
@@ -633,7 +637,7 @@
   
   margin: 0px 100px;
   position: relative;
-  bottom:850px;
+  top:150px;
 }
 
 #nasa>div:nth-child(1)>img{
@@ -700,7 +704,7 @@
   grid-template-rows:450px;
   gap:20px;
   position: relative;
-  bottom:900px;
+  top:80px;
   
   margin:100px;
 
@@ -731,11 +735,11 @@
   line-height: 30px;
 }
 #surveys{
-  height:400px;
+  height:350px;
   width:100%;
   background: #000063;
   position: relative;
-  bottom: 850px;
+ top: 100px;
 
 }
 #surveys>P{
