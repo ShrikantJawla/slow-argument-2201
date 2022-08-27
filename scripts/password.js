@@ -23,7 +23,8 @@ function finalLogin() {
 	wholeData.forEach((ele) => {
 		if (ele.email === enteredEmail && ele.password === pass) {
 			isTrue = true;
-			localStorage.setItem('isSignedIn', true);
+			let isSignedInData = { email: ele.email, loggedIn: true };
+			localStorage.setItem('isSignedIn', JSON.stringify(isSignedInData));
 			document.querySelector(".pass-input").value = null;
 			window.location.href = "./index.html";
 		}

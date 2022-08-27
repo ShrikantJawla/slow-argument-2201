@@ -16,7 +16,7 @@ body {
 		"ＭＳ ゴシック", "MS Gothic", sans-serif;
 }
 .customer-exp-top-container {
-	margin-top: 80px;
+	margin-top: 0px;
 	background-color: var(--purpule-top);
 	display: flex;
 	height: 550px;

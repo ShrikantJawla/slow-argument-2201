@@ -17,8 +17,11 @@
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/sidebar.css" />
     <link rel="stylesheet" href="styles/hr-solutions.css" />
+    <link rel="stylesheet" href="./styles/inputForm.css" />
+    <link rel="stylesheet" href="./styles/page_loading_animation.css">
   </head>
-  <body>
+  <body onload="loaderAnimation()">
+    <div id="wrapper"><div class="loader"></div></div>
     <nav></nav>
     <div id="container1">
       <div id="subcontainer1">
@@ -275,7 +278,8 @@
         <p>Employee feedback for the win</p>
       </div>
     </div>
-    <div id="container6"></div>
+    <!-- <div id="container6"></div> -->
+    <form class="input-form-container"></form>
     <div id="container7">
       <h1>Not ready to talk?</h1>
       <p>
@@ -287,4 +291,6 @@
   </body>
   <script type="module" src="scripts/difnav.js"></script>
   <script type="module" src="scripts/sidebar.js"></script>
+  <script type="module" src="./scripts/inputForm.js"></script>
+  <script src="./components/page_loading_animation.js"></script>
 </html>
