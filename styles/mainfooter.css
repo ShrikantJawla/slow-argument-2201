@@ -91,4 +91,10 @@
   .labels {
     margin-left: 10px;
   }
+  #two p {
+    width: 100%;
+  }
+  #bottom {
+    padding: 15px 80px 15px 20px;
+  }
 }
