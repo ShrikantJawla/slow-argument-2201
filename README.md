@@ -6,7 +6,7 @@
 
 #### About the original website:-
 
-It is a leading Survey platform around the globe. It lets it's user to create sophisticated surveys using expert templates.
+It is a leading Survey platform around the globe. It lets it's users to create sophisticated surveys using expert templates.
 
 ###### In cunstruct week, we as a team of five members worked relentlessly for 4 days and cloned some parts of original website surveymonkey.com and this is what we built <https://slow-argument-2201.netlify.app/>
 
