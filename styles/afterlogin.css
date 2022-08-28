@@ -1,0 +1,257 @@
+* {
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+nav {
+  width: 100%;
+  height: 48px;
+  margin: 0;
+  z-index: 1000;
+  position: relative;
+  font-size: 16px;
+  font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+    "Hiragino Kaku Gothic Pro", "游ゴシック", "游ゴシック体", YuGothic,
+    "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+  background-color: #404040;
+  -webkit-font-smoothing: antialiased;
+}
+#largescreen {
+  width: 100%;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#largescreen a {
+  color: #ffffff;
+  text-decoration: none;
+}
+#largescreensub1 {
+  margin-left: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+.largescreensub1dashboard > a > span {
+  padding: 12px 0;
+
+  font-size: 14px;
+}
+.largescreensub1dashboard > a > span:hover {
+  border-bottom: 4px solid #ffffff;
+}
+#largescreensub1logo > a > img {
+  margin-top: 5px;
+  width: 38px;
+  height: 38px;
+}
+#midcreensub1logo > a > img {
+  margin-top: 5px;
+  width: 38px;
+  height: 38px;
+}
+#largescreensub2 {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+#largescreenopt > span > i {
+  font-size: 32px;
+}
+#largescreenopt > span {
+  cursor: pointer;
+  padding: 5px 0;
+}
+#largescreenopt > span:hover {
+  border-bottom: 4px solid #fff;
+}
+.largescreensub1dashboard1 > a > span > i {
+  font-size: 25px;
+}
+.largescreensub1dashboard1 > a > span:hover {
+  padding: 8px 0;
+  border-bottom: 4px solid #ffffff;
+}
+#lrgscreenbtn {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+.largescreensub2btn {
+  padding: 8px 12px;
+  font-weight: 500;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+  cursor: pointer;
+}
+.largescreensub2btn1 {
+  background-color: #ffe11b;
+}
+#larscreenuser {
+  margin-right: 20px;
+  height: 48px;
+  font-size: 14px;
+}
+#larscreenuser > span {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  cursor: pointer;
+  padding: 14px 0;
+}
+#larscreenuser > span:hover {
+  border-bottom: 4px solid #ffff;
+}
+#dropdowncontainer {
+  position: absolute;
+  top: 48px;
+  right: 20px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#dropdowncontainer > ul li {
+  list-style: none;
+}
+#dropdowncontainer > ul li > a {
+  color: #404040;
+  padding: 15px 40px;
+  text-decoration: none;
+}
+#dropdowncontainer li {
+  display: flex;
+  align-items: center;
+}
+#dropdowncontainer li:hover {
+  background-color: #f0f0f0;
+}
+#mediumscreensidebar {
+  visibility: hidden;
+  width: 0;
+}
+#sidemenu {
+  cursor: pointer;
+}
+#sidemenu > i {
+  font-size: 30px;
+}
+#smallscreen {
+  visibility: hidden;
+  width: 0%;
+}
+#smllogo > a > img {
+  margin-left: -10px;
+  margin-top: 5px;
+  width: 38px;
+  height: 38px;
+}
+#ssidemenu {
+  cursor: pointer;
+  font-size: 30px;
+}
+#ssidemenu > i {
+  margin-left: 10px;
+}
+@media screen and (max-width: 1200px) {
+  #largescreensub1 {
+    visibility: hidden;
+    width: 0%;
+    margin: 0%;
+    padding: 0%;
+  }
+  #mediumscreensidebar {
+    visibility: hidden;
+  }
+}
+@media screen and (max-width: 1199px) and (min-width: 768px) {
+  #mediumscreensidebar {
+    margin: auto;
+    visibility: visible;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    margin-left: 20px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  #largescreen {
+    visibility: hidden;
+    position: absolute;
+    top: -999999;
+  }
+  #smallscreen {
+    visibility: visible;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+#rightoption a {
+  color: #404040;
+  text-decoration: none;
+}
+#rightoption .subnav {
+  margin: auto;
+  position: absolute;
+  top: 48px;
+  right: 5px;
+  width: 20%;
+  height: calc(100vh - 50px);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  overflow-y: scroll;
+  padding: 0 5px;
+  display: flex;
+  flex-direction: column;
+}
+#rightoption .subnav .subm1 ul li {
+  padding: 10px 10px 10px 20px;
+  width: 100%;
+}
+#rightoption .subnav .subm1 ul li:hover {
+  background-color: #f0f0f0;
+}
+#rightoption .subnav .subm1 ul li a {
+  padding-bottom: 5px;
+}
+#afsidebar {
+  width: 20%;
+  height: calc(100vh - 50px);
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+#afsidebar a {
+  color: #404040;
+  text-decoration: none;
+}
+#afsidebar ul li {
+  padding: 10px;
+}
+#afsidebar ul li {
+  list-style: none;
+  cursor: pointer;
+}
+#afsidebar ul li:hover {
+  background-color: #f0f0f0;
+}
+.sideproduct,
+.help {
+  visibility: collapse;
+  width: 100%;
+  height: 0;
+  background: #fff;
+}
+.livisible {
+  margin-top: 10px;
+  visibility: visible;
+  height: auto;
+}
+.givegap {
+  display: flex;
+  justify-content: space-between;
+}
+.colorwhite {
+  color: white;
+}
