@@ -15,9 +15,23 @@
 #top > div {
   display: flex;
   align-items: center;
+  gap: 30px;
 }
-#top > div ul li {
-  list-style: disc;
+#top > div > span {
+  width: 120px;
+}
+#top > div > ul {
+  width: 90%;
+}
+#top > div > ul li {
+  display: inline-block;
+  line-height: 20px;
+}
+
+.labels {
+  margin-left: 40px;
+  font-size: 20px;
+  font-weight: bold;
 }
 #bottom ul {
   list-style: none;
@@ -29,9 +43,6 @@
 #four ul {
   display: flex;
   justify-content: flex-end;
-}
-.sm {
-  font-size: small;
 }
 #bottom {
   padding: 0px 60px;
@@ -45,11 +56,30 @@
 #two p {
   width: 30%;
 }
-@media all and (min-width: 320px) and (max-width: 720px) {
-  #lists {
-    display: block;
+@media only screen and (min-width: 769px) {
+  .sm::before {
+    content: "\2022";
+    color: #333e48;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 2px;
+    font-size: 10px;
   }
-  #two p {
-    width: 60vw;
+}
+@media only screen and (max-width: 768px) {
+  #top {
+    gap: 0px;
+  }
+  #top > div {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0px;
+  }
+  #top > div > span {
+    width: auto;
+  }
+  #top > div > ul li {
+    display: flex;
+    margin-left: 20px;
   }
 }
