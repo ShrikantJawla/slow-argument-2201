@@ -5,6 +5,7 @@ import { data } from "./template_data_container.js";
 
 import { templates } from "./survey_templates_div.js";
 
+let id;
 let containerToAppend = document.getElementById("template_Container");
 containerToAppend.innerHTML = templates();
 
@@ -108,7 +109,10 @@ function appendThroughSearch() {
 }
 
 document.getElementById("search_category").addEventListener("input", () => {
-	appendThroughSearch();
+	clearTimeout(id);
+	setTimeout(() => { 
+		appendThroughSearch();
+	},800);
 });
 
 function showNoResults() {
