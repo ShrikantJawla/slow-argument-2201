@@ -1,5 +1,7 @@
 /** @format */
+
 * {
+	box-sizing: border-box;
 	font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
 		"Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
 		"ＭＳ ゴシック", "MS Gothic", sans-serif;
@@ -8,10 +10,7 @@
 	text-align: center;
 	width: 54%;
 	margin: auto;
-	margin-top: 50px;
-	font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
-		"Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
-		"ＭＳ ゴシック", "MS Gothic", sans-serif;
+	margin-top: 180px;
 }
 .top-Improve .top-heading {
 	font-size: 2.4rem;
@@ -29,30 +28,86 @@
 	color: black;
 	background-color: #ffc714;
 	border-radius: 5px;
+	cursor:pointer;
 }
 
 .template {
 	margin-top: 100px;
 	font-family: sans-serif;
-	padding: 0px 14px;
 	display: flex;
 	flex-direction: column;
 	gap: 50px;
+	/* border: 1px solid red; */
+}
+.template .survey-table-resposive-icons {
+	display: flex;
+	position: relative;
+}
+.resposive-icons {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	position: absolute;
+	top: 10%;
+	right: 10.9%;
+}
+.fa-tablet,
+.fa-mobile-screen,
+.fa-desktop {
+	cursor: pointer;
+	color: black;
+	font-size: 1.5rem;
+	padding: 8px;
+	border-radius: 50%;
+}
+.fa-icon-background-change {
+	cursor: pointer;
+	color: white;
+	font-size: 1.5rem;
+	background-color: #00bf6f;
+	padding: 8px;
+	border-radius: 50%;
 }
 .template .content-holder {
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 	margin: auto;
-	padding: 160px 150px;
-	height: 280px;
+	padding: 160px 70px;
+	padding-left: 160px;
+	overflow-y: scroll;
+	width: 70%;
+	margin-top: 50px;
+	height: 580px;
+}
+.template .content-holder-mobile {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin: auto;
+	padding: 160px 15px;
+	overflow: scroll;
+	width: 23%;
+	margin-top: 50px;
+	height: 540px;
+	border-radius: 40px;
+}
+.template .content-holder-tablet {
+	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+	margin: auto;
+	padding: 160px 30px;
 	overflow-y: scroll;
 	width: 40%;
 	margin-top: 50px;
+	height: 540px;
+	border-radius: 30px;
 }
-.content-holder h2 {
-	color: green;
+.content-holder h2,
+.content-holder-mobile h2,
+.content-holder-tablet h2 {
+	line-height: 1.25;
+	color: #00bf6f;
 	margin-bottom: 70px;
+	font-weight: bold;
+	font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
 }
-.content-holder .one,
+.one,
 .sec {
 	font-size: 19px;
 	margin-bottom: 13px;
@@ -71,10 +126,17 @@
 .opt3,
 .opt4,
 .opt5 {
-	display: flex;
+	display: grid;
+	grid-template-columns: 10% 90%;
 	gap: 5px;
-	margin-right: 50px;
-	margin-bottom: 10px;
+	height:40px;
+	justify-content: start;
+	align-content:center;
+}
+.options-of-sec .opt1{
+	gap:10px;
+	margin-left: 0px;
+	align-items: center;
 }
 .box1,
 .box2 {
@@ -83,13 +145,16 @@
 	border-radius: 50%;
 	width: 4px;
 	height: 4px;
+	/* gap:0; */
+	/* margin: auto; */
 }
 .options-of-sec {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
-}
-.options-of-sec {
+	grid-template-columns: repeat(2, 200px);
+	justify-content: space-between;
+	align-items: center;
 	margin-bottom: 70px;
+	width: 60%;
 }
 #concerns-input {
 	width: 90%;
@@ -97,11 +162,11 @@
 	margin-bottom: 90px;
 }
 #concerns-input:focus {
-	outline: 2px solid rgb(60, 128, 0);
+	outline: 1px solid rgb(60, 128, 0);
 }
 .done-button {
 	display: flex;
-	width: 10%;
+	width: 100px;
 	margin: auto;
 	text-decoration: none;
 	padding: 20px 25px;
@@ -120,6 +185,7 @@
 	font-size: 17px;
 	margin: auto;
 	display: flex;
+	cursor:pointer;
 }
 .csat {
 	text-align: center;
@@ -149,7 +215,7 @@
 .remove-guesswork {
 	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 	display: grid;
-	grid-template-columns: 12% 60% 20%;
+	grid-template-columns: 9% 60% 20%;
 	width: 75%;
 	margin: auto;
 	gap: 30px;
@@ -157,8 +223,8 @@
 	align-items: center;
 	margin-bottom: 80px;
 }
-.remove-guesswork .text .heading h2 {
-	font-size: 26px;
+.remove-guesswork .text .heading h1 {
+	font-size: 25px;
 }
 .remove-guesswork .text p {
 	font-size: 17px;
@@ -166,10 +232,7 @@
 .remove-guesswork .icon {
 	width: 100%;
 	height: 100%;
-}
-.remove-guesswork .icon img {
-	width: 100%;
-	height: 100%;
+	background-color: #00bf6f;
 }
 .remove-guesswork .button-get-template button {
 	text-decoration: none;
@@ -181,6 +244,7 @@
 	font-size: 17px;
 	margin: auto;
 	display: flex;
+	cursor:pointer;
 }
 .type-of-survey {
 	width: 50%;
@@ -197,12 +261,13 @@
 .slide-options {
 	padding: 4px 15px;
 	box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
-	width: 70%;
+	max-width: 80%;
 	margin: auto;
 	gap: 15px;
 	display: flex;
 	font-size: 18px;
 	margin-bottom: 80px;
+	overflow-x: scroll;
 }
 .slide-options p:hover {
 	cursor: pointer;
@@ -211,7 +276,8 @@
 }
 .slide-options p {
 	padding: 5px;
-	font-size: 18px;
+	font-size: 16px;
+	padding-bottom: 13px;
 	border: 1px solid white;
 	font-weight: 600;
 }
@@ -271,8 +337,12 @@
 	text-align: center;
 	margin-bottom: 100px;
 }
-.turn-your-customer p,
+/* .turn-your-customer p,
 a {
+	font-size: 18px;
+} */
+.turn-your-customer p,
+.turn-your-customer a {
 	font-size: 18px;
 }
 .turn-your-customer a {
@@ -334,8 +404,12 @@ a {
 	gap: 190px;
 	justify-content: space-between;
 }
-.break-down .mid p,
+/* .break-down .mid p,
 li {
+	font-size: 18.5px;
+} */
+.break-down .mid p,
+.break-down .mid li {
 	font-size: 18.5px;
 }
 .pricing {
@@ -371,42 +445,41 @@ li {
 		rgb(255, 255, 0)
 	);
 	box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
-	width: 250px;
+	width: 310px;
 	text-align: center;
-	padding: 15px 25px;
-	padding-bottom: 30px;
-	border-radius: 20px;
+	padding: 100px 30px;
+	border-radius: 10px;
+}
+.pricing .priceDivs > div:hover{
+	background-image: linear-gradient(
+		to bottom right,
+		rgba(0, 166, 255, 0.962),
+		rgba(255, 255, 0, 0.729)
+	);cursor:pointer;
 }
 .pricing .priceDivs > div h3 {
-	margin-bottom: 50px;
+	margin-bottom: 25px;
 }
 
-.pricing .priceDivs .individual button {
-	padding: 10px 20px;
+.pricing .priceDivs button {
+	padding: 13px 20px;
 	font-weight: bold;
 	color: white;
 	border: none;
-	background-color: rgb(50, 176, 50);
-	border-radius: 8px;
+	border-radius: 5px;
 	margin-bottom: 20px;
+	margin-top: 12px;
+	font-size: 16px;cursor:pointer;
+}
+.pricing .priceDivs .individual button {
+	background-color: rgb(50, 176, 50);
+	cursor:pointer;
 }
 .pricing .priceDivs .team-advantage button {
-	padding: 10px 20px;
-	font-weight: bold;
-	color: white;
-	border: none;
-	background-color: blue;
-	border-radius: 8px;
-	margin-bottom: 20px;
+	background-color: blue;cursor:pointer;
 }
 .pricing .priceDivs .team-premier button {
-	padding: 10px 20px;
-	font-weight: bold;
-	color: white;
-	border: none;
-	background-color: rgb(98, 62, 240);
-	border-radius: 8px;
-	margin-bottom: 20px;
+	background-color: rgb(98, 62, 240);cursor:pointer;
 }
 .how-to-use {
 	width: 50%;
@@ -452,29 +525,35 @@ li {
 	font-size: 17px;
 	margin: auto;
 	margin-top: 30px;
-	display: flex;
+	display: flex;cursor:pointer;
 }
-@media all and (min-width: 320px) and (max-width: 720px) {
-	.top-Improve {
-		width: 95%;
-	}
+
+@media all and (min-width: 320px) and (max-width: 767px) {
 	.template {
-		width: 100%;
+		gap: 50px;
 	}
+	.resposive-icons {
+		display: none;
+	}
+	
 	.template .content-holder {
-		border-radius: 40px;
-		padding: 160px 10px;
-		height: 280px;
-		overflow-y: scroll;
-		width: 95%;
+		padding: 60px 15px;
+		width: 45%;
 		margin-top: 50px;
+		height: 560px;
+		border-radius: 25px;
 	}
 	.likeTable {
 		display: flex;
+		width: 99%;
 		overflow-x: scroll;
+		margin-bottom: 60px;
+	}
+	.likeTable div {
+		margin-bottom: 20px;
 	}
 	.how-csat-work {
-		width: 98%;
+		width: 95%;
 		grid-template-columns: 90%;
 	}
 	.remove-guesswork {
@@ -493,8 +572,121 @@ li {
 	}
 	.slide-options {
 		width: 90%;
+	}
+	
+	.image-with-options {
+		width: 95%;
 		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		margin-bottom: 200px;
+		padding: 10px 5px;
+	}
+	.image-with-options img {
+		height: 550px;
+		width: 100%;
+	}
+	.your-best {
+		width: 95%;
+	}
+	.turn-your-customer {
+		width: 95%;
+		display: flex;
+		flex-direction: column;
+	}
+	.why-customer {
+		width: 95%;
+	}
+	.how-customer {
+		width: 95%;
+	}
+	.break-down {
+		padding: 0px 40px;
+	}
+	.break-down .top {
+		width: 95%;
+	}
+	.break-down .mid {
+		flex-direction: column;
+	}
+	.pricing .priceDivs > div {
+		width: 70%;
+		text-align: center;
+		padding: 50px 30px;
+		border-radius: 20px;
+	}
+	.pricing .priceDivs > div h3 {
+		margin-bottom: 25px;
+	}
+	.pricing .top {
+		width: 95%;
+	}
+	.pricing .priceDivs {
+		width: 95%;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+	}
+	.how-to-use {
+		width: 95%;
+	}
+	.out-of-box .top {
+		width: 95%;
+	}
+	.how-to-survey-monkey h1 {
+		width: 50%;
+	}
+}
+@media all and (min-width: 768px) and (max-width: 1024px) {
+	.resposive-icons {
+		display: none;
+	}
+	.template {
+		gap: 50px;
+		margin: auto;
+	}
+	.template .content-holder {
+		margin: auto;
+		padding: 60px 35px;
+		width: 90%;
+		margin-top: 50px;
+		height: 560px;
+		border-radius: 25px;
+	}
+	.content-holder h2 {
+		font-size: 33px;
+		line-height: 1;
+		/* color: #00bf6f; */
+	}
+	.rating {
+		height: 100%;
+	}
+	.likeTable {
+		display: flex;
+		width: 99%;
 		overflow-x: scroll;
+		margin-bottom: 60px;
+	}
+	.how-csat-work {
+		width: 95%;
+		grid-template-columns: 90%;
+	}
+	.remove-guesswork {
+		display: flex;
+		flex-direction: column;
+		width: 99%;
+		gap: 15px;
+		height: auto;
+		padding: 20px 4px;
+	}
+	.remove-guesswork .text .heading h2 {
+		font-size: 18px;
+	}
+	.type-of-survey {
+		width: 90%;
+	}
+	.slide-options {
+		width: 90%;
 	}
 	.image-with-options {
 		width: 95%;
@@ -531,6 +723,15 @@ li {
 	.break-down .mid {
 		flex-direction: column;
 	}
+	.pricing .priceDivs > div {
+		width: 70%;
+		text-align: center;
+		padding: 50px 30px;
+		border-radius: 20px;
+	}
+	.pricing .priceDivs > div h3 {
+		margin-bottom: 25px;
+	}
 	.pricing .top {
 		width: 95%;
 	}
@@ -538,6 +739,7 @@ li {
 		width: 95%;
 		flex-direction: column;
 		justify-content: center;
+		align-items: center;
 	}
 	.how-to-use {
 		width: 95%;

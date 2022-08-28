@@ -1,0 +1,810 @@
+* {
+    font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+    "Hiragino Kaku Gothic Pro", 游ゴシック, 游ゴシック体, YuGothic, "Yu Gothic",
+    "ＭＳ ゴシック", "MS Gothic", sans-serif;
+}
+.navbar{
+    height: 75px;
+    width: 100%;
+    /* border: 1px solid goldenrod; */
+}
+#survey-monkey-enterprise {
+    /* height: 500px; */
+    width: 100%;
+    /* border: 1px solid blue; */
+    padding: 10px 0px 10px 0px;
+    margin-top: 70px;
+}
+.survey-monkey-enterprise-heading {
+    font-size: x-large;
+    font-weight: bolder;
+    text-align: center;
+    margin: 20px;
+}
+.survey-monkey-enterprise-info > p {
+    text-align: center;
+    font-size: larger;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+}
+.survey-monkey-enterprise-btn{
+    display: flex;
+    justify-content: center;
+}
+.survey-monkey-enterprise-btn>button{
+    background-color: #00bf6f;
+    border: 0px;
+    border-radius: 2%;
+    color: white;
+    font-size: large;
+    height: 50px;
+    width: 250px;
+    margin-top: 15px;
+}
+#drive-growth-innovation {
+    text-align: center;
+    font-size: medium;
+    font-weight: bold;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    padding-top: 40px;
+    /* border: 1px solid yellow; */
+}
+#infoDiv {
+    /* display: flex; */
+    padding: 2% 5% 2% 10%;
+    /* padding: 20px 20px 20px 20px; */
+    /* border: 1px solid violet; */
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    text-align: center;
+    align-items: center;
+    gap: 4%;
+}
+.manage-feedback-data-securely-2 {
+    font-weight: bold;
+    font-size: large;
+    margin: 20px;
+}
+.manage-feedback-data-securely-3 {
+    font-weight: lighter;
+    font-size: medium;
+    margin-bottom: 20px;
+}
+.manage-feedback-data-securely-4 > button {
+    border-radius: 3px;
+    background-color: white;
+    padding: 5px 15px 5px 15px;
+    border: 1px solid gray;
+    margin-bottom: 10px;
+}
+#trusted-by-fortune-500 {
+    text-align: center;
+    font-size: medium;
+    font-weight: bolder;
+    /* width: 50%; */
+    margin: auto;
+    font-weight: lighter;
+    padding-top: 40px;
+    /* border: 1px solid yellow; */
+}
+#company-logos {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 40px;
+    /* border: 1px solid blue; */
+}
+#company-logos .imgSize {
+    /* border: 1px solid red; */
+    width: 12%;
+    height: auto;
+}
+.companyLogoImg {
+    height: 100%;
+    width: 100%;
+}
+#how-surveyM-helps-you {
+    font-size: medium;
+    font-weight: lighter;
+    width: 50%;
+    margin: auto;
+    padding-top: 50px;
+    text-align: center;
+    /* border: 1px solid yellow; */
+}
+#makefeedbackPartofBI {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    /* border: 1px solid red; */
+    padding-top: 40px;
+}
+.makefeedbackPartofBI-text {
+    width: 80%;
+    /* border: 1px solid green; */
+    margin: auto;
+    padding: 10px;
+
+}
+.makefeedbackPartofBI-subhead {
+    font-size: large;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.makefeedbackPartofBI-para {
+    font-size: large;
+    padding: 10px;
+}
+#seamless-working-with-100-apps {
+    font-size: large;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    padding-top: 40px;
+    /* border: 1px solid yellow; */
+}
+#seamless-working-with-100-apps-para {
+    text-align: center;
+    font-size: x-large;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    padding-top: 40px;
+    /* border: 1px solid red; */
+}
+#supportingApps {
+    /* padding: 1% 5% 1% 10%; */
+    /* border: 1px solid violet; */
+    /* height: 400px; */
+    display: grid;
+    grid-template-columns: repeat(4,24%);
+    text-align: center;
+    align-items: center;
+    gap: 1%;
+    justify-content: center;
+    background-color: #f7f7f7;
+    padding-top: 40px;
+}
+.appName .appLogo {
+    height: 100%;
+    width: 100%;
+}
+#powerfulFeatures {
+    font-size: large;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 40px;
+    /* border: 1px solid yellow; */
+}
+#powerful-six-Features {
+    /* border: 1px solid violet; */
+    padding-top:70px;
+    display: grid;
+    grid-template-columns: repeat(3,30%);
+    text-align: center;
+    align-items: center;
+    gap: 50px;
+    padding-bottom: 0px;
+    justify-content: center;
+}
+#powerful-six-Features .featuresPower {
+    /* border: 1px solid blue; */
+    padding:25px;
+    height:230px;
+    /* margin: 25px; */
+}
+#business-problems {
+    font-size: large;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    /* border: 1px solid yellow; */
+}
+#business-problems-para {
+    text-align: center;
+    font-size: x-large;
+    width: 50%;
+    margin: auto;
+    margin-bottom: 20px;
+    padding-top: 40px;
+    /* border: 1px solid red; */
+}
+#business-problems-div {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    /* border: 1px solid yellow; */
+    padding-top: 40px;
+}
+.business-problems-div-text {
+    width: 80%;
+    /* border: 1px solid green; */
+    margin: auto;
+    padding: 10px;
+}
+.business-problems-div-text-head {
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+}
+.business-problems-div-text-para {
+    font-size: large;
+    margin: 10px;
+}
+.business-problems-div-img {
+    /* height: 100%;
+    width: 100%; */
+    /* border: 1px solid black; */
+}
+.business-problems-div-img .business-problems-div-img-size {
+    height: 100%;
+    width: 100%;
+}
+#navigate-surveyM {
+    padding-top: 40px;
+    padding-bottom: 20px;
+    font-size: large;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    /* border: 1px solid yellow; */
+}
+#navigate-surveyM-para {
+    text-align: center;
+    font-size: x-large;
+    width: 50%;
+    margin: auto;
+    /* padding-bottom: 20px; */
+    padding-top: 20px;
+    /* margin-bottom: 10px; */
+    /* border: 1px solid red; */
+}
+#navigate-surveyM-div {
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+    padding-top: 40px;
+    /* border: 1px solid yellow; */
+}
+.navigate-surveyM-div-text {
+    width: 80%;
+    /* border: 1px solid green; */
+    margin: auto;
+    padding: 10px;
+}
+.navigate-surveyM-div-text-head {
+    font-size: large;
+    font-weight: bold;
+    margin: 10px;
+}
+.navigate-surveyM-div-text-para {
+    font-size: large;
+    margin: 10px;
+}
+.navigate-surveyM-div-img {
+    /* height: 100%;
+    width: 100%; */
+    /* border: 1px solid black; */
+}
+.navigate-surveyM-div-img .navigate-surveyM-div-img-size {
+    height: 100%;
+    width: 100%;
+}
+@media only screen and (max-width: 992px) {
+    #survey-monkey-enterprise {
+        /* height: 500px; */
+        width: 100%;
+        /* border: 1px solid blue; */
+        /* padding: 10px 0px 10px 0px; */
+        margin-top: 70px;
+        background-color: #f7f7f7;
+    }
+    .survey-monkey-enterprise-heading {
+        font-size: 15px;
+        font-weight: bolder;
+        text-align: center;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 10px;
+    }
+    .survey-monkey-enterprise-info > p {
+        text-align: center;
+        font-size: 12;
+        font-weight: bold;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .survey-monkey-enterprise-btn>button{
+        background-color: #00bf6f;
+        border: 0px;
+        border-radius: 2%;
+        color: white;
+        font-size: medium;
+        height: 40px;
+        width: 300px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #drive-growth-innovation {
+        text-align: center;
+        font-size: x-small;
+        width: 80%;
+        margin: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        padding: 10px;
+        /* border: 1px solid yellow; */
+    }
+    #infoDiv {
+        display: flex;
+        padding: 2% 5% 2% 0%;
+        /* padding: 20px 20px 20px 20px; */
+        /* border: 1px solid violet; */
+        display: grid;
+        grid-template-columns: repeat(1,80%);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 3%;
+        margin-bottom: 30px;
+    }
+    #trusted-by-fortune-500 {
+        text-align: center;
+        font-size: small;
+        /* width: 50%; */
+        margin: auto;
+        font-weight: lighter;
+        padding: 10px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        /* border: 1px solid yellow; */
+    }
+    #company-logos {
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+        padding: 10px;
+        /* border: 1px solid blue; */
+        margin-bottom: 30px;
+    }
+    #company-logos .imgSize {
+        /* border: 1px solid red; */
+        width: 15%;
+        height: auto;
+    }
+    #how-surveyM-helps-you {
+        font-size: x-small;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding: 15px;
+    }
+    #makefeedbackPartofBI {
+        display: grid;
+        grid-template-columns: repeat(1,90%);
+        /* border: 1px solid red; */
+    }
+    .makefeedbackPartofBI-text {
+        width: 100%;
+        /* border: 1px solid green; */
+        margin-left: 5%;
+        padding: 10px;
+        align-items: center;
+        margin-bottom: 30px;
+        /* text-align: center; */
+    }
+    .makefeedbackPartofBI-head{
+        margin: 10px;
+        font-size: larger;
+    }
+    .makefeedbackPartofBI-subhead {
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px;
+    }
+    .makefeedbackPartofBI-para {
+        font-size: medium;
+        font-weight: lighter;
+        margin: 10px;
+    }
+    .makefeedbackPartofBI-img img {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-left: 25px;
+    }
+    #seamless-working-with-100-apps {
+        font-size: x-small;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        /* border: 1px solid yellow; */
+    }
+    #seamless-working-with-100-apps-para {
+        text-align: center;
+        font-size: medium;
+        width: 70%;
+        margin: auto;
+        margin-bottom: 30px;
+        margin-top: 10px;
+        /* border: 1px solid red; */
+    }
+    #supportingApps {
+        /* padding: 1% 5% 1% 10%; */
+        /* border: 1px solid violet; */
+        /* height: 400px; */
+        display: grid;
+        grid-template-columns: repeat(1,80%);
+        text-align: center;
+        align-items: center;
+        gap: 1%;
+        justify-content: center;
+        background-color: #f7f7f7;padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    #powerfulFeatures {
+        font-size: x-small;
+        width: 90%;
+        margin: auto;
+        text-align: center;
+        align-items: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding: 20px;
+        /* border: 1px solid yellow; */
+    }
+    #powerful-six-Features {
+        /* border: 1px solid violet; */
+        display: grid;
+        grid-template-columns: repeat(1,80%);
+        height: auto;
+        text-align: center;
+        align-items: center;
+        padding-bottom: 0px;
+        justify-content: center;
+    }
+    #powerful-six-Features .featuresPower {
+        /* border: 1px solid blue; */
+        /* margin: 25px; */
+    }
+    #business-problems {
+        font-size: small;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* border: 1px solid yellow; */
+    }
+    #business-problems-para {
+        text-align: center;
+        font-size: medium;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+        /* margin-bottom: 10px; */
+        /* border: 1px solid red; */
+    }
+    #business-problems-div {
+        display: grid;
+        grid-template-columns: repeat(1,90%);
+        /* border: 1px solid yellow; */
+    }
+    .business-problems-div-text {
+        width: 90%;
+        /* border: 1px solid green; */
+        margin: auto;
+        padding: 10px;
+        padding-left: 70px;
+        margin-bottom: 5px;
+    }
+    .business-problems-div-text-head {
+        font-size: medium;
+        font-weight: bold;
+        margin: 5px;
+    }
+    .business-problems-div-text-para {
+        font-size: small;
+        margin: 5px;
+    }
+    .business-problems-div-img {
+        height: 80%;
+        width: 80%;
+        margin-left: 15%;
+        /* border: 1px solid black; */
+    }
+    #navigate-surveyM {
+        font-size: x-small;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        /* border: 1px solid yellow; */
+    }
+    #navigate-surveyM-para {
+        text-align: center;
+        font-size: small;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 20px;
+        /* border: 1px solid red; */
+    }
+    #navigate-surveyM-div {
+        display: grid;
+        grid-template-columns: repeat(1,90%);
+        padding-left: 10%;
+        /* border: 1px solid yellow; */
+    }
+    .navigate-surveyM-div-text {
+        width: 100%;
+        /* border: 1px solid green; */
+        margin: auto;
+        padding: 10px;
+    }
+    .navigate-surveyM-div-text-head {
+        font-size: medium;
+        font-weight: bold;
+        margin: 5px;
+    }
+    .navigate-surveyM-div-text-para {
+        font-size: small;
+    }    
+}
+@media only screen and (min-width: 670px) and (max-width: 992px) {
+    .survey-monkey-enterprise-heading {
+        font-size: 20px;
+        font-weight: bolder;
+        text-align: center;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .survey-monkey-enterprise-info > p {
+        text-align: center;
+        font-size: larger;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+    .survey-monkey-enterprise-btn>button{
+        background-color: #00bf6f;
+        border: 0px;
+        border-radius: 2%;
+        color: white;
+        font-size: medium;
+        height: 40px;
+        width: 150px;
+        margin-top: 15px;
+    }
+    #drive-growth-innovation {
+        text-align: center;
+        font-size: small;
+        width: 80%;
+        margin: auto;
+        /* margin-bottom: 10px; */
+        margin-top: 10px;
+        padding: 10px;
+        /* border: 1px solid yellow; */
+    }
+    #infoDiv {
+        /* display: flex; */
+        /* padding: 2% 5% 2% 0%; */
+        padding: 20px;
+        /* border: 1px solid violet; */
+        display: grid;
+        grid-template-columns: repeat(2,40%);
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+    }
+    #trusted-by-fortune-500 {
+        text-align: center;
+        font-size: small;
+        /* width: 50%; */
+        margin: auto;
+        font-weight: lighter;
+        padding: 10px;
+        /* border: 1px solid yellow; */
+    }
+    #company-logos {
+        display: flex;
+        justify-content: center;
+        gap: 0px;
+        padding: 5px;
+        /* border: 1px solid blue; */
+    }
+    #company-logos .imgSize {
+        /* border: 1px solid red; */
+        width: 15%;
+        height: auto;
+        margin: auto;
+    }
+    #how-surveyM-helps-you {
+        font-size: small;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding: 15px;
+    }
+    #makefeedbackPartofBI {
+        display: grid;
+        grid-template-columns: repeat(1,80%);
+
+        /* border: 1px solid red; */
+    }
+    .makefeedbackPartofBI-text {
+        width: 80%;
+        margin: auto;
+        /* border: 1px solid green; */
+        margin-left: 25%;
+        padding: 10px;
+        align-items: center;
+        /* text-align: center; */
+    }
+    .makefeedbackPartofBI-head{
+        margin: 10px;
+        font-size: larger;
+    }
+    .makefeedbackPartofBI-subhead {
+        font-size: 15px;
+        font-weight: bold;
+        margin: 10px;
+    }
+    .makefeedbackPartofBI-para {
+        font-size: medium;
+        font-weight: lighter;
+        margin: 10px;
+    }
+    .makefeedbackPartofBI-img img {
+        width: 70%;
+        display: flex;
+        justify-content: center;
+        margin: auto;
+        margin-left: 25%;
+    }
+    #seamless-working-with-100-apps {
+        font-size: small;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        /* border: 1px solid yellow; */
+    }
+    #seamless-working-with-100-apps-para {
+        text-align: center;
+        font-size: medium;
+        width: 50%;
+        margin: auto;
+        margin-bottom: 15px;
+        margin-top: 10px;
+        /* border: 1px solid red; */
+    }
+    #supportingApps {
+        /* padding: 1% 5% 1% 10%; */
+        /* border: 1px solid violet; */
+        /* height: 400px; */
+        display: grid;
+        grid-template-columns: repeat(2,40%);
+        text-align: center;
+        align-items: center;
+        gap: 1%;
+        justify-content: center;
+        background-color: #f7f7f7;
+    }
+    #powerfulFeatures {
+        font-size: small;
+        width: 50%;
+        margin: auto;
+        text-align: center;
+        margin-top: 10px;
+        /* border: 1px solid yellow; */
+    }
+    #powerful-six-Features {
+        /* border: 1px solid violet; */
+        /* padding-top: 50px; */
+        display: grid;
+        grid-template-columns: repeat(2,40%);
+        text-align: center;
+        align-items: center;
+        /* gap: 50px; */
+        padding-bottom: 0px;
+        justify-content: center;
+    }
+    #business-problems {
+        font-size: small;
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        /* border: 1px solid yellow; */
+    }
+    #business-problems-para {
+        text-align: center;
+        font-size: medium;
+        width: 80%;
+        margin: auto;
+        margin-bottom: 20px;
+        /* margin-bottom: 10px; */
+        /* border: 1px solid red; */
+    }
+    #business-problems-div {
+        display: grid;
+        grid-template-columns: repeat(1,90%);
+        /* border: 1px solid yellow; */
+    }
+    .business-problems-div-text {
+        width: 90%;
+        /* border: 1px solid green; */
+        margin: auto;
+        padding: 10px;
+        padding-left: 70px;
+        margin-bottom: 5px;
+    }
+    .business-problems-div-text-head {
+        font-size: medium;
+        font-weight: bold;
+        margin: 5px;
+    }
+    .business-problems-div-text-para {
+        font-size: small;
+        margin: 5px;
+    }
+    .business-problems-div-img {
+        height: 80%;
+        width: 80%;
+        margin: auto;
+        margin-left: 15%;
+        /* border: 1px solid black; */
+    }
+    #navigate-surveyM {
+        font-size: x-small;
+        width: 70%;
+        margin: auto;
+        text-align: center;
+        /* border: 1px solid yellow; */
+    }
+    #navigate-surveyM-para {
+        text-align: center;
+        font-size: small;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 20px;
+        /* border: 1px solid red; */
+    }
+    #navigate-surveyM-div {
+        display: grid;
+        grid-template-columns: repeat(1,90%);
+        padding-left: 10%;
+        /* border: 1px solid yellow; */
+    }
+    .navigate-surveyM-div-text {
+        width: 100%;
+        /* border: 1px solid green; */
+        margin: auto;
+        padding: 10px;
+    }
+    .navigate-surveyM-div-text-head {
+        font-size: medium;
+        font-weight: bold;
+        margin: 5px;
+    }
+    .navigate-surveyM-div-text-para {
+        font-size: small;
+        margin: 5px;
+    }
+}

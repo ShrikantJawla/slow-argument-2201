@@ -1,0 +1,107 @@
+
+        body{
+            font-family: National2,"Helvetica Neue",Helvetica,Arial,sans-serif;
+            color: #4a4a3b;
+        }
+        a{
+            text-decoration: none;
+        }
+        #navbar{
+            display: flex;
+            background-color:  #00bf6f;
+            color: white;
+            width: 100%;
+            margin: -10px;
+        }
+        #navbar a{
+            color: white;
+        }
+        #navbar ul{
+            display: flex;
+            list-style: none;
+            color: white;
+        }
+        #navbar div{
+            display: flex;
+            justify-content: space-evenly;
+            margin: auto;
+        }
+        #navbar li{
+            margin-right: 50px;
+            color: white;
+        }
+        ul>li>i{
+            color: white;
+        }
+        .login{
+            padding-top: 10px;
+        }
+        .signup{
+            border: 2px solid white;
+            padding: 10px 20px;
+        }
+        .top{
+            width: 50%;
+            text-align: center;
+            margin: auto;
+            margin-top: 60px;
+        }
+        #tabs{
+            width: 30%;
+            margin: auto;
+        }
+        #tabs a{
+            color: black;
+            font-weight: bold;
+        }
+        #tabs>ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+        }
+        #form{
+            display: flex;
+            width: 60%;
+            margin: auto;
+            gap: 20px;
+            padding: 20px;
+        }
+        #form>div{
+            width: 50%;
+        }
+        #form>:last-child{
+            background-color: #F7F8FA;
+        }
+        #form ul{
+            list-style: none;
+        }
+        #lead-form label{
+            font-weight: bold;
+            font-size: 13px;
+        }
+        #lead-form label:last-child{
+            font-size: smaller;
+            font-weight: normal;
+        }
+        #form button{
+            background-color: #00bf6f;
+            padding: 10px 20px;
+            border: 0px;
+            color: white;
+            font-weight: bold;
+            margin-top: 10px;
+        }
+        #lead-form div input{
+            margin-bottom: 10px;
+            width: 85%;
+            padding: 10px;
+        }
+        #form>div>ul{
+            font-size: 18px;
+            list-style-type: disc;
+            line-height: 1.8;
+        }
+        #form>div p{
+            font-size: 18px;
+        }
+    

@@ -7,30 +7,303 @@
     <title>
       SurveyMonkey: The World’s Most Popular Free Online Survey Tool
     </title>
+    <link
+      rel="icon"
+      href="./images/download-modified.png"
+      type="image/x-icon"
+    />
     <link rel="stylesheet" href="styles/navbar.css" />
     <link rel="stylesheet" href="styles/index.css" />
     <script
       src="https://kit.fontawesome.com/fb700f3d70.js"
       crossorigin="anonymous"
     ></script>
+    <link rel="stylesheet" href="./styles/survey_templates_div.css" />
+    <link rel="stylesheet" href="styles/sidebar.css" />
+    <link rel="stylesheet" href="./styles/page_loading_animation.css">
   </head>
-  <body>
+  <body onload="loaderAnimation()">
+    <div id="wrapper"><div class="loader"></div></div>
     <nav></nav>
+    <div id="container0">
+      <h1>
+        <span id="type"></span>
+        <span class="cursor"></span>
+      </h1>
+
+      <p>
+        A global leader in survey software. 20 million questions answered daily.
+      </p>
+      <a href="#"><button>Get started</button></a>
+    </div>
     <div id="container1">
       <div id="sur">
         <div id="surhead">
           <h3>Who is your survey audience?</h3>
         </div>
-
+        <div class="clear"></div>
         <div id="subsur">
           <button id="btn1" class="btn">Employees</button>
           <button id="btn2" class="btn">Customers</button>
           <button id="btn3" class="btn">Target Markets</button>
           <button id="btn4" class="btn">Other</button>
         </div>
-        <div id="new"></div>
+        <div id="defaultclick"></div>
       </div>
     </div>
+    <div id="somehead1">
+      <strong>Join more than 19 million active users worldwide</strong>
+    </div>
+    <div id="someimage1">
+      <div>
+        <img
+          src="https://prod.smassets.net/assets/cms/sm/uploads//Allbirds-slate.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://prod.smassets.net/assets/cms/sm/uploads//Tweezerman-logo-2x.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://prod.smassets.net/assets/cms/sm/uploads//Adobe-logo-2x.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://prod.smassets.net/assets/cms/sm/uploads//Verizon-logo-2x.png"
+          alt=""
+        />
+      </div>
+      <div>
+        <img
+          src="https://prod.smassets.net/assets/cms/sm/uploads//sephora-logo.png"
+          alt=""
+        />
+      </div>
+    </div>
+    <div id="somehead2">
+      <h2>Choose a plan that works for you</h2>
+      <p>
+        Get an individual plan with features that you need, or create a team
+        instead!
+      </p>
+    </div>
+    <div id="planshome">
+      <div class="planbox">
+        <div class="planhead">Basic</div>
+        <div class="plandetail" id="plan-img">
+          <img
+            src="https://images.g2crowd.com/uploads/product/image/large_detail/large_detail_1546895387/surveymonkey.png"
+            alt=""
+          />
+        </div>
+        <div class="plantext1"><p>Always Free</p></div>
+        <div class="planbtn"><button>Sign up</button></div>
+        <div class="plantext2">
+          Send unlimited surveys with up to 10 questions. Response limits apply.
+        </div>
+      </div>
+      <div class="planbox">
+        <div class="planhead">Individual Advantage</div>
+        <div class="plandetail">
+          <h1>₹1,999</h1>
+          <p>/ month</p>
+        </div>
+        <div class="plantext1"><p>Billed ₹23,988 annually</p></div>
+        <div class="planbtn"><button>See all features</button></div>
+        <div class="plantext2">
+          Get our most popular features for creating, sending & analyzing
+          surveys.
+        </div>
+      </div>
+      <div class="planbox">
+        <div class="planhead">Team Advantage</div>
+        <div class="plandetail">
+          <h1>₹1,550</h1>
+          <p>per user / month</p>
+        </div>
+        <div class="plantext1">
+          <p>Starting at 3 users, billed annually</p>
+        </div>
+        <div class="planbtn"><button>See all features</button></div>
+        <div class="plantext2">
+          Collaboration tools and survey features that help your team work more
+          efficiently.
+        </div>
+      </div>
+    </div>
+    <div id="worldsur">
+      <h3>Looking for targeted responses to your surveys?</h3>
+      <p>
+        Get the responses you need in minutes with SurveyMonkey Audience, our
+        trusted panel of more than 175 million respondents from across the
+        globe.
+      </p>
+      <button>Learn more</button>
+    </div>
+    <div id="somehead2">
+      <h2>Start with an expert-written template</h2>
+      <p style="font-size: 18px">
+        Our
+        <a href="#" id="somea">sample survey templates</a>
+        make it easy for you to start collecting feedback in just minutes.
+        Explore hundreds of questions across different survey types, all
+        designed to get you accurate results you can rely on.
+      </p>
+    </div>
+    <div id="template_Container"></div>
+    <div id="somehead2">
+      <h2>Tools that spark business breakthroughs</h2>
+      <p style="font-size: 18px">
+        Discover specialized toolkits designed for your role and industry.
+      </p>
+    </div>
+    <div id="somep">
+      <div>
+        <img
+          src="https://prod.smassets.net/assets/cms/sm/uploads//customer-support-toolkit-directory.png"
+          alt=""
+        />
+        <h3>Customer support</h3>
+        <p>
+          Provide better customer experiences while keeping your teams engaged.
+        </p>
+        <a href="#" id="somea">Learn more</a>
+      </div>
+      <div>
+        <img
+          src="https://prod.smassets.net/assets/cms/sm/uploads//hr-leader-toolkit-directory.png"
+          alt=""
+        />
+        <h3>Human resources</h3>
+        <p>
+          Retain your workforce by fostering a world-class employee experience.
+        </p>
+        <a href="#" id="somea">Learn more</a>
+      </div>
+      <div>
+        <img
+          src="https://prod.smassets.net/assets/cms/sm/uploads//product-manager-toolkit-directory.png"
+          alt=""
+        />
+        <h3>Product management</h3>
+        <p>
+          Build products that drive impact and offer a strong product-market
+          fit.
+        </p>
+        <a href="#" id="somea">Learn more</a>
+      </div>
+    </div>
+    <div id="somehead2">
+      <h2>More toolkits for industry leaders</h2>
+    </div>
+    <div id="somep">
+      <div>
+        <a href="#" id="somea">Demand generation manager</a>
+        <a href="#" id="somea">Brand marketer</a>
+      </div>
+      <div>
+        <a href="" id="somea">Diversity, equity & inclusion</a>
+        <a href="" id="somea">User researcher</a>
+      </div>
+      <div>
+        <a href="#" id="somea">Product marketer</a>
+        <a href="#" id="somea">CRM admin</a>
+      </div>
+    </div>
+    <div id="somebtn2">
+      <a href="#"><button>View all</button></a>
+    </div>
+    <div id="somemore">
+      <div id="somehead2">
+        <h2>
+          Go beyond collecting feedback—deliver better experiences that drive
+          your business
+        </h2>
+      </div>
+      <div id="somebox2">
+        <div>
+          <img
+            src="https://prod.smassets.net/assets/cms/sm/uploads//Momentive-Symbol-RGB-1-1.png"
+            alt=""
+          />
+          <h2>Momentive Solutions</h2>
+          <p>
+            Get a platform that can grow and change along with your survey needs
+            over time. Browse our plans to learn more about specific features.
+          </p>
+          <button><a href="#">Visit Momentive</a></button>
+        </div>
+        <div>
+          <img
+            src="https://prod.smassets.net/assets/cms/sm/uploads//gfp-logo-rgb-2x-1.png"
+            alt=""
+          />
+          <h2>GetFeedback</h2>
+          <p>
+            Manage your company’s data with advanced security and control, so
+            you can enable your teams to share and collaborate safely.
+          </p>
+          <button><a href="#">Visit GetFeedback</a></button>
+        </div>
+      </div>
+    </div>
+    <div id="somehead2">
+      <h2>Still curious?</h2>
+      <p style="font-size: 18px">
+        Explore these additional resources to help you launch successful survey
+        projects.
+      </p>
+    </div>
+    <div id="somep">
+      <div>
+        <img
+          src="https://prod.smassets.net/assets/cms/sm/uploads//golden-state-warriors.png"
+          alt=""
+        />
+        <h3>Success Stories</h3>
+        <p>
+          Read about our customers, explore our webinars, and get guides on
+          collecting feedback in your industry.
+        </p>
+        <a href="#" id="somea">Explore resources</a>
+      </div>
+      <div>
+        <img
+          src="https://prod.smassets.net/assets/cms/sm/uploads//blog-tile-card.png"
+          alt=""
+        />
+        <h3>Blog</h3>
+        <p>
+          Get tips on how to create better surveys, hear the latest product
+          news, or check out our signature research.
+        </p>
+        <a href="#" id="somea">See Curiosity at Work</a>
+      </div>
+      <div>
+        <img
+          src="https://prod.smassets.net/assets/cms/sm/uploads//help-center-tile.png"
+          alt=""
+        />
+        <h3>Help Center</h3>
+        <p>
+          Access tutorials on how features work, learn more about billing,
+          contact Customer Support, and more.
+        </p>
+        <a href="#" id="somea">Visit Help Center</a>
+      </div>
+    </div>
+    <div id="foot-container"></div>
   </body>
+
   <script type="module" src="scripts/navbar.js"></script>
+  <script type="module" src="scripts/index.js"></script>
+  <script type="module" src="./components/export&append_data.js"></script>
+  <script type="module" src="scripts/sidebar.js"></script>
+  <script src="./components/page_loading_animation.js"></script>
 </html>

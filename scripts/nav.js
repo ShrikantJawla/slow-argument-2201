@@ -1,9 +1,13 @@
 /** @format */
 
 function nav() {
-	return `
+  return `
+  <div id="sidenavbar"></div>
     <div id="navbar">
       <div id="logo"><a href="./index.html"><img
+    <div id="sidebar">
+      <div id="sidemenu"><i class="fa-solid fa-bars"></i></div>
+    </div>
       <div id="logo"><a href="index.html"><img
       src="https://prod.smassets.net/assets/website/2.182.0/images/logo-surveymonkey.svg"
       alt=""
@@ -21,12 +25,12 @@ function nav() {
           <li id="Resources">
             Resources <i class="fa-solid fa-angle-down"></i>
           </li>
-          <li><a href="#">Plan & Pricing</a></li>
+          <li><a href="plansandpricing.html">Plan & Pricing</a></li>
         </ul>
       </div>
       <div id="user">
         <ul class="opt">
-          <li><a href="#">Log in</a></li>
+          <li><a href="login.html">Log in</a></li>
           <li id="signup"><a href="signup.html">Sign up free</a></li>
         </ul>
       </div>
@@ -35,7 +39,7 @@ function nav() {
     `;
 }
 function Products() {
-	return `<div class="subnav">
+  return `<div class="subnav">
   <div class="sub1">
     <div class="subm">
       <h5>Surveys</h5>
@@ -53,7 +57,7 @@ function Products() {
           </a>
         </li>
         <li>
-          <a href="#"
+          <a href="prodEnterprise.html"
             ><span></span>
             <h3>Enterprise</h3>
             <p>
@@ -148,7 +152,7 @@ function Products() {
   </div>`;
 }
 function Solutions() {
-	return `<div class="subnav">
+  return `<div class="subnav">
   <div class="sub1">
     <div class="subm">
       <h5>Survey Types</h5>
@@ -156,8 +160,8 @@ function Solutions() {
     <div class="subm4">
       <div>
           <a href="./customer-satisfaction-survey.html">Customer Satisfaction</a>
-          <a href="#">Customer Loyalty</a>
-          <a href="#">Event Surveys</a>
+          <a href="./customer-loyalty.html">Customer Loyalty</a>
+          <a href="./event-surveys.html">Event Surveys</a>
       </div>
       <div>
           <a href="#">Employee Engagement</a>
@@ -182,7 +186,7 @@ function Solutions() {
     <div class="subm1">
         <ul>
           <li>
-            <a href="#"
+            <a href="customer-feedback.html"
               ><span></span>
               <h3>Customers</h3>
               <p>
@@ -191,7 +195,7 @@ function Solutions() {
             </a>
           </li>
           <li>
-            <a href="#"
+            <a href="employee-feedback.html"
               ><span></span>
               <h3>Employees</h3>
               <p>Build a stronger workforce with Employee Powered Data</p>                      </a>
@@ -214,28 +218,28 @@ function Solutions() {
       <div class="subm1">
           <ul>
             <li>
-              <a href="#"
+              <a href="./customer-experience-solution.html"
                 ><span></span>
                 <h3>Customer Experience</h3>
                 <p>Delight customers & increase loyalty through feedback</p>
               </a>
             </li>
             <li>
-              <a href="#"
+              <a href="hr-solutions.html"
                 ><span></span>
                 <h3>Human Resources</h3>
                 <p>Improve your employee experience, engagement & retention</p>
               </a>
             </li>
             <li>
-              <a href="#"
+              <a href="marketing-solutions.html"
                 ><span></span>
                 <h3>Marketing</h3>
                 <p>Create winning campaigns, boost ROI & drive growth</p>
               </a>
             </li>
             <li>
-              <a href="#"
+              <a href="education-solutions.html"
                 ><span></span>
                 <h3>Education</h3>
                 <p>Elevate your student experience and become a data-driven institution</p>
@@ -252,15 +256,15 @@ function Solutions() {
 </div>`;
 }
 function Resources() {
-	return `<div class="subnav1">
+  return `<div class="subnav1">
   <div id="subnav1-1">
-    <a href="#"
+    <a href="resources.html"
       ><div>
         <h3>Resources</h3>
         <p>Best practices for using surveys & survey data</p>
       </div>
     </a>
-    <a href="#"
+    <a href="./curiosity.html"
       ><div>
         <h3>Curiosity at Work</h3>
         <p>Our blog about surveys, tips for business, & more</p>
@@ -281,4 +285,40 @@ function Resources() {
 </div>
 </div>`;
 }
-export { nav, Products, Solutions, Resources };
+function difnav() {
+  return `
+  <div id="sidenavbar"></div>
+  <div id="navbar">
+  <div id="sidebar" >
+      <div id="sidemenu"><i class="fa-solid fa-bars classcolor" ></i></div>
+    </div>
+    <div id="logo"><a href="index.html"><img id="navlogo"
+    src="https://prod.smassets.net/assets/website/2.182.0/images/logo-surveymonkey-white.svg"
+    alt=""
+  /></a>
+      
+    </div>
+    <div id="options">
+      <ul class="opt1">
+        <li id="Products" class="classcolor">
+          Products <i class="fa-solid fa-angle-down classcolor" ></i>
+        </li>
+        <li id="Solutions" class="classcolor">
+          Solutions <i class="fa-solid fa-angle-down classcolor"></i>
+        </li>
+        <li id="Resources" class="classcolor">
+          Resources <i class="fa-solid fa-angle-down classcolor"></i>
+        </li>
+        <li><a href="individualplan.html" class="classcolor">Plan & Pricing</a></li>
+      </ul>
+    </div>
+    <div id="user">
+      <ul class="opt1">
+        <li><a href="#" class="classcolor">Log in</a></li>
+        <li id="signupa"><a href="signup.html" class="classcolor">Sign up free</a></li>
+      </ul>
+    </div>
+  </div>
+  <div id="menu"></div>`;
+}
+export { nav, Products, Solutions, Resources, difnav };

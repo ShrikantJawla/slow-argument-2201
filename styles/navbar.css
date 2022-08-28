@@ -12,12 +12,19 @@ ul li {
   cursor: pointer;
 }
 nav {
-  background: #fff;
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
   z-index: 999;
+}
+
+.classcolor {
+  color: white;
+  background: transparent;
+}
+.classcolor:hover {
+  color: #f7f7f7;
 }
 a {
   text-decoration: none;
@@ -27,6 +34,12 @@ a {
 .opt > li:hover > a {
   color: #6b787f;
 }
+.opt1 > li:hover > i .classcolor,
+.opt1 > li:hover,
+.opt1 > li:hover > a .classcolor {
+  opacity: 0.7;
+  color: #edeeee;
+}
 
 #navbar {
   width: 90%;
@@ -34,6 +47,7 @@ a {
   margin: auto;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
 #logo {
   width: 180px;
@@ -43,11 +57,20 @@ a {
   cursor: pointer;
 }
 #options {
-  width: calc(100% - 380px);
+  width: 70%;
   height: 100%;
   display: flex;
 }
 .opt {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin: auto;
+  height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+}
+.opt1 {
   display: flex;
   justify-content: center;
   gap: 50px;
@@ -62,7 +85,20 @@ a {
   align-items: center;
   gap: 5px;
 }
+.opt1 > li {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
 #user > .opt {
+  width: 200px;
+  display: flex;
+  gap: 30px;
+  height: 38px;
+  align-items: center;
+}
+#user > .opt1 {
   width: 200px;
   display: flex;
   gap: 30px;
@@ -77,8 +113,15 @@ a {
 #signup :hover a {
   background-color: #ffc714;
 }
+#signupa > a {
+  background: transparent;
+  border: 1px solid #fff;
+  padding: 10px 12px;
+  border-radius: 6px;
+}
 .fixed {
   box-shadow: 0 4px 4px 0 rgb(51 62 72 / 10%), 0 4px 4px 0 rgb(51 62 72 / 10%);
+  background: #fff;
 }
 #bot {
   font-size: 150px;
@@ -269,6 +312,16 @@ a {
 @media only screen and (min-width: 670px) and (max-width: 992px) {
   #options {
     visibility: hidden;
+
+@media only screen and (min-width: 670px) and (max-width: 992px) {
+  #options {
+    visibility: hidden;
+    width: 0;
+  }
+  #sidebar {
+    visibility: visible;
+    width: 20%;
+    margin-left: 0;
   }
 }
 @media only screen and (max-width: 670px) {
@@ -280,4 +333,46 @@ a {
   #navbar {
     justify-content: center;
   }
+  #sidebar {
+    position: absolute;
+    left: 15px;
+    visibility: visible;
+    width: 20%;
+    margin-left: 0;
+  }
+}
+@media screen and (min-width: 993px) {
+  #sidebar {
+    visibility: hidden;
+    width: 0;
+  }
+}
+#sidemenu {
+  width: 30px;
+  height: 30px;
+  font-size: 30px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+#ico {
+  color: #f0f0f0;
+}
+#sidenavbar {
+  visibility: hidden;
+  width: 70%;
+  position: fixed;
+  top: 70px;
+  left: 0;
+  height: 100vh;
+  overflow-y: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  background: #fff;
+  box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
+}
+#sidenavbar::-webkit-scrollbar {
+  display: none;
 }

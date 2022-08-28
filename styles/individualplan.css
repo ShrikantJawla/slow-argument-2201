@@ -1,0 +1,213 @@
+
+        #price{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            gap: 10px;
+            width: 50%;
+            margin: auto;
+            text-align: center;
+            margin-top: 40px;
+        }
+        .one button{
+            background: rgb(0, 127, 170);
+            margin: 0px auto;
+            padding: 10px 20px;
+            border: 0px;
+            width: 100%;
+        }
+        .two button{
+            background: rgb(103, 30, 117);
+            margin: 0px auto;
+            padding: 10px 20px;
+            border: 0px;
+            width: 100%;
+        }
+        .three button{
+            background: rgb(5, 70, 126);
+            margin: 0px auto;  
+            padding: 10px 20px;   
+            border: 0px;   
+            width: 100%;
+        }
+        .one button a, .two button a, .three button a{
+            color:white
+        }
+        .one,.two,.three{
+            box-shadow: rgba(255, 255, 255, 0.2) 0px 0px 0px 1px inset, rgba(0, 0, 0, 0.9) 0px 0px 0px 1px;
+            padding: 20px;
+        }
+        .one:hover{
+            border: 1px solid  rgb(0, 127, 170);
+        }
+        .two:hover{
+            border: 1px solid  rgb(103, 30, 117);
+        }
+        .three:hover{
+            border: 1px solid  rgb(5, 70, 126);
+        }
+        .one>a,.two>a,.three>a{
+            text-decoration: none;
+            display: flex;
+            align-items:flex-end;
+        }
+        .btn{
+            display: flex;
+            justify-content: space-around;
+            width: 50%;
+            margin: auto;
+            margin-top: 40px;
+        }
+        .btn>button:first-child{
+            background: rgb(0, 127, 170);
+            margin: 0px auto;
+            padding: 10px 20px;
+        }
+        .btn>button:nth-child(2){        
+            background: rgb(103, 30, 117);
+            margin: 0px auto;
+            padding: 10px 20px;
+        }
+        .btn>button:last-child{
+            background: rgb(5, 70, 126);
+            margin: 0px auto;  
+            padding: 10px 20px;      
+        }
+        .btn button{
+            border: 0px;
+        }
+        .btn a{
+            color: white;
+        }        
+        .btn button{
+            width: 25%;
+        }
+        .b1,.b2,.b3{
+            text-align: left;
+        }
+        #buy>h3{
+            background: rgba(249, 190, 0, 0.25);
+            padding: 10px 0px;
+            text-align: center;
+            width: 50%;
+            margin: auto;
+        }
+        #buy>div{
+            display: flex;
+            width: 50%;
+            margin: auto;
+            gap: 20px;
+        }
+        #buy button{
+            background-color: rgb(249, 190, 0);
+            border: 0px;
+            padding: 10px 20px;
+        }
+        #buy a{
+            color: black;
+        }
+        #buy>div>div:first-child{
+            width: 40%;
+        }
+        #buy img{
+            width: 100%;
+            height: 100%;
+        }
+        #buy>div>div:last-child{
+            padding: 10px;
+        }
+        #buy>div>div:last-child>div{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        #more{
+            width: 50%;
+            margin: auto;
+            margin-top: 50px;
+        }
+        #more>h1{
+            text-align: center;
+        }
+        #more>div{
+            display: grid;
+            grid-template-columns: repeat(2,1fr);
+            gap: 30px;
+            padding: 10px;
+        }
+        #more>div>div:last-child{
+            padding-right: 20px;
+        }
+        #more li{
+            list-style-type: none;
+        }
+        #more a{
+            color: #007FAA;
+        }
+        .star h6{
+            color: rgb(155, 155, 155);
+        }
+        #tabs{
+            width: 30%;
+            margin: auto;
+        }
+        #tabs a{
+            color: black;
+            font-weight: bold;
+        }
+        #tabs>ul{
+            display: flex;
+            list-style: none;
+            justify-content: space-around;
+        }
+        .top{
+            width: 50%;
+            text-align: center;
+            margin: auto;
+            margin-top: 60px;
+        }
+        .star{
+            width: 50%;
+            margin: auto;
+        }
+        .just{
+            width: 50%;
+            margin: auto;
+            text-align: center;
+        }
+        .just a{
+            color: #007FAA;
+        }
+        #navbar{
+            display: flex;
+            background-color: #00bf6f;
+            color: white;
+            width: 100%;
+            margin: -10px;
+        }
+        #navbar a{
+            color: white;
+        }
+        #navbar ul{
+            display: flex;
+            list-style: none;
+            color: white;
+        }
+        #navbar div{
+            display: flex;
+            justify-content: space-evenly;
+            margin: auto;
+        }
+        #navbar li{
+            margin-right: 50px;
+        }
+        .login{
+            padding-top: 10px;
+        }
+        .signup{
+            border: 2px solid white;
+            padding: 10px 20px;
+        }
+        #navbar ul li,
+        #navbar ul li i{
+            color: white;
+        }
+    
