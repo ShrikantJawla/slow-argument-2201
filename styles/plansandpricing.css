@@ -162,7 +162,7 @@
         width: 50%;
         text-align: center;
         margin: auto;
-        margin-top: 60px;
+        margin-top: 100px;
     }
     .star{
         width: 50%;
@@ -176,7 +176,7 @@
     .just a{
         color: #007FAA;
     }
-    #navbar{
+    /* #navbar{
         display: flex;
         background-color: #00bf6f;
         color: white;
@@ -197,7 +197,7 @@
     }
     #navbar li{
         margin-right: 50px;
-    }
+    } */
     .login{
         padding-top: 10px;
     }
@@ -205,7 +205,7 @@
         border: 2px solid white;
         padding: 10px 20px;
     }
-    #navbar ul li,
+    /* #navbar ul li,
     #navbar ul li i{
         color: white;
-    }
+    } */

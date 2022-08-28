@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="styles/customer-feedback.css" />
     <link rel="stylesheet" href="./styles/page_loading_animation.css">
     <link rel="stylesheet" href="./styles/sidebar.css" />
-    
+    <link rel="stylesheet" href="./styles/mainfooter.css">
   </head>
   
   <body onload="loaderAnimation()">
@@ -183,8 +183,14 @@
     
 </div>
 <div id="lastpara"><p>Net Promoter, Net Promoter System, Net Promoter Score, NPS and the NPS-related emoticons are registered trademarks of Bain & Company, Inc., Fred Reichheld and Satmetrix Systems, Inc.</p></div>
+<div id="foot-container"></div>
   </body>
   <script type="module" src="scripts/difnav.js"></script>
   <script type="module" src="scripts/customer.js"></script>
   <script src="./components/page_loading_animation.js"></script>
+  <script type="module">
+         import mainFooter from "./components/main footer.js";
+         let footer = document.getElementById("foot-container");
+         footer.innerHTML = mainFooter();
+      </script>
 </html>

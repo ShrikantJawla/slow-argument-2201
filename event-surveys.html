@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="styles/navbar.css" />
 		<link rel="stylesheet" href="./styles/survey_templates_div.css" />
 		<link rel="stylesheet" href="styles/sidebar.css" />
+		<link rel="stylesheet" href="./styles/mainfooter.css">
         <script
    src="https://kit.fontawesome.com/fb700f3d70.js"
    crossorigin="anonymous"
@@ -180,9 +181,15 @@
 				<h1>See how SurveyMonkey can power your curiosity</h1>
 				<button>Get started</button>
 			</div>
+			<div id="foot-container"></div>
 	</body>
 	<script src="./components/page_loading_animation.js"></script>
 	<script type="module" src="./components/export&append_data.js"></script>
     <script type="module" src="scripts/difnav.js"></script>
 	<script src="./scripts/event-surveys.js"></script>
+	<script type="module">
+         import mainFooter from "./components/main footer.js";
+         let footer = document.getElementById("foot-container");
+         footer.innerHTML = mainFooter();
+      </script>
 </html>

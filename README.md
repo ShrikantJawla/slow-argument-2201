@@ -6,9 +6,9 @@
 
 #### About the original website:-
 
-It is a leading Survey platform around the globe. It lets it's user to create sophisticated surveys using expert templates.
+It is a leading Survey platform around the globe. It lets it's users to create sophisticated surveys using expert templates.
 
-###### In cunstruct week, we as a team of five members worked relentlessly for 4 days and cloned some parts of original website surveymonkey.com and this is what we build..............
+###### In cunstruct week, we as a team of five members worked relentlessly for 4 days and cloned some parts of original website surveymonkey.com and this is what we built <https://slow-argument-2201.netlify.app/>
 
 
 ##### Which parts we cloned?
@@ -24,6 +24,19 @@ It is a leading Survey platform around the globe. It lets it's user to create so
   3. Event Surey Page
   4. Resources Page
   5. Customer experience Page
+  6. Customer feedback Page
+  7. Employee feedback Page
+  8. HR Solution Page
+  9. Marketing Solutions Page
+  10. Education Solutions Page
+  11. Enterprise Page
+  
+ - Used Import and export for:
+  1. Navbar
+  2. Footer
+  3. Survey templates
+  4. Input form in various Pages
+  5. Page loading animation
 
 
 ##### What Stacks we used? :-
@@ -42,7 +55,7 @@ It is a leading Survey platform around the globe. It lets it's user to create so
 | Devarshi | <https://github.com/devarshi009> |
 | Ashish Sharma| <https://github.com/Mr-Sharma17> |
 
-#### Some general info about techs-Stacks we used:-
+#### Some general information about tech-Stacks we used:-
 
 - [HTML] - "Hypertext" refers to links that connect web pages to one another, either within a single website or between websites.
 - [CSS] - Cascading Style Sheets (CSS) describes how elements should be rendered on screen, on paper, in speech, or on other media.

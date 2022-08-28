@@ -390,7 +390,6 @@ body {
   margin: auto;
 }
 #somebox2 > div > p {
-  height: 100px;
   font-size: 18px;
 }
 #somebox2 > div button {
