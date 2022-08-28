@@ -325,11 +325,14 @@ body {
 }
 
 .input-form-near-footer-container input,
-select {
+.input-form-near-footer-container select {
 	border: 1px solid rgb(208, 210, 211);
 	width: 90%;
 	height: 37px;
 	border-radius: 5px;
+}
+.input-form-near-footer-container input:not(.checkbox-and-info > input):hover, .input-form-container select:hover{
+box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 .checkbox-and-info {
 	display: flex;
