@@ -88,4 +88,7 @@
     display: flex;
     margin-left: 20px;
   }
+  .labels {
+    margin-left: 10px;
+  }
 }
