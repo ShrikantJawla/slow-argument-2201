@@ -1,6 +1,9 @@
 * {
   color: #333e48;
 }
+#foot-container {
+  margin: 80px auto;
+}
 #foot-container a:hover {
   color: #007faa;
   text-decoration: underline;
@@ -16,6 +19,7 @@
   display: flex;
   align-items: center;
   gap: 30px;
+  margin-bottom: 40px;
 }
 #top > div > span {
   width: 120px;
@@ -45,16 +49,18 @@
   justify-content: flex-end;
 }
 #bottom {
-  padding: 0px 60px;
+  padding: 15px 60px;
 }
 #languages > select,
 #languages > select option {
   background-color: #333e48;
   color: white;
   padding: 5px;
+  margin-bottom: 10px;
 }
 #two p {
   width: 30%;
+  line-height: 24px;
 }
 @media only screen and (min-width: 769px) {
   .sm::before {
