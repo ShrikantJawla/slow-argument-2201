@@ -1,157 +1,167 @@
-*{
-    color:#333e48;
-    font-size: 15px;
-    font-family: "National 2","Helvetica Neue",Helvetica,Arial,"Hiragino Sans","Hiragino Kaku Gothic Pro","游ゴシック","游ゴシック体",YuGothic,"Yu Gothic","ＭＳ ゴシック","MS Gothic",sans-serif;
+* {
+  color: #333e48;
+  font-size: 14px;
+  font-family: "National 2", "Helvetica Neue", Helvetica, Arial, "Hiragino Sans",
+    "Hiragino Kaku Gothic Pro", "游ゴシック", "游ゴシック体", YuGothic,
+    "Yu Gothic", "ＭＳ ゴシック", "MS Gothic", sans-serif;
+  box-sizing: border-box;
 }
-body{
-    margin-top: 100px;
+body {
+  background-color: #f0f0f0;
 }
-.c1,
-.c2{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    align-items: center;
-    margin: 20px 0px;
+#loginbox {
+  width: 476px;
+  margin: 40px auto;
+  display: flex;
+  flex-direction: column;
 }
-.c1 label,
-.c1 a,
-.c2 label{
-    font-size: small;
-    color: #6B787F;
+#logo {
+  width: 60%;
+  margin-bottom: 10px;
 }
-.input-email>input:hover{
-    border-color: #6B787F;
+#logo > img {
+  width: 100%;
 }
-.c1 label,
-.c2 label{
-    width: 180%;
-    margin-left: -180px;
+a {
+  text-decoration: none;
+  color: #005977;
 }
-#next{
-    margin-bottom: 20px;
+a:hover {
+  text-decoration: underline;
 }
-a{
-    text-decoration: none;
-    color: #005977;
+#form {
+  box-shadow: 0 2px 8px 0 rgb(0 0 0 / 14%);
+  width: 100%;
+  padding: 20px 40px;
+  background-color: #fff;
 }
-#form{
-    box-shadow: 0 2px 8px 0 rgb(0 0 0 / 14%);
-    margin: auto;
-    width: calc(576px - (2 * 64px));
-    padding: 30px;
+
+.checkbox > div {
+  display: flex;
+  gap: 10px;
+  margin-top: 5px;
+  align-items: center;
 }
-#form h1{
-    font-size: 30px;
-    color: #333E48;
+.checkbox > div > span {
+  width: 90%;
+  font-size: 12px;
+  line-height: 16px;
 }
-.signup p{
-    display: flex;
-    justify-content:right;
+.checkbox > div > span a {
+  font-size: 12px;
 }
-.input-email>input{
-    width: 90%;
-    padding: 20px;
-    font-size: large;
-    border: 1px solid #D0D2D3;
-    margin-top: 10px;
+input[type="checkbox"] {
+  margin-top: 0px;
+  height: 20px;
+  width: 20px;
 }
-.button-disabled{
+
+input[type="email"] {
+  margin: 10px auto;
+  height: 50px;
+  width: 100%;
+  outline: none;
+  border: 1px solid grey;
+  font-size: 20px;
+  padding-left: 5px;
+}
+input[type="email"]:focus {
+  outline: 1px solid #00bf6f;
+  border: none;
+}
+#submitButton {
+  margin: 10px auto;
+}
+.button-disabled {
+  width: 100%;
+  padding: 16px;
+  background-color: rgba(0, 191, 137, 0.36);
+  color: rgba(255, 255, 255, 0.834);
+  border: 0px;
+  cursor: not-allowed;
+  font-weight: bold;
+}
+.button-enabled {
+  width: 100%;
+  padding: 16px;
+  background-color: #00bf6f;
+  font-weight: bold;
+  color: white;
+  border: 0px;
+  cursor: pointer;
+}
+.button-enabled:hover {
+  background-color: #00ce78;
+}
+.social {
+  width: 100%;
+  margin: 20px auto;
+  display: flex;
+  justify-content: space-between;
+}
+.social > div {
+  width: 15%;
+  height: 100%;
+  text-align: center;
+}
+.social > div > p {
+  margin-top: 10px;
+  font-size: 12px;
+}
+.socialimage {
+  width: 60px;
+  height: 60px;
+}
+.socialimage > a {
+  height: 60px;
+  width: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid grey;
+  transition: all 0.5s;
+}
+.socialimage > a:hover {
+  background-color: #f2f2f2;
+}
+.socialimage > a > img {
+  width: 30px;
+  height: 30px;
+}
+.bottom {
+  position: absolute;
+  bottom: 5px;
+  right: 10px;
+  margin-left: 20px;
+}
+.bottom a {
+  margin-left: 5px;
+  font-size: 14px;
+}
+.bottom a:hover {
+  text-decoration: underline;
+}
+@media only screen and (max-width: 576px) {
+  #loginbox {
     width: 100%;
-    padding: 16px;
-    background-color: rgba(0, 191, 137, 0.36);
-    color: rgba(255, 255, 255, 0.834);
-    border: 0px;
-    cursor: not-allowed;
-}
-.button-enabled{
-    width: 100%;
-    padding: 16px;
-    background-color: #00bf6f;
-    color: white;
-    border: 0px;
-    cursor:pointer;
-}
-/* button{
-    width: 100%;
-    padding: 16px;
-    background-color: rgba(0, 191, 137, 0.36);
-    color: rgba(255, 255, 255, 0.834);
-    border: 0px;
-} */
-.social>div div:hover,
-.social a:hover{
-    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
-}
-.social{
+    margin: 20px auto;
     display: flex;
-    justify-content: space-evenly;
-    margin-top: 20px;
-}
-.social img{
-    display: block;
-    width: 45%;
-    height: 50%;
-    margin: auto;
-    padding-top: 15px;
-}
-#form b{
-    color: #00bf6f;
-}
-.social>div div{
-    border: 1px solid #D0D2D3;
-    width: 80%;
-    height: 60%;
-    margin: auto;
-}
-.social p{
-    text-align: center;
-    font-size: 12px;
-}
-#logo{
+    flex-direction: column;
+    background-color: #fff;
+  }
+  #form {
+    padding: none;
+    box-shadow: none;
+  }
+  .bottom {
+    margin: 20px;
     display: flex;
-    justify-content: center;
-    margin-left: -180px;
-}
-.signup a:hover{
-    text-decoration: underline;
-}
-.bottom{
-    display: flex;
-    justify-content: end;
-    margin-top: 100px;
-}
-.bottom a{
-    padding-right: 20px;
-}
-.bottom a:hover{
-    text-decoration: underline;
-}
-@media all and (min-width:320px) and (max-width:720px){
-    body{
-        margin: auto;
-    }
-    #form{
-        padding: 0%;
-        box-shadow: rgba(0, 0, 0, 0.05) 0px 1px 2px 0px;
-    }
-    .bottom{
-        display: grid;
-        margin-top: 100px;
-        margin-left: 70px;
-        grid-template-columns: repeat(1,1fr);
-    }             
-    .input-email>input{
-        width: 90%;
-        padding: 10px;
-    }
-    button{
-        width: 95%;
-    }
-    #logo{
-        position: relative;
-        margin: auto;
-    }
-    .social>div div{
-        margin-left: -2px;
-    }
+    position: relative;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 10px;
+  }
+  #logo {
+    margin: 10px auto 0 auto;
+  }
 }

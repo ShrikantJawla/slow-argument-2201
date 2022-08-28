@@ -1,0 +1,58 @@
+<div class="social">
+			<div>
+			  <div>
+				<a href="#">
+				  <img
+					src="https://th.bing.com/th/id/OIP.PWoq1WvDQDxc_MPv4Jt0GwHaHa?w=176&h=180&c=7&r=0&o=5&pid=1.7"
+					alt="microsoft"
+				  />
+				</a>
+			  </div>
+			  <p>Microsoft</p>
+			</div>
+			<div>
+			  <div>
+				<a href="#">
+				  <img
+					src="https://th.bing.com/th/id/OIP.vVJkAYju2DZ-VbESvjmffAHaHw?w=167&h=180&c=7&r=0&o=5&pid=1.7"
+					alt="fb"
+				  />
+				</a>
+			  </div>
+			  <p>Facebook</p>
+			</div>
+			<div>
+			  <div>
+				<a href="#">
+				  <img
+					src="https://th.bing.com/th/id/OIP.qMjKXwPvmJhHw5cmsJrTNgHaHa?w=180&h=180&c=7&r=0&o=5&pid=1.7"
+					alt="linkedin"
+				  />
+				</a>
+			  </div>
+			  <p>LinkedIn</p>
+			</div>
+			<div>
+			  <div>
+				<a href="#">
+				  <img
+					src="https://th.bing.com/th/id/OIP.a3qIAzN8GxXSp9Y_B0lULAHaHa?w=169&h=180&c=7&r=0&o=5&pid=1.7"
+					alt="google"
+				  />
+				</a>
+			  </div>
+			  <p>Google</p>
+			</div>
+			<div>
+			  <div>
+				<a href="#">
+				  <img
+					src="https://th.bing.com/th/id/OIP.sWSPghjzvfUYfQpqXbo37wHaIo?w=152&h=180&c=7&r=0&o=5&pid=1.7"
+					alt="apple"
+				  />
+				</a>
+			  </div>
+			  <p>Apple</p>
+			</div>
+		  </div>
+		</div>
