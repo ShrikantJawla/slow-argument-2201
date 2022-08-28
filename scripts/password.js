@@ -24,9 +24,9 @@ function finalLogin() {
 		if (ele.email === enteredEmail && ele.password === pass) {
 			isTrue = true;
 			let isSignedInData = { email: ele.email, loggedIn: true };
-			localStorage.setItem('isSignedIn', JSON.stringify(isSignedInData));
+			localStorage.setItem("isSignedIn", JSON.stringify(isSignedInData));
 			document.querySelector(".pass-input").value = null;
-			window.location.href = "./index.html";
+			window.location.href = "./index2.html";
 		}
 	});
 	if (!isTrue) {
