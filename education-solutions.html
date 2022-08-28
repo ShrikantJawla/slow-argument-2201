@@ -19,6 +19,7 @@
     <link rel="stylesheet" href="./styles/inputForm.css" />
     <link rel="stylesheet" href="./styles/page_loading_animation.css">
     <link rel="stylesheet" href="./styles/sidebar.css" />
+    <link rel="stylesheet" href="./styles/mainfooter.css">
   </head>
   <body onload="loaderAnimation()">
     <div id="wrapper"><div class="loader"></div></div>
@@ -326,8 +327,14 @@
       </p>
       <a href="#"><button class="btn1">Start for free</button></a>
     </div>
+    <div id="foot-container"></div>
   </body>
   <script type="module" src="scripts/navbar.js"></script>
   <script type="module" src="./scripts/inputForm.js"></script>
   <script src="./components/page_loading_animation.js"></script>
+  <script type="module">
+         import mainFooter from "./components/main footer.js";
+         let footer = document.getElementById("foot-container");
+         footer.innerHTML = mainFooter();
+      </script>
 </html>

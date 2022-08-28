@@ -1,75 +1,86 @@
+<!-- @format -->
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>SurveyMonkey - New Survey</title>
-    <link rel="stylesheet" href="styles/afterlogin.css" />
-    <script
-      src="https://kit.fontawesome.com/fb700f3d70.js"
-      crossorigin="anonymous"
-    ></script>
-    <link
-      rel="icon"
-      href="./images/download-modified.png"
-      type="image/x-icon"
-    />
-    <link rel="stylesheet" href="styles/createsurvey.css" />
-  </head>
-  <body>
-    <nav></nav>
-    <div id="container1">
-      <div>
-        <p>CREATE A SURVEY</p>
-        <div id="line"></div>
-      </div>
-      <h3>How would you like to get started?</h3>
-    </div>
-    <div id="container2">
-      <div class="subcont2">
-        <div class="subcont2img">
-          <img
-            src="https://prod.smassets.net/assets/website/2.183.0/images/tests-quizzes.svg"
-            alt=""
-          />
-        </div>
-        <div class="subcont2text">
-          <h3>Build it for me</h3>
-          <p>
-            Tell us your goals—we'll create a survey for you and guide you the
-            rest of the way.
-          </p>
-        </div>
-      </div>
-      <div class="subcont2">
-        <div class="subcont2img">
-          <img
-            src="https://prod.smassets.net/assets/website/2.183.0/images/tests-quizzes.svg"
-            alt=""
-          />
-        </div>
-        <div class="subcont2text">
-          <h3>Start from template</h3>
-          <p>Choose from our library of ready-to-use survey templates.</p>
-        </div>
-      </div>
-      <div class="subcont2">
-        <div class="subcont2img">
-          <img
-            src="https://prod.smassets.net/assets/website/2.183.0/images/tests-quizzes.svg"
-            alt=""
-          />
-        </div>
-        <div class="subcont2text">
-          <h3>Start from scratch</h3>
-          <p>
-            Build your survey from scratch or copy and paste a survey that
-            you've already written.
-          </p>
-        </div>
-      </div>
-    </div>
-  </body>
-  <script type="module" src="scripts/afterlogin.js"></script>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>SurveyMonkey - New Survey</title>
+		<link rel="stylesheet" href="styles/afterlogin.css" />
+		<script
+			src="https://kit.fontawesome.com/fb700f3d70.js"
+			crossorigin="anonymous"
+		></script>
+		<link
+			rel="icon"
+			href="./images/download-modified.png"
+			type="image/x-icon"
+		/>
+		<link rel="stylesheet" href="styles/createsurvey.css" />
+    
+    <!-- Here footer has some conflict with navbar -->
+		<!-- <link rel="stylesheet" href="./styles/mainfooter.css" /> -->
+	</head>
+	<body>
+		<nav></nav>
+		<div id="container1">
+			<div>
+				<p>CREATE A SURVEY</p>
+				<div id="line"></div>
+			</div>
+			<h3>How would you like to get started?</h3>
+		</div>
+		<div id="container2">
+			<div class="subcont2">
+				<div class="subcont2img">
+					<img
+						src="https://prod.smassets.net/assets/website/2.183.0/images/tests-quizzes.svg"
+						alt=""
+					/>
+				</div>
+				<div class="subcont2text">
+					<h3>Build it for me</h3>
+					<p>
+						Tell us your goals—we'll create a survey for you and guide you the
+						rest of the way.
+					</p>
+				</div>
+			</div>
+			<div class="subcont2">
+				<div class="subcont2img">
+					<img
+						src="https://prod.smassets.net/assets/website/2.183.0/images/tests-quizzes.svg"
+						alt=""
+					/>
+				</div>
+				<div class="subcont2text">
+					<h3>Start from template</h3>
+					<p>Choose from our library of ready-to-use survey templates.</p>
+				</div>
+			</div>
+			<div class="subcont2">
+				<div class="subcont2img">
+					<img
+						src="https://prod.smassets.net/assets/website/2.183.0/images/tests-quizzes.svg"
+						alt=""
+					/>
+				</div>
+				<div class="subcont2text">
+					<h3>Start from scratch</h3>
+					<p>
+						Build your survey from scratch or copy and paste a survey that
+						you've already written.
+					</p>
+				</div>
+			</div>
+		</div>
+		<!-- <div id="foot-container"></div> -->
+	</body>
+	<script type="module" src="scripts/afterlogin.js"></script>
+	<script type="module">
+		import mainFooter from "./components/main footer.js";
+		let footer = document.getElementById("foot-container");
+		footer.innerHTML = mainFooter();
+	</script>
 </html>
