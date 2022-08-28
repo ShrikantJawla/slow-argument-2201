@@ -4,6 +4,7 @@ function nav() {
   return `
   <div id="sidenavbar"></div>
     <div id="navbar">
+      <div id="logo"><a href="./index.html"><img
     <div id="sidebar">
       <div id="sidemenu"><i class="fa-solid fa-bars"></i></div>
     </div>
@@ -46,7 +47,7 @@ function Products() {
     <div class="subm1">
       <ul>
         <li>
-          <a href="#"
+          <a href="./SurveyMonkeyTakeaTour.html"
             ><span></span>
             <h3>SurveyMonkey</h3>
             <p>
