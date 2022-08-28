@@ -8,7 +8,7 @@
 
 It is a leading Survey platform around the globe. It lets it's user to create sophisticated surveys using expert templates.
 
-###### In cunstruct week, we as a team of five members worked relentlessly for 4 days and cloned some parts of original website surveymonkey.com and this is what we build..............
+###### In cunstruct week, we as a team of five members worked relentlessly for 4 days and cloned some parts of original website surveymonkey.com and this is what we build <https://slow-argument-2201.netlify.app/>
 
 
 ##### Which parts we cloned?
@@ -24,6 +24,19 @@ It is a leading Survey platform around the globe. It lets it's user to create so
   3. Event Surey Page
   4. Resources Page
   5. Customer experience Page
+  6.Customer feedback Page
+  7.Employee feedback Page
+  8.HR Solution Page
+  9.Marketing Solutions Page
+  10.Education Solutions Page
+  11.Enterprise Page
+  
+ - Imported Parts:
+  1.Navbar
+  2.Footer
+  3.Survey templates
+  4.Input form in various Pages
+  5.Page loading animation
 
 
 ##### What Stacks we used? :-
