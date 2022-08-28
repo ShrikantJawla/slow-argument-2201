@@ -31,7 +31,7 @@ It is a leading Survey platform around the globe. It lets it's users to create s
   10. Education Solutions Page
   11. Enterprise Page
   
- - Imported Parts:
+ - Used Import and export for:
   1. Navbar
   2. Footer
   3. Survey templates
