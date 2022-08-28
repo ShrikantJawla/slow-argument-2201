@@ -129,8 +129,7 @@ nav {
   background-color: #f0f0f0;
 }
 #mediumscreensidebar {
-  visibility: hidden;
-  width: 0;
+  display: none;
 }
 #sidemenu {
   cursor: pointer;
@@ -155,32 +154,40 @@ nav {
 #ssidemenu > i {
   margin-left: 10px;
 }
+#signoutsmall {
+  display: none;
+  width: 80%;
+  height: 40px;
+  margin: 10px 25px;
+  cursor: pointer;
+}
 @media screen and (max-width: 1200px) {
   #largescreensub1 {
-    visibility: hidden;
-    width: 0%;
-    margin: 0%;
-    padding: 0%;
+    display: none;
   }
   #mediumscreensidebar {
-    visibility: hidden;
+    display: none;
   }
 }
 @media screen and (max-width: 1199px) and (min-width: 768px) {
   #mediumscreensidebar {
     margin: auto;
-    visibility: visible;
+    display: block;
     display: flex;
     align-items: center;
     gap: 20px;
     margin-left: 20px;
+  }
+  .largescreensub1dashboard1,
+  #largescreenopt {
+    display: none;
   }
 }
 @media only screen and (max-width: 768px) {
   #largescreen {
     visibility: hidden;
     position: absolute;
-    top: -999999;
+    display: none;
   }
   #smallscreen {
     visibility: visible;
@@ -188,6 +195,13 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+  }
+  #signoutsmall {
+    display: block;
+  }
+  .largescreensub1dashboard1,
+  #largescreenopt {
+    display: none;
   }
 }
 #rightoption a {
@@ -199,7 +213,7 @@ nav {
   position: absolute;
   top: 48px;
   right: 5px;
-  width: 20%;
+  width: 300px;
   height: calc(100vh - 50px);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   overflow-y: scroll;
@@ -220,9 +234,12 @@ nav {
   padding-bottom: 5px;
 }
 #afsidebar {
-  width: 20%;
+  position: absolute;
+  top: 50px;
+  width: 250px;
   height: calc(100vh - 50px);
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  background-color: #fff;
 }
 #afsidebar a {
   color: #404040;

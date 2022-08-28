@@ -134,6 +134,8 @@ function alsidenav() {
       </ul>
     </li>
   </ul>
-</div>`;
+  <a href="./index.html"><button id="signoutsmall">Sign Out</button></a>
+</div>
+`;
 }
 export { nav, dropdownusermenu, alsidenav };
