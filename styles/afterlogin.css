@@ -206,6 +206,8 @@ nav {
   padding: 0 5px;
   display: flex;
   flex-direction: column;
+  background-color: #fff;
+  z-index: 10000000;
 }
 #rightoption .subnav .subm1 ul li {
   padding: 10px 10px 10px 20px;
