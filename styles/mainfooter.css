@@ -83,6 +83,7 @@
   }
   #top > div > span {
     width: auto;
+    margin-bottom: 10px;
   }
   #top > div > ul li {
     display: flex;
