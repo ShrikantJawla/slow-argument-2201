@@ -13,11 +13,11 @@ function sideoption() {
         Resources <i class="fa-solid fa-angle-down"></i>
       </li>
       <div id="sidemenubar3"></div>
-      <li><a href="plansandpricing.html">Plan & Pricing</a></li>
+      <li><a href="./plansandpricing.html">Plan & Pricing</a></li>
     </ul>
   <div id="sideuserbutton">
-  <a href="login.html"><button class="sidebtn">Login</button></a>
-  <a href="signup.html"><button class="sidebtn2">Sign up free</button></a>
+  <a href="./login.html"><button class="sidebtn">Login</button></a>
+  <a href="./signup.html"><button class="sidebtn2">Sign up free</button></a>
   </div>
   </div>
   `;
@@ -42,7 +42,7 @@ function products() {
             </a>
           </li>
           <li>
-            <a href="prodEnterprise.html"
+            <a href="./prodEnterprise.html"
               ><span></span>
               <h3>Enterprise</h3>
               <p>
@@ -146,7 +146,7 @@ function solutions() {
       <div class="sidesubm1">
           <ul>
             <li>
-              <a href="customer-feedback.html"
+              <a href="./customer-feedback.html"
                 ><span></span>
                 <h3>Customers</h3>
                 <p>
@@ -155,7 +155,7 @@ function solutions() {
               </a>
             </li>
             <li>
-              <a href="employee-feedback.html"
+              <a href="./employee-feedback.html"
                 ><span></span>
                 <h3>Employees</h3>
                 <p>Build a stronger workforce with Employee Powered Data</p>                      </a>
@@ -178,28 +178,28 @@ function solutions() {
         <div class="sidesubm1">
             <ul>
               <li>
-                <a href="customer-experience-solution.html"
+                <a href="./customer-experience-solution.html"
                   ><span></span>
                   <h3>Customer Experience</h3>
                   <p>Delight customers & increase loyalty through feedback</p>
                 </a>
               </li>
               <li>
-                <a href="hr-solution.html"
+                <a href="./hr-solutions.html"
                   ><span></span>
                   <h3>Human Resources</h3>
                   <p>Improve your employee experience, engagement & retention</p>
                 </a>
               </li>
               <li>
-                <a href="marketing-solutions.html"
+                <a href="./marketing-solutions.html"
                   ><span></span>
                   <h3>Marketing</h3>
                   <p>Create winning campaigns, boost ROI & drive growth</p>
                 </a>
               </li>
               <li>
-                <a href="education-solutions.html"
+                <a href="./education-solutions.html"
                   ><span></span>
                   <h3>Education</h3>
                   <p>Elevate your student experience and become a data-driven institution</p>
@@ -217,9 +217,9 @@ function solutions() {
       </div>
       <div class="sidesubm4">
         <div>
-            <a href="#">Customer Satisfaction</a>
-            <a href="#">Customer Loyalty</a>
-            <a href="#">Event Surveys</a>
+        <a href="./customer-satisfaction-survey.html">Customer Satisfaction</a>
+        <a href="./customer-loyalty.html">Customer Loyalty</a>
+        <a href="./event-surveys.html">Event Surveys</a>
         </div>
         <div>
             <a href="#">Employee Engagement</a>
