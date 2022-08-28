@@ -92,6 +92,9 @@
     margin-left: 10px;
   }
   #two p {
-    width: 90%;
+    width: 100%;
+  }
+  #bottom {
+    padding: 15px 80px 15px 20px;
   }
 }
