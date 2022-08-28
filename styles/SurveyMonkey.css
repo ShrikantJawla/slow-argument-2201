@@ -4,27 +4,18 @@
     border: 2px solid goldenrod;
 } */
 #surveyM-div1 {
-    /* height: 100%; */
-    width: 100%;
-    /* border: 2px solid blueviolet; */
-    display: flex;
-    margin: auto;
-}
-#surveyM-div1>.surveyM-innerDiv1>.feedback{
     /* border: 1px solid black; */
-    /* height: 100%; */
-    width: 80%;
-    margin-left: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    justify-content: center;
+    text-align: left;
+    align-items: center;
+    margin: auto;
+    margin-top: 70px;
 }
-#surveyM-div1>.surveyM-innerDiv1>.feedback>button{
-    margin: 15px;
-}
-#surveyM-div1>.surveyM-innerDiv1{
-    height: auto;
-    width: 50%;
-    /* border: 2px solid yellow; */
-    padding: 5% 3% 5% 3%;
-    /* margin-bottom: %; */
+#surveyM-div1 .surveyM-innerDiv1 {
+    /* border: 1px solid red; */
+    padding: 20px;
 }
 .surveyM-heading {
     font-size: 40px;
@@ -33,6 +24,7 @@
 .surveyM-paraHead {
     font-size: 20px;
     margin-left: 18px;
+    margin-bottom: 10px;
 }
 .surveyM-innerDiv1>.feedback>.surveyM-proSignUp{
     background-color: #00bf6f;
@@ -44,8 +36,10 @@
     width: 200px;
     text-align: center;
     align-items: center;
-    padding: 2% 2% 2% 2%;
+    /* padding: 2% 2% 2% 2%; */
     margin-right: 2%;
+    margin-left: 15px;
+    margin-top: 10px;
     font-size: 15px;
 }
 .surveyM-innerDiv1>.feedback>.surveyM-signUp{
@@ -58,14 +52,9 @@
     width: 200px;
     text-align: center;
     align-items: center;
-    padding: 2% 2% 2% 2%;
+    /* padding: 2% 2% 2% 2%; */
     margin-left: 2%;
     font-size: 15px;
-}
-#surveyM-div1>.surveyM-innerDiv2{
-    height: 470px;
-    width: 50%;
-    /* border: 2px solid yellowgreen; */
 }
 #plans {
     padding: 20px;
@@ -82,19 +71,19 @@
     font-size: larger;
 }
 #planChart {
-    display: flex;
-    padding: 1% 5% 1% 10%;
     /* border: 1px solid violet; */
-    /* height: 400px; */
     display: grid;
     grid-template-columns: repeat(3,30%);
     text-align: center;
     align-items: center;
+    justify-content: center;
     gap: 2%;
+    margin-top: 20px;
+    margin-bottom: 40px;
 }
 #planChart > .planChart-1{
     /* border: 1px solid red; */
-    height: 90%;
+    height: 100%;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .indiAd1 {
@@ -131,7 +120,7 @@
 }
 #planChart > .planChart-2{
     /* border: 1px solid red; */
-    height: 90%;
+    height: 100%;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .teamAd1 {
@@ -167,7 +156,7 @@
 }
 #planChart > .planChart-3{
     /* border: 1px solid red; */
-    height: 90%;
+    height: 100%;
     box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
 }
 .teamPre1 {
@@ -214,6 +203,7 @@
     text-align: center;
     align-items: center;
     font-size: larger;
+    margin-bottom: 20px;
 }
 #contactUs {
     /* border: 1px solid yellow; */
@@ -259,18 +249,14 @@
 #contactUs > .contactUs-2 > .checkBox {
     margin: 10px;
 }
-#blank{
-    height: 10px;
-    background-color: white;
-}
 #howSMworks {
     width: 100%;
     /* border: 1px solid royalblue; */
     text-align: center;
     align-items: center;
     padding: 20px;
+    margin-top: 50px;
     font-size: larger;
-    background-color: #f7f7f7;
 }
 #how-SM-Works {
     width: 100%;
@@ -421,3 +407,190 @@
     align-items: center;
     margin: 2% 2% 2% 2%;
 }
+@media only screen and (max-width:992px) {
+    #surveyM-div1{
+        grid-template-columns: repeat(1, 90%);
+        text-align: center;
+        justify-content: center;
+        margin-top: 100px;
+    }
+    .surveyM-heading {
+        font-size: 25px;
+        font-weight: bolder;
+        margin-bottom: 20px;
+       
+    }
+    .surveyM-paraHead {
+        font-size: 15px;
+        margin: auto;
+        margin: 10px 25px 0px 25px;
+        padding: 0px 20px 0px 20px;
+        text-align: center;
+        /* border: 1px solid black; */
+    }
+    .surveyM-innerDiv1>.feedback>.surveyM-proSignUp{
+        background-color: #00bf6f;
+        border: 0px;
+        border-radius: 3px;
+        color: white;
+        font-size: large;
+        height: 40px;
+        width: 300px;
+        text-align: center;
+        align-items: center;
+        margin: 45px 30px 10px 30px;
+        font-size: 15px;
+    }
+    .surveyM-innerDiv1>.feedback>.surveyM-signUp{
+        background-color: white;
+        border: 1px solid black;
+        border-radius: 3px;
+        color: black;
+        font-size: large;
+        height: 40px;
+        width: 300px;
+        text-align: center;
+        align-items: center;
+        font-size: 15px;
+        margin-right: 0%;
+    }
+    #surveyM-div1 .surveyM-innerDiv2 img {
+        height: 0px;
+        width: 0px;
+    }
+    #plans {
+        font-size: 20px;
+        padding-top: 60px;
+        font-weight: lighter;
+    }
+    #plansText {
+        padding-top: 12px;
+        font-size: 15px;
+        margin-bottom: 50px;
+        /* border: 1px solid black; */
+    }
+    #planChart {
+        display: grid;
+        grid-template-columns: repeat(1,80%);
+        text-align: center;
+        align-items: center;
+        gap: 4%;
+        margin-bottom: 100px;
+    }
+    #solution {
+        padding-top: 60px;
+        font-size: 20px;
+    }
+    #solution-para {
+        padding: 30px 80px 50px 80px;
+        font-size: 15px;
+    }
+    #contactUs {
+        grid-template-columns: repeat(1,80%);
+        justify-content: center;
+        gap: 30px;
+    }
+    .contactUs-1-1 {
+        /* border: 1px solid black; */
+        margin-top: 10px;
+        width: 80%;
+        padding: 20px;
+        row-gap: 10px;
+    }
+    .contactUs-1-1 .listPoint {
+        font-size: 15px;
+        margin: 5px;
+    }
+    .contactUs-1-1 h1 {
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .contactUs-2 > button{
+        width: 60%;
+        padding: 10px;
+        font-size: 15px;
+        margin-top: 15px;
+    }
+    #howSMworks {
+        padding: 20px;
+        margin-top: 50px;
+        font-size: 10px;
+        /* border: 1px solid black; */
+    }
+    #how-SM-Works {
+        grid-template-columns: repeat(1,80%);
+        /* border: 1px solid yellow; */
+        justify-content: center;
+    }
+    .how-SM-Works-2-heading{
+        font-size: 20px;
+        margin-bottom: 10px;    
+    }
+    .how-SM-Works-2-heading-listing {
+        font-size: 15px;
+        gap: 15px;
+    }
+    #buildSuccess {
+        margin-top: 50px;
+        font-size: 20px;
+        /* border: 1px solid violet; */
+    }
+    #buildSuccess-para {
+        padding: 10px 50px 10px 50px;
+        margin-bottom: 50px;
+    }
+    #whyRelyOnSM > .mainSM {
+        grid-template-columns: repeat(1,80%);
+        justify-content: center;
+        padding: 0px;
+        margin-top: 8px;
+    }
+    #whyRelyOnSM > .mainSM > .whyRely-3 {
+        /* border: 1px solid red; */
+        display: grid;
+        /* height: 100%; */
+        justify-content: center;
+    }
+    #getStarted > button {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+}
+
+@media only screen and (min-width:670px) and (max-width:992px) {
+    #planChart {
+        display: grid;
+        grid-template-columns: repeat(1,70%);
+        text-align: center;
+        align-items: center;
+        gap: 4%;
+        margin-bottom: 100px;
+    }
+
+    #buildSuccess {
+        margin-top: 50px;
+        font-size: 20px;
+        /* border: 1px solid violet; */
+    }
+    #buildSuccess-para {
+        padding: 10px 50px 10px 50px;
+        margin-bottom: 50px;
+    }
+    #whyRelyOnSM > .mainSM {
+        grid-template-columns: repeat(1,80%);
+        justify-content: center;
+        padding: 0px;
+        margin-top: 8px;
+    }
+    #whyRelyOnSM > .mainSM > .whyRely-3 {
+        /* border: 1px solid red; */
+        display: grid;
+        /* height: 100%; */
+        justify-content: center;
+    }
+    #getStarted > button {
+        font-size: 15px;
+        margin-top: 30px;
+    }
+}
+
