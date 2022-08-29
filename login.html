@@ -2,131 +2,166 @@
 
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="stylesheet" href="./styles/page_loading_animation.css" />
-		<script src="./components/page_loading_animation.js"></script>
-		<link rel="stylesheet" href="./styles/login.css" />
-		<title>Log In</title>
-	</head>
-	<body onload="loaderAnimation()">
-		<div id="wrapper"><div class="loader"></div></div>
-		<div id="logo">
-			<img
-				src="https://th.bing.com/th/id/OIP.qmQhvisC4N0FaCwKOAf_sQHaBz?w=323&h=85&c=7&r=0&o=5&pid=1.7"
-				alt="logo"
-			/>
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/page_loading_animation.css" />
+    <script src="./components/page_loading_animation.js"></script>
+    <link rel="stylesheet" href="./styles/login.css" />
+    <title>SurveyMonkey - Log in</title>
+    <link
+      rel="icon"
+      href="./images/download-modified.png"
+      type="image/x-icon"
+    />
+    <script
+      src="https://kit.fontawesome.com/fb700f3d70.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body onload="loaderAnimation()">
+    <div id="wrapper"><div class="loader"></div></div>
+
+    <div id="loginbox">
+      <div id="logo">
+        <img
+          src="https://prod.smassets.net/assets/website/2.182.0/images/logo-surveymonkey.svg"
+          alt="logo"
+        />
+      </div>
+      <div id="form">
+        <div class="signup">
+          <p>Don’t have an account? <a href="signup.html"> Sign up</a></p>
+        </div>
+        <h1>Log in</h1>
+		<div class="label">
+			<label
+          ><span
+            >Email address <b class="colorgreen"> NEW!</b>
+            </span>
+			<div class="icon"><i class="fa-solid fa-circle-info"></i><div class="infotext">
+				<h3>New! Log in with email address</h3>
+				<p>
+				   Welcome to our simplified log in
+				  process. We now ask you to log in with email address instead of
+				  username. 
+				</p>
+				<p>
+					If you have more than one account: Enter your email,
+				  then we’ll ask you to link your accounts. You can switch between
+				  accounts after you log in. <a href="#"> Learn more</a>
+				</p>
+			  </div></div>
+          
+        </label>
 		</div>
-		<div id="form">
-			<div class="signup">
-				<p>Don’t have an account? <a href="signup.html">Sign up</a></p>
-			</div>
-			<h1>Log in</h1>
-			<label> Email address <b> NEW!</b> </label>
-			<div class="input-email">
-				<input
-				onkeypress="submitOnEnter(event)"
-					oninput="enableButton()"
-					id="email"
-					type="email"
-					aria-required="true"
-					aria-label="Email address"
-				/>
-			</div>
-			<p>
-				<a href="#">Forgot email?</a>
-			</p>
-			<button
-				onclick="login()"
-				id="submitButton"
-				class="button-disabled"
-				type="submit"
-				disabled="true"
-			>
-				Next
-			</button>
-			<hr />
-			<div class="sso">
-				<p>Or log in with</p>
-				<button>
-					<a href="#">
-						<img
-							style="width: 10px; height: 10px"
-							src="https://th.bing.com/th/id/OIP.BXw4zyZ3HYSQ9c8VvfxOLAHaH9?pid=ImgDet&w=197&h=211&c=7"
-							alt=""
-						/>
-						SSO
-					</a>
-				</button>
-			</div>
-			<div class="social">
-				<div>
-					<div>
-						<a href="#">
-							<img
-								src="https://th.bing.com/th/id/OIP.PWoq1WvDQDxc_MPv4Jt0GwHaHa?w=176&h=180&c=7&r=0&o=5&pid=1.7"
-								alt="microsoft"
-							/>
-						</a>
-					</div>
-					<p>Microsoft</p>
-				</div>
-				<div>
-					<div>
-						<a href="#">
-							<img
-								src="https://th.bing.com/th/id/OIP.vVJkAYju2DZ-VbESvjmffAHaHw?w=167&h=180&c=7&r=0&o=5&pid=1.7"
-								alt="fb"
-							/>
-						</a>
-					</div>
-					<p>Facebook</p>
-				</div>
-				<div>
-					<div>
-						<a href="#">
-							<img
-								src="https://th.bing.com/th/id/OIP.qMjKXwPvmJhHw5cmsJrTNgHaHa?w=180&h=180&c=7&r=0&o=5&pid=1.7"
-								alt="linkedin"
-							/>
-						</a>
-					</div>
-					<p>LinkedIn</p>
-				</div>
-				<div>
-					<div>
-						<a href="#">
-							<img
-								src="https://th.bing.com/th/id/OIP.a3qIAzN8GxXSp9Y_B0lULAHaHa?w=169&h=180&c=7&r=0&o=5&pid=1.7"
-								alt="google"
-							/>
-						</a>
-					</div>
-					<p>Google</p>
-				</div>
-				<div>
-					<div>
-						<a href="#">
-							<img
-								src="https://th.bing.com/th/id/OIP.sWSPghjzvfUYfQpqXbo37wHaIo?w=152&h=180&c=7&r=0&o=5&pid=1.7"
-								alt="apple"
-							/>
-						</a>
-					</div>
-					<p>Apple</p>
-				</div>
-			</div>
+        
+        <div class="input-email">
+          <input
+            onkeypress="submitOnEnter(event)"
+            oninput="enableButton()"
+            id="email"
+            type="email"
+            aria-required="true"
+            aria-label="Email address"
+          />
+        </div>
+		<div class="forgotmail">
+			<a href="#">Forgot email?</a>
 		</div>
-		<div class="bottom">
-			<a href="#"> Help </a>
-			<a href="#"> Terms of Use </a>
-			<a href="#"> Privacy Notice </a>
-			<a href="#"> California Privacy Notice </a>
-			<a href="#"> Cookies Policiy </a>
-			<a href="#"> Cookie Preferences </a>
+        <button
+          onclick="login()"
+          id="submitButton"
+          class="button-disabled"
+          type="submit"
+          disabled="true"
+        >
+          Next
+        </button>
+        <hr />
+        <div class="sso">
+          <p>Or log in with</p>
+          <button class="btnsso">
+            <a href="#">
+              <img
+                style="width: 10px; height: 10px"
+                src="https://th.bing.com/th/id/OIP.BXw4zyZ3HYSQ9c8VvfxOLAHaH9?pid=ImgDet&w=197&h=211&c=7"
+                alt=""
+              />
+              SSO
+            </a>
+          </button>
+        </div>
+		<div class="social">
+			<div>
+			  <div class="socialimage">
+				<a href="#">
+				  <img
+					src="https://th.bing.com/th/id/OIP.PWoq1WvDQDxc_MPv4Jt0GwHaHa?w=176&h=180&c=7&r=0&o=5&pid=1.7"
+					alt="microsoft"
+				  />
+				</a>
+			  </div>
+			  <p>Microsoft</p>
+			</div>
+			<div>
+			  <div class="socialimage">
+				<a href="#">
+				  <img
+					src="https://th.bing.com/th/id/OIP.vVJkAYju2DZ-VbESvjmffAHaHw?w=167&h=180&c=7&r=0&o=5&pid=1.7"
+					alt="fb"
+				  />
+				</a>
+			  </div>
+			  <p>Facebook</p>
+			</div>
+			<div>
+			  <div class="socialimage">
+				<a href="#">
+				  <img
+					src="https://th.bing.com/th/id/OIP.qMjKXwPvmJhHw5cmsJrTNgHaHa?w=180&h=180&c=7&r=0&o=5&pid=1.7"
+					alt="linkedin"
+				  />
+				</a>
+			  </div>
+			  <p>LinkedIn</p>
+			</div>
+			<div>
+			  <div class="socialimage">
+				<a href="#">
+				  <img
+					src="https://th.bing.com/th/id/OIP.a3qIAzN8GxXSp9Y_B0lULAHaHa?w=169&h=180&c=7&r=0&o=5&pid=1.7"
+					alt="google"
+				  />
+				</a>
+			  </div>
+			  <p>Google</p>
+			</div>
+			<div>
+			  <div class="socialimage">
+				<a href="#">
+				  <img
+					src="https://th.bing.com/th/id/OIP.sWSPghjzvfUYfQpqXbo37wHaIo?w=152&h=180&c=7&r=0&o=5&pid=1.7"
+					alt="apple"
+				  />
+				</a>
+			  </div>
+			  <p>Apple</p>
+			</div>
+		  </div>
 		</div>
-	</body>
-	<script src="./scripts/login.js"></script>
+      </div>
+    </div>
+
+    <div class="bottom">
+      <a href="#"> Help </a>
+      <a href="#"> Terms of Use </a>
+      <a href="#"> Privacy Notice </a>
+      <a href="#"> California Privacy Notice </a>
+      <a href="#"> Cookies Policiy </a>
+      <a href="#"> Cookie Preferences </a>
+    </div>
+  </body>
+  <script src="./scripts/login.js"></script>
 </html>
