@@ -61,6 +61,9 @@ label i {
 label i:hover + .infotext {
   display: block;
 }
+.icon {
+  position: relative;
+}
 .icon div::before {
   content: "";
   width: 10px;
@@ -68,14 +71,15 @@ label i:hover + .infotext {
   position: absolute;
   box-shadow: 0 2px 8px 0 rgb(0 0 0 / 14%);
   left: -5px;
+  top: 113px;
   background: #fff;
   z-index: 2;
   rotate: 45deg;
 }
 .infotext {
   position: absolute;
-  top: 191px;
-  right: -6px;
+  left: 200%;
+  bottom: -1000%;
   width: 270px;
   height: 260px;
   display: none;
