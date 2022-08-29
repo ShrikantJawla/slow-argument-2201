@@ -313,7 +313,7 @@ function difnav() {
     </div>
     <div id="user">
       <ul class="opt1">
-        <li><a href="#" class="classcolor">Log in</a></li>
+        <li><a href="./login.html" class="classcolor">Log in</a></li>
         <li id="signupa"><a href="signup.html" class="classcolor">Sign up free</a></li>
       </ul>
     </div>
