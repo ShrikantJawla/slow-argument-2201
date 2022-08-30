@@ -1,0 +1,433 @@
+/** @format */
+
+:root {
+	--backgroundColor: #f6f6f6;
+	--email-color: #007faa;
+}
+* {
+	padding: 0%;
+	margin: 0%;
+	box-sizing: border-box;
+	font-family: National2, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	color: #333e48;
+}
+body {
+	-webkit-font-smoothing: antialiased;
+}
+.welcome-email {
+	font-size: 1.47em;
+	font-weight: 100;
+	padding: 17px 50px;
+	color: #333e48;
+    letter-spacing: 1.5px;
+    margin-bottom: 15px;
+}
+.welcome-email > .email-span {
+	color: var(--email-color);
+}
+.survey-options-container{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+.survey-options-container>p{
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+.survey-options-container>p:first-child>span{
+    color:#00bf6f;
+    font-weight: 550;
+    font-size: 15px;
+}
+.survey-option{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:20px;
+    margin-bottom: 20px;
+}
+.survey-option>p{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding:19px;
+    font-size: 15px;
+    font-weight: 600;
+    border:1px solid white;
+}
+.survey-option>p:hover{
+    border-color: #00bf6f;
+    cursor:pointer;
+}
+.steps-tracking{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    padding: 45px 0px;
+    background-color: #edeeee;
+    margin-top: 10px;
+    position:relative;
+}
+.dots{
+    color:#00bf6f;
+}
+.checkTick{
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 35px;
+    background-color:#00bf6f;
+    color:white;
+}
+.user{
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 35px;
+    background-color:white;
+    color:#00bf6f;
+    border:1px dotted #00bf6f
+}
+.design{
+justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 20px;
+    font-size: 35px;
+    background-color:white;
+    color:#00bf6f;
+    border:1px dotted #00bf6f
+}
+.fa-xmark{
+    font-size:30px;
+    color: #b5bcbce7;
+    position:absolute;
+    top:9%;
+    right:2%;
+    cursor:pointer;
+}
+.create-survey-container {
+	max-width: 100%;
+	padding: 90px 0px;
+	background-color: var(--backgroundColor);
+}
+.create-survey-container .let-get-started > p {
+	text-align: center;
+	font-size: 1.7em;
+	font-weight: 50;
+	color: #333e48;
+	margin-bottom: 10px;
+}
+.create-survey-container .image-with-button {
+	margin-bottom: 30px;
+	width: 80%;
+	height: 90px;
+	background-image: url("https://cdn.smassets.net/assets/dashweb/dashweb/8.0.0/assets/airplane_and_twirly_trail.png");
+	background-repeat: no-repeat;
+	background-position: right center;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-bottom: 40px;
+}
+.image-with-button button {
+	font-size: 14px;
+	height: 40px;
+	padding: 0 27px;
+	background: #00bf6f;
+	border: #00bf6f;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 2px;
+	margin-left: 25%;
+}
+.image-with-button button:hover {
+	border-color: #00ce78;
+	background: #00ce78;
+}
+.after-let-get-started {
+	width: 70%;
+	margin: auto;
+}
+.survey-example h1 {
+	font-size: 21px;
+	font-weight: 100;
+	letter-spacing: 1px;
+}
+.survey-example p {
+	margin-top: 17px;
+	font-size: 13px;
+	font-weight: 400;
+	color: #7c878e;
+	padding: 9px 0px;
+}
+.ridersharing-service-container {
+	background-color: #fff;
+	color: #333e48;
+	padding: 15px;
+}
+.top-sub-div {
+	display: flex;
+	justify-content: space-between;
+	border-bottom: 1px solid #edeeee;
+	padding: 10px 20px;
+	line-height: 5px;
+	font-size: 12px;
+	color: #7c878e;
+}
+.left-sub-top-div {
+	display: flex;
+	flex-direction: column;
+	gap: 13px;
+}
+.left-sub-top-div p {
+	color: #7c878e;
+	font-style: oblique;
+}
+.question-answer {
+	color: #7c878e;
+	font-style: oblique;
+	display: flex;
+	gap: 18px;
+}
+.right-sub-top-div button {
+	font-size: 14px;
+	height: 40px;
+	padding: 0 27px;
+	background: #00bf6f;
+	border: #00bf6f;
+	cursor: pointer;
+	color: #fff;
+	font-weight: bold;
+	border-radius: 2px;
+}
+.right-sub-top-div button:hover {
+	border-color: #00ce78;
+	background: #00ce78;
+}
+.what-you-can-learn-container {
+	padding: 10px 20px;
+	display: grid;
+	grid-template-columns: 1.5fr 2fr;
+	gap: 40px;
+}
+.what-learn-right-div {
+	width: 100%;
+	height: 100%;
+}
+.what-learn-right-div > img {
+	width: 100%;
+	height: 100%;
+}
+.question-div {
+	margin-bottom: 12px;
+}
+.answer-div > p {
+	font-size: 13px;
+	font-weight: 400;
+	color: #7c878e;
+	margin-bottom: 5px;
+	margin-top: 8px;
+}
+.answer-div > p > .fa-check {
+	margin-right: 7px;
+}
+.what-learn-left-div > p {
+	margin-top: 30px;
+	font-size: 13px;
+	font-weight: 400;
+	color: #7c878e;
+}
+.what-learn-left-div > button {
+	border-color: #333e48;
+	color: #101214;
+	background-color: transparent;
+	cursor: pointer;
+	transition: color 0.4s, border-color 0.4s, background-color 0.4s;
+	padding: 6px 7px;
+	font-weight: 600;
+	font-size: 12px;
+	margin-top: 15px;
+}
+.what-learn-left-div > button:hover {
+	background-color: #6b787f48;
+}
+.three-bottom-divs-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	width: 70%;
+	margin: auto;
+	margin-top: 50px;
+	gap: 26px;
+}
+.survey-tips-div {
+	width: 100%;
+	height: 100%;
+}
+.survey-tips-content > img {
+	width: 100%;
+	height: 40%;
+}
+.three-bottom-divs-container > div > div {
+	background-color: #fff;
+	color: #333e48;
+	padding: 15px;
+	margin-top: 20px;
+    height:400px;
+}
+.three-bottom-divs-container > div > h2 {
+	font-size: 25px;
+	font-weight: 50;
+	letter-spacing: 1px;
+}
+.profile-displayer-div {
+	display: flex;
+	flex-direction: column;
+	gap: 15px;
+}
+.progress-circle{
+    width:130px;
+    height: 130px;
+    border:13px solid rgb(216, 205, 205);
+    border-top-color:rgb(68, 68, 253);
+    border-right-color:rgb(68, 68, 253);
+    padding:40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    margin-bottom: 9px;
+    border-radius: 50%;
+}
+.progress-circle:hover{
+    border:13px solid rgba(216, 205, 205, 0.374);
+    border-top-color:rgba(68, 68, 253, 0.374);
+    border-right-color:rgba(68, 68, 253, 0.374);
+    transition:0.2s ease-in;
+    cursor:pointer;
+}
+.progress-circle>p:first-child{
+    font-weight: bold;
+    font-size: 21px;
+}
+.progress-circle>p{
+    font-size: 13px;
+}
+.email-info {
+	border-bottom: 1px solid #edeeee;
+	font-size: 13px;
+}
+.email-info > p {
+	/* display: flex;
+    overflow: hidden;
+    width:60%;*/
+	text-align: center;
+	text-overflow: ellipsis;
+	margin: auto;
+	position: relative;
+	z-index: 5;
+	cursor: pointer;
+	font-size: 16px;
+	font-weight: 500;
+	color: #333e48;
+	margin-bottom: 10px;
+}
+.email-info > p:first-child {
+	font-weight: 600;
+}
+.email-info .email-info-smaller-font {
+	/* display: flex;
+    white-space: nowrap;
+    overflow: hidden; */
+	/* text-overflow: ellipsis; */
+	font-size: 12px;
+	text-align: center;
+}
+.plan-type {
+	font-size: 13px;
+}
+.plan-type > p:first-child {
+	font-weight: 600;
+}
+.plan-type > p:first-child > span {
+	margin-left: 7px;
+	font-weight: 400;
+}
+.plan-type > p:nth-child(2) {
+	text-align: center;
+}
+.plan-type > button {
+	display: flex;
+	font-size: 14px;
+	height: 33px;
+	padding: 0 20px;
+	background: #f9be00;
+	border: #f9be00;
+	cursor: pointer;
+	color: #101214;
+	font-weight: 600;
+	border-radius: 4px;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+    margin-top:20px;
+    margin-bottom: 30px;
+}
+.quick-poll-div .quick-poll-content{
+    padding: 23px;
+    font-size: 15px;
+	font-weight: 400;
+	color: #333e48;
+}
+.what-is-prefect{
+    line-height: 1.3;
+    letter-spacing: 1.2px;
+    margin-bottom: 20px;
+}
+.options-div{
+    margin-left: 10px;
+    margin-bottom: 120px;
+}
+.option-sub-divs{
+    margin-bottom: 15px;
+}
+.options-div>div>label{
+    margin-left: 12px;
+}
+.options-div>div>input{
+    height:16px;
+    width: 16px;
+}
+.more-info-quick-poll{
+    font-size: 11px;
+}
+.more-info-quick-poll>span{
+    font-weight:bold;
+}
+.survey-text-div{
+    padding:15px 15px;
+	color: #333e48;
+}
+.survey-text-div>h3{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.survey-text-div>h3:nth-child(2){
+    color: #333e489a;
+    font-weight: 600;
+}
+.survey-text-div>p:nth-child(3){
+    font-size: 13px;
+    font-weight: 300;
+    margin-bottom: 10px;
+}
+.survey-text-div>p:nth-child(4){
+    font-size: 13px;
+    font-weight: 400;
+    color: #007FAA;
+    cursor:pointer;
+}
