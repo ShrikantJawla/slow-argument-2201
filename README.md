@@ -19,7 +19,7 @@ It is a leading Survey platform around the globe. It lets it's users to create s
 
 - Log-in and Sign-in pages with validation functionality
 - Other pages:- 
-  1. Customer Loyalty Page
+  [x] Customer Loyalty Page
   2. Customer Satisfaction Page
   3. Event Surey Page
   4. Resources Page
